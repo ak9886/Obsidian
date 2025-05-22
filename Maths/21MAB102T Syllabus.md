@@ -1,0 +1,76 @@
+
+- [ ] Unit-1 : Integral Calculus
+
+	- [x] Evaluation of double integration Cartesian and plane polar coordinates
+	- [x] Evaluation of double integration of plane polar coordinates.
+	- [x] Evaluation of double integral by changing of order of integration
+	- [x] Evaluation of double integral by changing of order of integration
+	- [x] Area as a double integral (Cartesian)
+	- [x] Area as a double integral ( polar)
+	- [ ] Triple integration in Cartesian coordinates
+	- [ ] Conversion from Cartesian to polar in double integrals
+	- [ ] Conversion from Cartesian to polar in double integrals 
+	- [ ] Triple integration in Cartesian coordinates -Area of triple Integral.
+- [ ] Unit-2 : Vector Calculus
+	- [ ] Review of vectors in Two and Three dimensions
+	- [ ] Gradient, divergence, curl, Solenoidal
+	- [ ] Irrotational fields
+	- [ ] Vector identities -(without proof)
+	- [ ] Directional derivatives
+	- [ ] Line integrals
+	- [ ] Surface integrals
+	- [ ] Surface integrals
+	- [ ] Volume Integrals
+	- [ ] Green’s theorem (without proof), Green’s theorem (without proof),
+	- [ ] Gauss divergence theorem (without proof), verification
+	- [ ] Gauss divergence theorem (without proof) applications to cubes.
+	- [ ] Gauss divergence theorem (without proof applications to parallelepiped.
+	- [ ] Stoke’s theorems (without proof)
+	- [ ] Verification Stoke’s theorems (without proof)
+	- [ ] Applications to cubes 
+	- [ ] Stoke’s theorems (without proof) 
+	- [ ] Applications to parallelepiped only.
+- [ ] Unit-3: Laplace Transform
+	- [ ] Laplace Transforms of standard functions
+	- [ ] Transforms properties
+	- [ ] Transforms of Derivatives and Integrals
+	- [ ] Transform of derivatives and integrals
+	- [ ] Initial value theorems (without proof) and verification for some problems 
+	- [ ] Final value theorems (without proof) and verification for some problems
+	- [ ] Inverse Laplace transforms using partial fractions
+	- [ ] Inverse Laplace transforms sing Partial fractions
+	- [ ] Inverse Laplace transforms section shifting theorem
+	- [ ] LT using Convolution theorem problems only
+	- [ ] LT using Convolution theorem problems only
+	- [ ] ILT using Convolution theorem problems only
+	- [ ] Applications of Laplace transforms for solving linear ordinary differential
+	- [ ] Equations up to second order with constant coefficient only
+	- [ ] Solution of Integral equation and integral equation involving convolution type
+- [ ] Unit-4 : Analytic Functions
+	- [ ] Definition of Analytic Function
+	- [ ] Cauchy Riemann equations
+	- [ ] Cauchy Riemann equations
+	- [ ] Properties of analytic function functions
+	- [ ] Determination of analytic function using
+	- [ ] Milne-Thomson’s method
+	- [ ] Conformal mappings:
+	- [ ] magnification
+	- [ ] Conformal mappings: rotation Conformal mappings: inversion
+	- [ ] Conformal mappings: inversion
+	- [ ] Conformal mappings: reflection
+	- [ ] Conformal mappings: reflection bilinear transformation
+	- [ ] Cauchy’s integral
+	- [ ] theorem (without proof)
+	- [ ] Cauchy’s integral theorem applications
+- [ ] Unit-5: Complex Integration
+	- [ ] Cauchy’s integral formulae
+	- [ ] Problems-Taylor’s expansions with simple problems
+	- [ ] Taylor’s expansions with simple problems
+	- [ ] Laurent’s expansions with simple problems
+	- [ ] Singularities
+	- [ ] Types of Poles and Residues
+	- [ ] Cauchy’s residue theorem (without proof)
+	- [ ] Contour integration: Unit circle.
+	- [ ] Contour integration: Unit circle.
+	- [ ] Contour integration: semicircular contour.
+	- [ ] Contour integration: semicircular contour.

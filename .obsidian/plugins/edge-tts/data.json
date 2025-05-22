@@ -1,0 +1,19 @@
+{
+  "selectedVoice": "en-US-AvaNeural",
+  "customVoice": "",
+  "playbackSpeed": 1,
+  "showNotices": true,
+  "showStatusBarButton": true,
+  "showMenuItems": true,
+  "generateMP3": false,
+  "outputFolder": "Note Narration Audio",
+  "embedInNote": false,
+  "replaceSpacesInFilenames": false,
+  "overrideAmpersandEscape": false,
+  "floatingPlayerPosition": {
+    "x": 776,
+    "y": 675
+  },
+  "disablePlaybackControlPopover": false,
+  "enableReplayOption": true
+}
