@@ -23,7 +23,7 @@ Formed by doping with trivalent atoms. Majority carriers: Holes.
 
 **b)**  
 *Diffusion Current*: Due to concentration gradient.  
-**Equation**: J<sub>diff</sub> = -qD(dn</dx)  
+**Equation**: J<sub>diff</sub> = -qD(dn/dx)  
 *Continuity Equation*: dρ/dt + ∇·J = G - R  
 
 ---

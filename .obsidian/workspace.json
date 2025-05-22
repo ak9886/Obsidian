@@ -179,16 +179,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semi/21PYB102J_Solved_QP.md",
+                "file": "Semi/PARTS B AND C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21PYB102J_Solved_QP"
+              "title": "PARTS B AND C"
             }
           },
           {
-            "id": "283a6a454b462a6c",
+            "id": "0e19dcaedf4e97f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semi/Key Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Key Concepts"
+            }
+          },
+          {
+            "id": "4eb3f8f1b01a28b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -378,30 +392,33 @@
       "edge-tts:Read note aloud": false
     }
   },
-  "active": "283a6a454b462a6c",
+  "active": "4eb3f8f1b01a28b1",
   "lastOpenFiles": [
+    "Semi/Comprehensive Summary.md",
+    "Semi/Key Concepts.md",
+    "Semi/PARTS B AND C.md",
+    "Semi/21PYB102J_Semiconductor_Physics_Summary.md",
+    "Semi/Unconfirmed 752681.crdownload",
+    "Semi/Deep Dive.md",
+    "Semi/21PYB102J_Solved_QP.md",
+    "README.md",
     "Semi/Semi Informational Notes.md",
     "Semi/Semi Informational Notes.mp3",
-    "README.md",
     "Note Narration Audio\\note - May 22 2025 21-04.mp3",
     "Note Narration Audio",
-    "Semi/PARTS B AND C.md",
     "EEE/EEE Diagrams.md",
-    "Semi/21PYB102J_Solved_QP.md",
     "EEE/EEE.md",
     "OOPD/OOPD AS WELL.md",
     "OOPD/OOPD.md",
     "21PYB102J_May_2023.pdf.md",
     "Semi/Unconfirmed 645734.crdownload",
     "Semi/Unconfirmed 275466.crdownload",
-    "Semi/Deep Dive.md",
     "OOPD/Key C++ Concepts Illustrated.wav",
     "OOPD/Key C++ Concepts Illustrated.wav.crdownload",
     "OOPD/OOPD.mp3",
     "OOPD/OOPD.mp3.crdownload",
     "EEE/Diagram.md",
     "EEE/Sir's Important Topics.md",
-    "OOPD",
     "EEE/Unit -2 = Electronics.md",
     "EEE/Unit -3 = Machines and Drives.md",
     "EEE/Units 1-4.png",
@@ -416,8 +433,6 @@
     "Unit -2 = Electronics.md",
     "Unit -3 = Machines and Drives.md",
     "Short Notes.md",
-    "Unit1_Electric_Circuits.md",
-    "EEE/EEE FAQ.md",
     "Untitled.canvas"
   ]
 }
