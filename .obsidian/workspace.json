@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Semi/Comprehensive Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Comprehensive Summary"
             }
           },
           {
@@ -394,14 +394,14 @@
   },
   "active": "4eb3f8f1b01a28b1",
   "lastOpenFiles": [
+    "Semi/Deep Dive.md",
+    "Semi/21PYB102J_Semiconductor_Physics_Summary.md",
+    "README.md",
     "Semi/Comprehensive Summary.md",
     "Semi/Key Concepts.md",
     "Semi/PARTS B AND C.md",
-    "Semi/21PYB102J_Semiconductor_Physics_Summary.md",
     "Semi/Unconfirmed 752681.crdownload",
-    "Semi/Deep Dive.md",
     "Semi/21PYB102J_Solved_QP.md",
-    "README.md",
     "Semi/Semi Informational Notes.md",
     "Semi/Semi Informational Notes.mp3",
     "Note Narration Audio\\note - May 22 2025 21-04.mp3",
