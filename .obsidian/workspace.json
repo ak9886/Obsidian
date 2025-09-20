@@ -1,0 +1,284 @@
+{
+  "main": {
+    "id": "2a1c0ce16efb5005",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bc2f9d23c8f1b68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1538f6914b7aff3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Sept/DSA Notes (19-09-2025).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DSA Notes (19-09-2025)"
+            }
+          },
+          {
+            "id": "daf2a928e2fd0bec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaced Repititon - APP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spaced Repititon - APP"
+            }
+          },
+          {
+            "id": "af149ff50c69b3fd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-09-19 08.09.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-19 08.09.34.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f421ac97569394ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "08fdb07f7fa598ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3eee19d2cd39931",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82606b004017a52b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b6461041c4c1c6e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec93621ff7e36841",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6535fd161d467d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5fbec794846a028",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OS/Sept/OS Notes (18-09-2025).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for OS Notes (18-09-2025)"
+            }
+          },
+          {
+            "id": "d84bb88bc81d0691",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d6b9e1c77145884c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OS/Sept/OS Notes (18-09-2025).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of OS Notes (18-09-2025)"
+            }
+          },
+          {
+            "id": "129a7fa3744fd827",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OS/Sept/OS Notes (18-09-2025).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from OS Notes (18-09-2025)"
+            }
+          },
+          {
+            "id": "c306851a24a132ea",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "deee8998a354a97b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "97154cba2cc1554c",
+            "type": "leaf",
+            "state": {
+              "type": "example-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Most edited files"
+            }
+          },
+          {
+            "id": "bdc7dac898bf126a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "widgets:Add widget": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true,
+      "timethings:Activate view": false,
+      "text2audio:Text to Audio": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "daf2a928e2fd0bec",
+  "lastOpenFiles": [
+    "📘 Comprehensive Notes for APP – Units 2 & 3.md",
+    "Spaced Repititon - APP.md",
+    "DSA/Sept/DSA Notes (19-09-2025).md",
+    "Excalidraw/Drawing 2025-09-19 08.09.34.excalidraw.md",
+    "OS/Sept/OS Notes (18-09-2025).md",
+    "OS/Question Paper (OS) Answers.md",
+    "OS/OS (linux_commands_simple).md",
+    "APP/Sept/APP Notes (17-09-2025).md",
+    "OS/Sept/OS Notes (17-09-2025).md",
+    "COA/September/COA Notes (17-09-2025).md",
+    "Excalidraw/ExcaliNotes (COA) 17-09-2025.md",
+    "OS/OS_Notes_Deepseek.md",
+    "OS/OS_Notes_Guide.md",
+    "COA/September/COA Notes (16-09-2025).md",
+    "APP/Sept/APP Notes (15-09-2025).md",
+    "COA/COA Study Notes.md",
+    "DSA/Aug/DSA Notes (28-08-2025).md",
+    "DSA/Sept/DSA Notes (12-09-2025).md",
+    "Excalidraw/ExcaliDraw (12-09-2025) DSA P2.md",
+    "Excalidraw/ExcaliNotes (DSA) (12-09-2025).md",
+    "Everything Else/Adhya CSC Notes (10-09-2025).md",
+    "Excalidraw/ExcaliNotes-2 (DSA) (28-08-2025).md",
+    "Excalidraw/ExcaliNotes-1 DSA (28-08-2025).md",
+    "Excalidraw/ExcaliNotes (13-08-25).md",
+    "Excalidraw/ExcaliNotes (09-09-2025).md",
+    "COA/September/COA Notes (09-09-2025).md",
+    "Everything Else/Untitled.base",
+    "OS/Sept",
+    "DSA/Sept",
+    "APP/Sept",
+    "APP/July",
+    "APP/Aug"
+  ]
+}

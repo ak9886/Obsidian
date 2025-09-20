@@ -1,0 +1,73 @@
+#OS 
+# Kernel Data Structures
+- Many similar to standard programming data structures
+- # Singly Linked List
+- # Doubly Linked List
+- Binary Search Tree
+	- Root directory (First) 
+	- Parent
+	- Child 
+
+- Balanced Binary Search Tree: $O(lg (n))$
+- Hash function can create a hash map
+- Distributed Computing
+	- Collection of separate, possible heterogenous, systems networked together
+		- Network is a communication path, TCP/IP most common
+			- Local Area Network (LAN)
+			- Wide Area Network (WAN)
+			- Metropolitan Area Network (MAN)
+			- Personal Area Network (PAN)
+	- Network Operating System provides features between systems across network
+		- Communication scheme allows system to exchange messages
+		- Illusion of a single system
+- Virtualization
+	- Allows operating systems to run applications with other OSes.
+		- Vast and growing industry
+	- Emulation used when source CPU is a different type to the target type
+	- When the computer language not compiled to native code - Interpretation
+- System calls:
+	- Programming Interface to the services provided by the OS
+	- Typically written in high-level language (C or C++)
+	- Mostly accessed by programs via a high-level application programming interface (API) rather than direct system call use
+	- Three most common APIs are Win32 API for Windows, POSIX API for POSIX- based systems (Including virtually all versions of UNIX, Linux, and Mac OSX) and Java API for the Java Virtual Machine (JVM)
+		- *(Note that the system-call names used through this text are generic)*
+	- API - System Call - OS Relationship
+		- Last In, First Out Arrangement
+	- Process Control
+		- Create process, terminate process
+	- File management
+		- Create file, delete file
+		- open/close file
+		- read, write, reposition
+		- get and set file attributes
+	- Device management
+		- Request device, release device
+		- read, write, reposition
+	- Information Maintenance
+		- Get the time or date, set time or date
+		- get system data, set system data
+		- get and set process, file, or device attributes
+	- Communications
+		- Create, delete communication connection
+		- send, receive messages if message passing model to host name or process name
+			- Form client to server
+		- Protection
+			- Control access to resources
+			- Get and set permissions
+			- allow and deny user access
+	- MS-DOS
+		- Single tasking
+		- Shell invoked when system booted
+		- Simple method to run program
+			- No process created
+		- Single memory space
+		- Loads program into memory, overwriting all but the kernel
+		-  Program exit --> shell reloaded
+	- System programs
+		- Provide a convenient environment for program development and execution
+		- File Modification
+			- Text editors
+		- Programming-language support - Compilers, assemblers
+		- Background Services 
+			- Load at boot time
+				- Some for system startup

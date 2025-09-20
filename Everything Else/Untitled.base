@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.containsAny("OS")
+    sort:
+      - property: file.name
+        direction: ASC

@@ -1,0 +1,7 @@
+- [x] PFP of the user (Cat)
+- [x] City where he stays (London)
+- [ ] WIFI (SSID)
+- [x] Email ID
+- [x] Where did you find the email? (Github)
+- [x] Where is the person currently living rn? (New York)
+- [x] password (pennYDr0pper.!)
