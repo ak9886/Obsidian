@@ -43,8 +43,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2025-09-19 08.09.34.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-19 08.09.34.excalidraw"
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
             }
           }
         ],
@@ -184,8 +184,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           },
           {
@@ -194,8 +194,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           },
           {
@@ -204,8 +204,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Most edited files"
+              "icon": "lucide-ghost",
+              "title": "example-view"
             }
           },
           {
@@ -214,12 +214,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "2c2ec6b835ba0156",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -235,50 +245,61 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Chat": false,
+      "edge-tts:Read note aloud": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "widgets:Add widget": false,
+      "obsidian-git:Open Git source control": false,
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": true,
-      "timethings:Activate view": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-tts:Text to Speech": false,
       "text2audio:Text to Audio": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "timethings:Activate view": false,
+      "voice:Voice": false,
+      "widgets:Add widget": false
     }
   },
   "active": "daf2a928e2fd0bec",
   "lastOpenFiles": [
-    "📘 Comprehensive Notes for APP – Units 2 & 3.md",
-    "Spaced Repititon - APP.md",
-    "DSA/Sept/DSA Notes (19-09-2025).md",
-    "Excalidraw/Drawing 2025-09-19 08.09.34.excalidraw.md",
-    "OS/Sept/OS Notes (18-09-2025).md",
-    "OS/Question Paper (OS) Answers.md",
-    "OS/OS (linux_commands_simple).md",
-    "APP/Sept/APP Notes (17-09-2025).md",
-    "OS/Sept/OS Notes (17-09-2025).md",
-    "COA/September/COA Notes (17-09-2025).md",
-    "Excalidraw/ExcaliNotes (COA) 17-09-2025.md",
-    "OS/OS_Notes_Deepseek.md",
-    "OS/OS_Notes_Guide.md",
-    "COA/September/COA Notes (16-09-2025).md",
-    "APP/Sept/APP Notes (15-09-2025).md",
-    "COA/COA Study Notes.md",
-    "DSA/Aug/DSA Notes (28-08-2025).md",
-    "DSA/Sept/DSA Notes (12-09-2025).md",
-    "Excalidraw/ExcaliDraw (12-09-2025) DSA P2.md",
-    "Excalidraw/ExcaliNotes (DSA) (12-09-2025).md",
-    "Everything Else/Adhya CSC Notes (10-09-2025).md",
-    "Excalidraw/ExcaliNotes-2 (DSA) (28-08-2025).md",
-    "Excalidraw/ExcaliNotes-1 DSA (28-08-2025).md",
-    "Excalidraw/ExcaliNotes (13-08-25).md",
-    "Excalidraw/ExcaliNotes (09-09-2025).md",
-    "COA/September/COA Notes (09-09-2025).md",
-    "Everything Else/Untitled.base",
-    "OS/Sept",
-    "DSA/Sept",
-    "APP/Sept",
-    "APP/July",
-    "APP/Aug"
+    "videos.dat",
+    "razer-id-codes-1750090419552.pdf",
+    "Semi/Semi Informational Notes.mp3",
+    "Semi/Semi Informational Notes.md",
+    "Semi/PARTS B AND C.md",
+    "Semi/Key Concepts.md",
+    "Semi/Deep Dive.md",
+    "Semi/21PYB102J_Solved_QP.md",
+    "Semi/Comprehensive Summary.md",
+    "Semi/21PYB102J_Semiconductor_Physics_Summary.md",
+    "Semi",
+    "README.md",
+    "OOPD/OOPD.mp3",
+    "OOPD/OOPD.md",
+    "OOPD/OOPD AS WELL.md",
+    "OOPD/Key C++ Concepts Illustrated.wav",
+    "OOPD",
+    "Maths/Analytic Functions.md",
+    "Maths/21MAB102T Syllabus.md",
+    "Maths",
+    "English/Letter Writing.md",
+    "English/Email Format.md",
+    "English",
+    "EEE/zUnit 5.png",
+    "EEE/Units 1-4.png",
+    "EEE/Unit -5 =Power Engineering.md",
+    "EEE/Unit -4 =Transducers and Sensors.md",
+    "EEE/Unit -3 = Machines and Drives.md",
+    "EEE/Unit -2 = Electronics.md",
+    "EEE/Unit -1= Electric Circuits.md",
+    "EEE/Sir's Important Topics.md",
+    "EEE/Short Notes.md",
+    "EEE/EEE FAQ.md",
+    "EEE/EEE.md",
+    "EEE/Diagram.md",
+    "EEE/EEE Diagrams.md",
+    "EEE",
+    "EEE-Audio/Unit5.mp3"
   ]
 }
