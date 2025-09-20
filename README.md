@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-09-20T16:23:33.330+05:30
-edited_seconds: 20
+updated_at: 2025-09-20T16:38:16.887+05:30
+edited_seconds: 30
 ---
 # 📲 Sync Obsidian Notes with GitHub (Phone + PC)
 
-## 🧰 Tools Require
+## 🧰 Tools Required
 - **Obsidian** on both PC and phone
 - **GitHub account**
 - **Git client for PC** (e.g., Git CLI, GitHub Desktop)
