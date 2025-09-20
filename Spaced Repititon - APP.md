@@ -1,8 +1,8 @@
 ---
-updated_at: 2025-09-20T15:37:24.607+05:30
-edited_seconds: 20
+updated_at: 2025-09-20T16:22:00.534+05:30
+edited_seconds: 30
 ---
-#flashcards/java/basics
+  #flashcards/java/basics
 
 What makes Java both compiled and interpreted? :: It compiles source code into bytecode, then the JVM interpreter executes it.
 
