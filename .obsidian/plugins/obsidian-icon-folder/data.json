@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🖼",
       "LiRemixPictureInPictureLine",
       "LiNotepadTextDashed",
       "LiStickyNote",
-      "LiNotepadText",
-      "LiNotebook"
+      "LiNotepadText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,11 @@
   "EEE/Units 1-4.png": "🖼",
   "EEE/zUnit 5.png": "🖼",
   "COA/September/COA Notes (1 - 9 -2025).md": "LiNotepadTextDashed",
-  "COA/September/Pasted image 20250901114156.png": "LiRemixPictureInPictureLine"
+  "COA/September/Pasted image 20250901114156.png": "🖼",
+  "COA/September/COA Notes (2-9-2025).md": "LiNotepadText",
+  "COA/September/COA Notes (09-09-2025).md": "LiNotepadText",
+  "COA/September/COA Notes (16-09-2025).md": "LiNotepadText",
+  "COA/September/COA Notes (17-09-2025).md": "LiNotepadText",
+  "COA/September/COA Notes (22-09-2025).md": "LiNotepadText",
+  "COA/COA Study Notes.md": "LiNotepadTextDashed"
 }
