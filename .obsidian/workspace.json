@@ -33,9 +33,21 @@
               "icon": "excalidraw-icon",
               "title": "ExcaliNotes (DSA) 22-09-2025"
             }
+          },
+          {
+            "id": "f571861bd33aa278",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-22 21.39.59.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,11 +260,12 @@
       "widgets:Add widget": false
     }
   },
-  "active": "99bbff456d4efd59",
+  "active": "f571861bd33aa278",
   "lastOpenFiles": [
+    "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
+    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.md",
     "README.md",
     "DSA/Sept/DSA Notes (4-9-2025).md",
-    "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
     "DSA/Sept/DSA Notes (22-09-2025).md",
     "COA/September/COA Notes (22-09-2025).md",
     "COA/September/COA Notes (1 - 9 -2025).md",
@@ -280,7 +293,6 @@
     "DSA/Sept/DSA Notes (19-09-2025).md",
     "Spaced Repititon - APP.md",
     "Excalidraw/Drawing 2025-09-19 08.09.34.excalidraw.md",
-    "Amazon_Products.md",
     "videos.dat",
     "Semi/Semi Informational Notes.mp3",
     "Semi",
