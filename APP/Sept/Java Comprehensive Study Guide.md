@@ -1,10 +1,6 @@
 ---
-updated_at: 2025-09-22T21:53:15.613+05:30
-edited_seconds: 40
----
-
-# Java Comprehensive Study Guide
-
+updated_at: 2025-09-22T21:59:54.061+05:30
+edited_seconds: 60
 ---
 
 ## 1. Object, Class, and Constructors
