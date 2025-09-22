@@ -1,8 +1,7 @@
 ---
-updated_at: 2025-09-22T21:59:54.061+05:30
-edited_seconds: 60
+updated_at: 2025-09-22T22:15:45.061+05:30
+edited_seconds: 70
 ---
-
 ## 1. Object, Class, and Constructors
 
 ### Concepts
