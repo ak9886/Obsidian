@@ -31,8 +31,7 @@
               "title": "Smart Chat"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,7 +244,7 @@
       "widgets:Add widget": false
     }
   },
-  "active": "a3a5164310003037",
+  "active": "a265e5a65bdd1d71",
   "lastOpenFiles": [
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",
