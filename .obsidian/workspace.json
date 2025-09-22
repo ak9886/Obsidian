@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Java Comprehensive Study Guide"
             }
+          },
+          {
+            "id": "a3a5164310003037",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,7 +245,7 @@
       "widgets:Add widget": false
     }
   },
-  "active": "a265e5a65bdd1d71",
+  "active": "a3a5164310003037",
   "lastOpenFiles": [
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",

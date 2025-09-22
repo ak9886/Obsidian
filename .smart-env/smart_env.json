@@ -38,9 +38,16 @@
     "chat_model": {
       "adapter": "ollama",
       "ollama": {
-        "model_key": "deepseek-r1:8b",
+        "model_key": "llama3:latest",
         "host": "http://localhost:11434",
         "models": {
+          "llama3:latest": {
+            "model_name": "llama3:latest",
+            "id": "llama3:latest",
+            "multimodal": false,
+            "max_input_tokens": 8192,
+            "can_use_tools": true
+          },
           "llava:latest": {
             "model_name": "llava:latest",
             "id": "llava:latest",
@@ -65,7 +72,7 @@
         }
       }
     },
-    "active_thread_key": "Untitled Chat 2025-09-14 21-48-45",
+    "active_thread_key": "Untitled Chat 2025-09-22 22-41-11",
     "system_prompt": "",
     "detect_self_referential": true,
     "review_context": true,
