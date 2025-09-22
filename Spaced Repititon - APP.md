@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-09-20T16:22:00.534+05:30
-edited_seconds: 30
+updated_at: 2025-09-22T12:43:26.340+05:30
+edited_seconds: 40
 ---
   #flashcards/java/basics
 
@@ -52,6 +52,7 @@ What is JDBC? :: Java Database Connectivity – API to connect Java programs wit
 List the JDBC steps. :: Import packages → Load driver → Establish connection → Create statement → Execute query → Process results → Close connection.
 
 Difference between Statement, PreparedStatement, CallableStatement? :: Statement: simple SQL, no parameters · PreparedStatement: precompiled, parameterized, reusable · CallableStatement: stored procedures with IN/OUT parameters.
+<!--SR:!2025-09-23,1,232-->
 
 How does a ResultSet work? :: It stores query results, iterates with next(), and retrieves data with getInt(), getString(), etc.
 
