@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Sept/DSA Notes (19-09-2025).md",
+                "file": "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Notes (19-09-2025)"
+              "title": "📘 Comprehensive Notes for APP – Units 2 & 3"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
+                "file": "COA/September/COA Notes (22-09-2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📘 Comprehensive Notes for APP – Units 2 & 3"
+              "title": "COA Notes (22-09-2025)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,11 +248,13 @@
       "widgets:Add widget": false
     }
   },
-  "active": "daf2a928e2fd0bec",
+  "active": "c1538f6914b7aff3",
   "lastOpenFiles": [
+    "DSA/Sept/DSA Notes (19-09-2025).md",
+    "COA/September/COA Notes (22-09-2025).md",
+    "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "APP/Sept/APP Notes (17-09-2025).md",
     "Spaced Repititon - APP.md",
-    "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Java__Core_Concepts_Revision.mp4",
     "README.md",
@@ -286,8 +287,6 @@
     "EEE/Unit -4 =Transducers and Sensors.md",
     "EEE/Unit -3 = Machines and Drives.md",
     "EEE/Unit -2 = Electronics.md",
-    "EEE/Unit -1= Electric Circuits.md",
-    "EEE/Sir's Important Topics.md",
-    "EEE/Short Notes.md"
+    "EEE/Unit -1= Electric Circuits.md"
   ]
 }
