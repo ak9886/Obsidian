@@ -34,31 +34,9 @@
               "icon": "lucide-file",
               "title": "COA Notes (23-09-2025)"
             }
-          },
-          {
-            "id": "381f66c2880ed4ab",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
-            }
-          },
-          {
-            "id": "8893e85e8588f9e8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-23 11.54.59.excalidraw"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,10 +249,10 @@
       "widgets:Add widget": false
     }
   },
-  "active": "381f66c2880ed4ab",
+  "active": "79d58b0056c68ec1",
   "lastOpenFiles": [
-    "COA/September/COA Notes (23-09-2025).md",
     "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md",
+    "COA/September/COA Notes (23-09-2025).md",
     "APP/Sept/Java Comprehensive Study Guide.md",
     "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "Java__Core_Concepts_Revision.mp4",
