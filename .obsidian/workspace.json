@@ -44,6 +44,18 @@
               "icon": "smart-chat",
               "title": "Smart Chat"
             }
+          },
+          {
+            "id": "8893e85e8588f9e8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-23 11.54.59.excalidraw"
+            }
           }
         ],
         "currentTab": 2
@@ -261,8 +273,9 @@
   },
   "active": "381f66c2880ed4ab",
   "lastOpenFiles": [
-    "APP/Sept/Java Comprehensive Study Guide.md",
     "COA/September/COA Notes (23-09-2025).md",
+    "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md",
+    "APP/Sept/Java Comprehensive Study Guide.md",
     "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",
@@ -291,7 +304,6 @@
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
     "Excalidraw/Drawing 2025-09-22 13.06.49.excalidraw.md",
-    "DSA/Sept/DSA Notes (19-09-2025).md",
     "videos.dat",
     "Semi/Semi Informational Notes.mp3",
     "Semi",
