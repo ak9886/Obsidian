@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "a3a5164310003037",
+            "id": "381f66c2880ed4ab",
             "type": "leaf",
             "state": {
               "type": "smart-chat-view",
@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,7 +259,7 @@
       "widgets:Add widget": false
     }
   },
-  "active": "79d58b0056c68ec1",
+  "active": "381f66c2880ed4ab",
   "lastOpenFiles": [
     "APP/Sept/Java Comprehensive Study Guide.md",
     "COA/September/COA Notes (23-09-2025).md",
