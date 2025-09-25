@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0706c10de3f8eac9",
+        "id": "b3d50ee5cf7bd73e",
         "type": "tabs",
         "children": [
           {
-            "id": "a265e5a65bdd1d71",
+            "id": "32c59264618f911a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md"
+                "file": "OS/Sept/OS Notes (25-09-2025).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-23 11.54.59.excalidraw"
+              "icon": "lucide-file",
+              "title": "OS Notes (25-09-2025)"
             }
           }
         ]
@@ -232,8 +234,9 @@
       "widgets:Add widget": false
     }
   },
-  "active": "deee8998a354a97b",
+  "active": "32c59264618f911a",
   "lastOpenFiles": [
+    "OS/Sept/OS Notes (25-09-2025).md",
     "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md",
     "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "COA/September/COA Notes (23-09-2025).md",
@@ -264,7 +267,6 @@
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
-    "Excalidraw/Drawing 2025-09-22 13.06.49.excalidraw.md",
     "videos.dat",
     "Semi/Semi Informational Notes.mp3",
     "Semi",
