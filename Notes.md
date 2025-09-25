@@ -1,88 +1,98 @@
 ---
-updated_at: 2025-09-25T19:33:36.147+05:30
-edited_seconds: 10
+updated_at: 2025-09-25T19:39:38.810+05:30
+edited_seconds: 30
 ---
-**Chapter 1: Introduction to Lists**
+Absolutely! Here’s your **SRM DSA Exam Notes** fully formatted in **Obsidian Markdown** for easy use:
 
-* Definition and importance of lists
-* Types of lists:
-	+ Ordered vs. unordered lists
-	+ Static vs. dynamic lists (e.g., arrays vs. linked lists)
-* Advantages of using lists:
-	+ Efficient insertion and deletion operations
-	+ Flexibility in data structures
-	+ Scalability for large datasets
-* Challenges in implementing lists:
-	+ Balancing memory usage and performance
-	+ Handling edge cases and errors
-* Real-world applications of lists:
-	+ Database indexing and querying
-	+ File systems and directory management
-	+ Web page navigation and bookmarking
+# SRM DSA Exam Notes
 
-**Code Block 1: Simple Array-Based List**
+## Portions Covered
+- **Unit 1:** Lists, Arrays, Linked Lists
+- **Unit 2:** Stacks, Queues, Recursion
+- **Unit 3:** Trees, Graphs, Hashing
+
+---
+
+# Unit 1: Lists, Arrays, and Linked Lists
+
+## 1.1 Lists
+**Definition:** Collection of elements organized sequentially.  
+
+**Types:**  
+- Ordered vs. Unordered  
+- Static (Array) vs. Dynamic (Linked List)  
+
+**Advantages:**  
+- Efficient insertion/deletion  
+- Flexible for complex structures  
+- Scalable for large datasets  
+
+**Challenges:**  
+- Memory vs. performance trade-off  
+- Edge cases: empty list, index out-of-bounds, circular references  
+
+**Applications:**  
+- Database indexing  
+- File system management  
+- Navigation/history/bookmarks  
+
+**Python Example: Array List**
 ```python
 class ArrayList:
     def __init__(self):
         self.data = []
-
     def add(self, item):
         self.data.append(item)
-
     def get(self, index):
         return self.data[index]
 
-# Example usage:
 list1 = ArrayList()
 list1.add(1)
 list1.add(2)
-print(list1.get(0))  # Output: 1
-```
+print(list1.get(0))  # 1
+````
 
-**Chapter 2: Types of Lists**
+---
 
-* Arrays:
-	+ Fixed-size sequence of elements
-	+ Contiguous memory allocation
-	+ Advantages: fast access, efficient storage
-	+ Disadvantages: fixed size, limited flexibility
+## 1.2 Arrays
 
-**Code Block 2: Basic Array Operations**
+- Fixed-size sequences in contiguous memory.
+    
+- Fast access, but insertion/deletion costly.
+    
+
+**C Example: Array Operations**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int arr[5] = {1, 2, 3, 4, 5};
-
-    // Print the array
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", arr[i]);
-    }
+    for (int i=0; i<5; i++) printf("%d ", arr[i]);
     printf("\n");
-
-    // Insert a new element at index 2
-    int newArr[6] = {1, 2, 10, 3, 4, 5};
-    for (int i = 0; i < 6; i++) {
-        printf("%d ", newArr[i]);
-    }
-    printf("\n");
-
     return 0;
 }
 ```
 
-* Linked Lists:
-	+ Dynamic sequence of nodes
-	+ Each node contains data and a reference to the next node
-	+ Advantages: flexible size, efficient insertion/deletion
-	+ Disadvantages: slower access times, more memory usage
+**Insertion:** Shift elements to make space.  
+**Deletion:** Shift elements to fill gap.
 
-**Code Block 3: Basic Linked List Node**
+---
+
+## 1.3 Linked Lists
+
+- Dynamic sequences of nodes with `data` + `next` pointer.
+    
+
+**Advantages:** Flexible size, efficient insertion/deletion  
+**Disadvantages:** Slower access, extra memory
+
+**Java Example: Node**
+
 ```java
 public class ListNode {
     int value;
     ListNode next;
-
     public ListNode(int val) {
         value = val;
         next = null;
@@ -90,70 +100,158 @@ public class ListNode {
 }
 ```
 
-* Circular Linked Lists:
-	+ A linked list where the last node points back to the first node
-	+ Advantages: efficient insertion/deletion, good for caching or circular data structures
-	+ Disadvantages: more complex implementation, potential for infinite loops
+**Circular Linked List (C Example):**
 
-**Code Block 4: Simple Circular Linked List**
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct Node {
-    int value;
-    struct Node* next;
-} Node;
-
 Node* createCircularList(int val) {
-    Node* head = (Node*)malloc(sizeof(Node));
+    Node* head = malloc(sizeof(Node));
     head->value = val;
-    head->next = head;  // Create a circular list
+    head->next = head;
     return head;
 }
-
-void printCircularList(Node* head) {
-    Node* curr = head;
-    do {
-        printf("%d ", curr->value);
-        curr = curr->next;
-    } while (curr != head);  // Loop until we reach the start again
-    printf("\n");
-}
-
-int main() {
-    Node* head = createCircularList(1);
-    printCircularList(head);
-    return 0;
-}
 ```
 
-**Chapter 3: Operations on Lists**
+---
 
-* Insertion:
-	+ Adding a new element to the list at a specified position
-	+ Strategies: shifting existing elements, creating new nodes
+# Unit 2: Stacks, Queues, and Recursion
 
-**Code Block 5: Array-Based Insertion**
+## 2.1 Stacks
+
+- **LIFO** (Last-In, First-Out)
+    
+- Operations: `push`, `pop`, `peek`, `isEmpty`
+    
+- Applications: Expression evaluation, undo features
+    
+
+**Python Example:**
+
+```python
+stack = []
+stack.append(10)  # push
+stack.append(20)
+print(stack.pop()) # 20
+```
+
+## 2.2 Queues
+
+- **FIFO** (First-In, First-Out)
+    
+- Types: Simple, Circular, Priority
+    
+- Operations: `enqueue`, `dequeue`, `peek`
+    
+
+**Python Example:**
+
+```python
+from collections import deque
+queue = deque()
+queue.append(1)
+queue.append(2)
+print(queue.popleft())  # 1
+```
+
+## 2.3 Recursion
+
+- Function calling itself
+    
+- Base case + recursive step essential
+    
+- Applications: Factorial, Fibonacci, Tree Traversals
+    
+
+**Python Example: Factorial**
+
+```python
+def factorial(n):
+    if n==0: return 1
+    return n*factorial(n-1)
+
+print(factorial(5))  # 120
+```
+
+---
+
+# Unit 3: Trees, Graphs, and Hashing
+
+## 3.1 Trees
+
+- Hierarchical structure: nodes with parent/child relationships
+    
+- **Binary Tree:** Each node has ≤2 children
+    
+- **Binary Search Tree (BST):** Left < root < right
+    
+
+**Operations:** Traversal (Inorder, Preorder, Postorder), Insertion, Deletion
+
+**C Example: BST Node**
+
 ```c
-#include <stdio.h>
+typedef struct Node {
+    int data;
+    struct Node* left;
+    struct Node* right;
+} Node;
+```
 
-void insertAt(int arr[], int item, int index) {
-    for (int i = arr.length - 1; i > index; i--) {
-        arr[i] = arr[i - 1];
-    }
-    arr[index] = item;
-}
+**Traversal (Inorder Recursive Example):**
 
-int main() {
-    int arr[5] = {1, 2, 3, 4, 5};
-    insertAt(arr, 10, 2);
-    for (int i = 0; i < 6; i++) {
-        printf("%d ", arr[i]);
+```c
+void inorder(Node* root) {
+    if(root != NULL) {
+        inorder(root->left);
+        printf("%d ", root->data);
+        inorder(root->right);
     }
-    printf("\n");
-    return 0;
 }
 ```
 
-Let me know if you have any further requests or questions!
+---
+
+## 3.2 Graphs
+
+- Set of vertices + edges
+    
+- Representations: Adjacency Matrix, Adjacency List
+    
+- Traversals: BFS, DFS
+    
+
+**Key Concepts:** Connected components, cycles, weighted/unweighted, directed/undirected
+
+---
+
+## 3.3 Hashing
+
+- Maps keys → indices in array
+    
+- Collision handling: chaining or open addressing
+    
+- Fast search, insertion, deletion
+    
+
+**Python Example: Dictionary (Hash Table)**
+
+```python
+hash_map = {}
+hash_map['a'] = 10
+hash_map['b'] = 20
+print(hash_map['a'])  # 10
+```
+
+---
+
+# Exam-Oriented Tips
+
+1. Remember **time complexity** for each operation: insert, delete, access.
+    
+2. Understand **traversal orders** for trees and graphs.
+    
+3. Know **stack/queue applications** (expression evaluation, BFS).
+    
+4. Practice **edge cases**: empty list, single-node tree, circular references.
+    
+5. Implement both **array-based** and **linked implementations**.
+    
