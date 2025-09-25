@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "OS Notes (25-09-2025)"
             }
+          },
+          {
+            "id": "d9524937cde39e77",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
           }
         ]
       }
