@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-08T13:02:03.892+05:30
-edited_seconds: 480
+updated_at: 2025-10-08T13:07:14.299+05:30
+edited_seconds: 540
 ---
 #CDC
 - # Profile
@@ -36,3 +36,4 @@ Recruitment is a lot like buying a computer; you'll only pick the one that fits 
 - Network activities
 - Social activities
 @ The End Of Semester 6
+- You don't need to be a pro to get a job, just recognize what you're capable of
