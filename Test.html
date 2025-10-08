@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unitym — The Hackathon Team Finder App</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* ---- GLOBAL RESET ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000; /* Full black page */
+  color: #fff;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: show;
+}
+
+/* ---- TITLE ---- */
+.collage-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+  text-align: right;
+}
+
+/* ---- COLLAGE ---- */
+.collage-box {
+  position: relative;
+  width: 560px;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 36px;
+  background: #0a0a0a;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+/* floating photos */
+.collage-box img {
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 1.2s cubic-bezier(0.22,1,0.36,1);
+}
+
+/* irregular layout */
+.collage-box img:nth-child(1) { top: -40px; left: -60px; transform: rotate(-3deg); }
+.collage-box img:nth-child(2) { top: 20px; left: 200px;  transform: rotate(2deg); }
+.collage-box img:nth-child(3) { top: -20px; right: -50px; transform: rotate(-1deg); }
+.collage-box img:nth-child(4) { bottom: -40px; left: 40px; transform: rotate(1deg); }
+.collage-box img:nth-child(5) { bottom: -20px; right: -30px; transform: rotate(-2deg); }
+
+/* hover animation */
+.collage-box:hover img:nth-child(1) { transform: translate(25px,15px) scale(1.05) rotate(-5deg); }
+.collage-box:hover img:nth-child(2) { transform: translate(-15px,10px) scale(1.07) rotate(3deg); }
+.collage-box:hover img:nth-child(3) { transform: translate(-20px,-10px) scale(1.06) rotate(-2deg); }
+.collage-box:hover img:nth-child(4) { transform: translate(18px,-15px) scale(1.05) rotate(2deg); }
+.collage-box:hover img:nth-child(5) { transform: translate(-10px,12px) scale(1.06) rotate(-4deg); }
+
+</style>
+</head>
+<body>
+
+  <div class="collage-title">Unitym — The Hackathon Team Finder App</div>
+  
+  <div class="collage-box">
+    <img src="https://c4.wallpaperflare.com/wallpaper/331/895/710/dedsec-hacking-watch-dogs-watch-dogs-2-wallpaper-preview.jpg" alt="">
+    <img src="https://c4.wallpaperflare.com/wallpaper/477/867/592/dedsec-hacking-watch-dogs-watch-dogs-2-wallpaper-preview.jpg" alt="">
+    <img src="https://c4.wallpaperflare.com/wallpaper/255/715/789/dedsec-hacking-watch-dogs-watch-dogs-2-wallpaper-preview.jpg" alt="">
+    <img src="https://c4.wallpaperflare.com/wallpaper/202/845/128/watch-dogs-2-wallpaper-preview.jpg" alt="">
+    <img src="https://c4.wallpaperflare.com/wallpaper/398/662/418/watch-dogs-2-wallpaper-preview.jpg" alt="">
+  </div>
+
+</body>
+</html>
