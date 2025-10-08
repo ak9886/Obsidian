@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-08T13:43:18.448+05:30
-edited_seconds: 740
+updated_at: 2025-10-08T13:48:35.931+05:30
+edited_seconds: 990
 ---
 #CDC
 - # Profile
@@ -48,9 +48,31 @@ Recruitment is a lot like buying a computer; you'll only pick the one that fits 
 - Create insightful posts
 Identify your strengths and weaknesses, and asses opportunities and threats
 # Craft a compelling headline
-- Make it discriptive
+- Make it descriptive
 - use Keywords
 # Write an engaging summary
 - tell your story
 - Use first person
 - highlight achievements and value
+# Professional Photo
+- use a high-quality headshot
+- Dress appropriately 
+# Customize your LinkedIn URL
+- Create a personalized URL
+# Complete your xp section
+ - Be Detailed
+ - Use Action Verbs
+ - Focus on Values
+# Highlight Key Skills
+- Add relevant skills
+- get endorsements
+# Showcase your achievements
+- Feature Certifications and Awards
+- Add Projects and Media
+# Seek Recommendations
+- Ask for a recommendation
+- Be specific
+# Engage with content
+- Post thoughtful content
+- Join and participate in groups
+- 
