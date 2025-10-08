@@ -28,5 +28,6 @@
   "timethings",
   "voice",
   "widgets",
-  "code-emitter"
+  "code-emitter",
+  "execute-code"
 ]
