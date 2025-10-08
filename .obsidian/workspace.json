@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NPTEL Questions.md",
+                "file": "DSA/Sept/DSA Notes (08 10 2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NPTEL Questions"
+              "title": "DSA Notes (08 10 2025)"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NPTEL Questions.md",
+                "file": "DSA/Sept/DSA Notes (08 10 2025).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NPTEL Questions"
+              "title": "Backlinks for DSA Notes (08 10 2025)"
             }
           },
           {
@@ -240,8 +240,9 @@
   },
   "active": "a9b83decb51688c9",
   "lastOpenFiles": [
-    "APP/Sept/APP Notes (08 10 2025).md",
     "NPTEL Questions.md",
+    "DSA/Sept/DSA Notes (08 10 2025).md",
+    "APP/Sept/APP Notes (08 10 2025).md",
     "DSA/Sept/DSA Notes (07 10 2025).md",
     "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
     "APP/Mark Conversion Sheet.md",
@@ -269,7 +270,6 @@
     "APP/Sept/APP Notes (2-9-2025).md",
     "APP/Sept/APP Notes (09-09-2025).md",
     "APP/Sept/APP Notes (15-09-2025).md",
-    "APP/Sept/APP Notes (17-09-2025).md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
