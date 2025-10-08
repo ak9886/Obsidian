@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-08T13:48:35.931+05:30
-edited_seconds: 990
+updated_at: 2025-10-08T13:49:38.779+05:30
+edited_seconds: 1020
 ---
 #CDC
 - # Profile
@@ -75,4 +75,6 @@ Identify your strengths and weaknesses, and asses opportunities and threats
 # Engage with content
 - Post thoughtful content
 - Join and participate in groups
-- 
+# Keep Profile Updated
+- Regularly Update
+- Tailor your profile to your aspirations
