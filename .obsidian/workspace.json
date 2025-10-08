@@ -20,35 +20,8 @@
               "icon": "lucide-file",
               "title": "DSA Notes (07 10 2025)"
             }
-          },
-          {
-            "id": "2e712c7e13070ee8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ExcaliNotes (DSA) (07 10 2025)"
-            }
-          },
-          {
-            "id": "0abcaea545898a3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Profile Building Crafting Your Path To Success.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Profile Building Crafting Your Path To Success"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Sept/OS Notes (18-09-2025).md",
+                "file": "DSA/Sept/DSA Notes (07 10 2025).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OS Notes (18-09-2025)"
+              "title": "Backlinks for DSA Notes (07 10 2025)"
             }
           },
           {
@@ -184,8 +157,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -194,8 +167,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "example-view"
+              "icon": "lucide-file",
+              "title": "Most edited files"
             }
           },
           {
@@ -204,8 +177,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -218,8 +191,7 @@
               "title": "Notes Review Queue"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,11 +223,14 @@
       "widgets:Add widget": false
     }
   },
-  "active": "2c2ec6b835ba0156",
+  "active": "4ecfb5002a27413b",
   "lastOpenFiles": [
-    "Test.html",
     "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
+    "APP/Mark Conversion Sheet.md",
+    "Pasted image 20251008152013.png",
+    "APP/Sept/APP Notes (08 10 2025).md",
     "Profile Building Crafting Your Path To Success.md",
+    "Test.html",
     "DSA/Sept/DSA Notes (07 10 2025).md",
     "Ideas.md",
     "Email Draft.md",
@@ -279,8 +254,6 @@
     "APP/Sept/APP Notes (09-09-2025).md",
     "APP/Sept/APP Notes (15-09-2025).md",
     "APP/Sept/APP Notes (17-09-2025).md",
-    "APP/July/Tutorial (APP).md",
-    "APP/Aug/APP Notes (22-8-2025).md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
@@ -289,7 +262,6 @@
     "Semi",
     "OOPD/OOPD.mp3",
     "OOPD/Key C++ Concepts Illustrated.wav",
-    "OOPD",
     "EEE/zUnit 5.png",
     "EEE/Units 1-4.png"
   ]
