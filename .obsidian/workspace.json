@@ -4,49 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d50ee5cf7bd73e",
+        "id": "5817e5cd1b9e1d61",
         "type": "tabs",
         "children": [
           {
-            "id": "32c59264618f911a",
+            "id": "4ecfb5002a27413b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Sept/OS Notes (25-09-2025).md",
+                "file": "DSA/Sept/DSA Notes (07 10 2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS Notes (25-09-2025)"
+              "title": "DSA Notes (07 10 2025)"
             }
           },
           {
-            "id": "42c1bfb9849c15cb",
+            "id": "2e712c7e13070ee8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ExcaliNotes (DSA) (07 10 2025)"
+            }
+          },
+          {
+            "id": "0abcaea545898a3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Sept/DSA Notes.md",
+                "file": "Profile Building Crafting Your Path To Success.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Notes"
-            }
-          },
-          {
-            "id": "d9524937cde39e77",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
+              "title": "Profile Building Crafting Your Path To Success"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,16 +189,6 @@
             }
           },
           {
-            "id": "deee8998a354a97b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "97154cba2cc1554c",
             "type": "leaf",
             "state": {
@@ -227,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -259,10 +251,15 @@
       "widgets:Add widget": false
     }
   },
-  "active": "e3eee19d2cd39931",
+  "active": "0abcaea545898a3f",
   "lastOpenFiles": [
-    "OS/Sept/OS Notes (25-09-2025).md",
+    "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
+    "Profile Building Crafting Your Path To Success.md",
+    "DSA/Sept/DSA Notes (07 10 2025).md",
+    "Ideas.md",
+    "Email Draft.md",
     "DSA/Sept/DSA Notes.md",
+    "OS/Sept/OS Notes (25-09-2025).md",
     "Excalidraw/Drawing 2025-09-23 11.54.59.excalidraw.md",
     "APP/Sept/📘 Comprehensive Notes for APP – Units 2 & 3.md",
     "COA/September/COA Notes (23-09-2025).md",
@@ -284,11 +281,6 @@
     "APP/July/Tutorial (APP).md",
     "APP/Aug/APP Notes (22-8-2025).md",
     "APP/Aug/APP Notes (21 Aug 2025).md",
-    "APP/Aug/APP NOTES (18 Aug 2025).md",
-    "DSA/Aug/DSA Notes (28-08-2025).md",
-    "DSA/Aug/DSA Notes (21 Aug 2025).md",
-    "DSA/Aug/DSA (Notes 20-08-2025).md",
-    "DSA/Aug/DSA Notes (11-8-25).md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
