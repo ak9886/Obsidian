@@ -27,5 +27,6 @@
   "text2audio",
   "timethings",
   "voice",
-  "widgets"
+  "widgets",
+  "code-emitter"
 ]
