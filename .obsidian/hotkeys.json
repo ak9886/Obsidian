@@ -25,5 +25,15 @@
       ],
       "key": "A"
     }
+  ],
+  "execute-code:run-all-code-blocks-in-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
   ]
 }
