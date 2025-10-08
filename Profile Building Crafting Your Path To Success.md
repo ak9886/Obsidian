@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-08T13:29:38.875+05:30
-edited_seconds: 670
+updated_at: 2025-10-08T13:43:18.448+05:30
+edited_seconds: 740
 ---
 #CDC
 - # Profile
@@ -46,3 +46,11 @@ Recruitment is a lot like buying a computer; you'll only pick the one that fits 
 - Create a content strategy
 - Optimize your profile
 - Create insightful posts
+Identify your strengths and weaknesses, and asses opportunities and threats
+# Craft a compelling headline
+- Make it discriptive
+- use Keywords
+# Write an engaging summary
+- tell your story
+- Use first person
+- highlight achievements and value
