@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-11T11:35:50.908+05:30
-edited_seconds: 110
+updated_at: 2025-10-11T11:37:56.253+05:30
+edited_seconds: 200
 ---
 #Maths 
 ### Units Covered → Unit 1 & Unit 2  
@@ -32,31 +32,31 @@ edited_seconds: 110
 
 ### 🔹 Unit 1 – Numerical Solution of Algebraic & Linear Equations
 
-| **Topic** | **Video** | **Language** | **Notes** |
-|:-----------|:-----------|:-------------|:-----------|
-| False Position (Regula Falsi) | [False Position Method – Regula Falsi (Oscar Veliz)](https://www.youtube.com/watch?v=pg1I8AG59Ik) | English | Step-by-step with graphical explanation |
-| False Position – Worked Example | [False Position Method Example – Numerical Methods](https://www.youtube.com/watch?v=pncdkN8YD-Q) | English | Solved problem with convergence steps |
-| Fixed Point Iteration | [Fixed Point Iteration Method – Lecture 15 – Numerical Methods for Engineers](https://www.youtube.com/watch?v=mbLw1zZVd9I) | English | Discusses iterative formula and convergence |
-| Newton-Raphson Method | [Newton Raphson Method – Oscar Veliz](https://www.youtube.com/watch?v=Jd9zG1XKXv0) | English | Derivation with sample computation |
-| Gaussian Elimination | [Gaussian Elimination Method – Gate Smashers](https://www.youtube.com/watch?v=RQvZiYo4B1o) | English | Step-by-step matrix reduction procedure |
-| Gauss-Jacobi Method | [Gauss-Jacobi Method – Numerical Methods Series](https://www.youtube.com/watch?v=IlZr1U9LZcg) | English | Demonstrates iteration process clearly |
-| Gauss-Seidel Method | [Gauss-Seidel Method – Lecture 35](https://www.youtube.com/watch?v=V6zR2xkqEBA) | English | Comparison between Jacobi and Seidel |
-| Power Method (Eigenvalues) | [Power Method for Eigenvalues – Dr. Will Wood](https://www.youtube.com/watch?v=nZt3b8XyB0k) | English | Numerical example for finding dominant eigenvalue |
+| **Topic**                       | **Video**                                                                                                                  | **Language** | **Notes**                                         |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------- | :----------- | :------------------------------------------------ |
+| False Position (Regula Falsi)   | [False Position Method – Regula Falsi (Oscar Veliz)](https://www.youtube.com/watch?v=pg1I8AG59Ik)                          | English      | Step-by-step with graphical explanation           |
+| False Position – Worked Example | [False Position Method Example – Numerical Methods](https://www.youtube.com/watch?v=pncdkN8YD-Q)                           | English      | Solved problem with convergence steps             |
+| Fixed Point Iteration           | [Fixed Point Iteration Method – Lecture 15 – Numerical Methods for Engineers](https://www.youtube.com/watch?v=mbLw1zZVd9I) | English      | Discusses iterative formula and convergence       |
+| Newton-Raphson Method           | [Newton Raphson Method – Oscar Veliz](https://www.youtube.com/watch?v=Jd9zG1XKXv0)                                         | English      | Derivation with sample computation                |
+| Gaussian Elimination            | [Gaussian Elimination Method – Gate Smashers](https://www.youtube.com/watch?v=RQvZiYo4B1o)                                 | English      | Step-by-step matrix reduction procedure           |
+| Gauss-Jacobi Method             | [Gauss-Jacobi Method – Numerical Methods Series](https://www.youtube.com/watch?v=IlZr1U9LZcg)                              | English      | Demonstrates iteration process clearly            |
+| Gauss-Seidel Method             | [Gauss-Seidel Method – Lecture 35](https://www.youtube.com/watch?v=V6zR2xkqEBA)                                            | English      | Comparison between Jacobi and Seidel              |
+| Power Method (Eigenvalues)      | [Power Method for Eigenvalues – Dr. Will Wood](https://www.youtube.com/watch?v=nZt3b8XyB0k)                                | English      | Numerical example for finding dominant eigenvalue |
 
 ---
 
 ### 🔹 Unit 2 – Curve Fitting & Interpolation
 
-| Topic | Video | Language | Notes |
-|-------|--------|-----------|-------|
-| Curve Fitting – Least Squares | [Curve Fitting by Least Squares Method (English)](https://www.youtube.com/watch?v=f6StGdpN3T8) | English | Straight line & polynomial fit |
-| Newton’s Forward Interpolation | [Newton Forward Interpolation Method | Oscar Veliz](https://www.youtube.com/watch?v=6mA9Vb6-FXU) | English | Full derivation |
-| Newton’s Backward Interpolation | [Newton Backward Interpolation Method | Engineering Funda](https://www.youtube.com/watch?v=KO_rRn1iYao) | English | Solved examples |
-| Newton’s Divided Difference (Eng) | [Newton Interpolation & Divided Differences | Dr. Will Wood](https://www.youtube.com/watch?v=S7QIU0i1qLE) | English | Great clarity for divided diff table |
-| Newton’s Divided Difference (Tamil) | [Newton’s Divided Difference Interpolation Formula (Tamil)](https://www.youtube.com/watch?v=HOsrDzp_hrY) | Tamil | Tamil explanation with table |
-| Lagrange Interpolation | [Lagrange Interpolation Formula | Engineering Funda](https://www.youtube.com/watch?v=LgJdUuFxvWk) | English | Worked numerical examples |
-| Inverse Interpolation | [Inverse Interpolation Method | Oscar Veliz](https://www.youtube.com/watch?v=2T53DFB0Dr4) | English | Shows step reduction |
-| General Interpolation Intro | [What is Interpolation? (Intro to Interpolation)](https://www.youtube.com/watch?v=gT90n_J1hj8) | English | Conceptual overview |
+| Topic                               | Video                                                                                                    | Language                                                        | Notes                          |                                      |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------ | ------------------------------------ |
+| Curve Fitting – Least Squares       | [Curve Fitting by Least Squares Method (English)](https://www.youtube.com/watch?v=f6StGdpN3T8)           | English                                                         | Straight line & polynomial fit |                                      |
+| Newton’s Forward Interpolation      | [Newton Forward Interpolation Method                                                                     | Oscar Veliz](https://www.youtube.com/watch?v=6mA9Vb6-FXU)       | English                        | Full derivation                      |
+| Newton’s Backward Interpolation     | [Newton Backward Interpolation Method                                                                    | Engineering Funda](https://www.youtube.com/watch?v=KO_rRn1iYao) | English                        | Solved examples                      |
+| Newton’s Divided Difference (Eng)   | [Newton Interpolation & Divided Differences                                                              | Dr. Will Wood](https://www.youtube.com/watch?v=S7QIU0i1qLE)     | English                        | Great clarity for divided diff table |
+| Newton’s Divided Difference (Tamil) | [Newton’s Divided Difference Interpolation Formula (Tamil)](https://www.youtube.com/watch?v=HOsrDzp_hrY) | Tamil                                                           | Tamil explanation with table   |                                      |
+| Lagrange Interpolation              | [Lagrange Interpolation Formula                                                                          | Engineering Funda](https://www.youtube.com/watch?v=LgJdUuFxvWk) | English                        | Worked numerical examples            |
+| Inverse Interpolation               | [Inverse Interpolation Method                                                                            | Oscar Veliz](https://www.youtube.com/watch?v=2T53DFB0Dr4)       | English                        | Shows step reduction                 |
+| General Interpolation Intro         | [What is Interpolation? (Intro to Interpolation)](https://www.youtube.com/watch?v=gT90n_J1hj8)           | English                                                         | Conceptual overview            |                                      |
 
 ---
 
@@ -66,22 +66,23 @@ edited_seconds: 110
 
 ### 🔹 False Position (Regula Falsi) Method
 $$
-{\huge}
+{\huge
 x_{r+1} = x_2 - f(x_2) \cdot 
 \frac{(x_2 - x_1)}{f(x_2) - f(x_1)}
+}
 $$
 
 ---
 
 ### 🔹 Newton–Raphson Method
-$$
+$${\huge
 x_{r+1} = x_r - \frac{f(x_r)}{f'(x_r)}
-$$
+}$$
 
 ---
 
 ### 🔹 Gauss–Seidel Iterative Method
-$$
+$${\huge
 x_i^{(k+1)} =
 \frac{1}{a_{ii}}
 \left(
@@ -90,7 +91,7 @@ b_i -
 - 
 \sum_{j>i} a_{ij}x_j^{(k)}
 \right)
-$$
+}$$
 
 ---
 
@@ -100,60 +101,60 @@ y = a + bx
 $$
 
 Normal equations:
-$$
+$${\huge
 \begin{cases}
 \sum y = na + b \sum x \\
 \sum xy = a \sum x + b \sum x^2
 \end{cases}
-$$
+}$$
 
 ---
 
 ### 🔹 Interpolation Formulas
 
 **Newton’s Forward Interpolation**
-$$
+$${\huge
 f(x) = f(x_0) + p \Delta f(x_0) + 
 \frac{p(p-1)}{2!} \Delta^2 f(x_0) +
 \frac{p(p-1)(p-2)}{3!} \Delta^3 f(x_0) + \cdots
-$$
+}$$
 where  
-$$
+$${\huge
 p = \frac{x - x_0}{h}
-$$
+}$$
 
 ---
 
 **Newton’s Backward Interpolation**
-$$
+$${\huge
 f(x) = f(x_n) + p \nabla f(x_n) +
 \frac{p(p+1)}{2!} \nabla^2 f(x_n) +
 \frac{p(p+1)(p+2)}{3!} \nabla^3 f(x_n) + \cdots
-$$
+}$$
 where  
-$$
+$${\huge
 p = \frac{x - x_n}{h}
-$$
+}$$
 
 ---
 
 **Newton’s Divided Difference**
-$$
+$${\huge
 f(x) = f(x_0) + (x - x_0)f[x_0,x_1]
 + (x - x_0)(x - x_1)f[x_0,x_1,x_2] + \cdots
-$$
+}$$
 
 ---
 
 **Lagrange’s Interpolation**
-$$
+$${\huge
 f(x) =
 \sum_{i=0}^{n}
 \left[
 \frac{\prod_{j=0,\, j \ne i}^{n} (x - x_j)}
 {\prod_{j=0,\, j \ne i}^{n} (x_i - x_j)}
 \right] f(x_i)
-$$
+}$$
 
 
 - Practice at least one **numerical example per method**.
