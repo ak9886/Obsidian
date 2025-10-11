@@ -1,171 +1,89 @@
 ---
-updated_at: 2025-10-11T11:37:56.253+05:30
-edited_seconds: 200
+updated_at: 2025-10-11T15:11:31.199+05:30
+edited_seconds: 220
 ---
 #Maths 
-### Units Covered → Unit 1 & Unit 2  
-**Language preference:** English / Tamil only  
-**Focus:** Concept clarity → Worked examples → Problem practice
+# 🧠 3-Day Study Plan for Numerical Methods (Units 3 & 4)
+
+## 📅 Day 1: Numerical Differentiation & Integration
+
+### Morning Session (3 hours)
+**Numerical Differentiation**
+- **Topics**:
+  - Forward, Backward, and Central Difference Methods
+  - Newton’s Forward and Backward Difference Formulas
+- **Focus**: Understand the derivation and application of each method for approximating derivatives.
+- **Practice**: Solve problems involving numerical differentiation.
+
+### Afternoon Session (3 hours)
+**Numerical Integration**
+- **Topics**:
+  - Trapezoidal Rule
+  - Simpson’s 1/3 Rule
+  - Simpson’s 3/8 Rule
+- **Focus**: Learn the formulas and error analysis for each integration method.
+- **Practice**: Apply these methods to compute definite integrals.
+
+### Evening Session (1 hour)
+**Review & Recap**
+- Summarize key concepts and formulas.
+- Solve a mixed set of problems covering both differentiation and integration.
 
 ---
 
-## 🧭 Study Strategy
+## 📅 Day 2: Numerical Solutions of Ordinary Differential Equations (ODEs)
 
-- Each day ≈ 6 – 8 hours (split into 3 sessions)
-- Follow order → Theory → Example → Practice
-- Keep summary sheet of all formulas
-- Focus on convergence, iteration count, and truncation errors
+### Morning Session (3 hours)
+**Single-Step Methods**
+- **Topics**:
+  - Taylor’s Series Method
+  - Euler’s Method
+  - Improved Euler’s Method
+  - Fourth-Order Runge-Kutta Method
+- **Focus**: Study the derivation, stability, and application of each method.
+- **Practice**: Solve initial value problems using these methods.
 
----
+### Afternoon Session (3 hours)
+**Multistep Methods**
+- **Topics**:
+  - Milne’s Predictor-Corrector Method
+- **Focus**: Understand the concept of predictor-corrector methods and their implementation.
+- **Practice**: Apply Milne’s method to solve ODEs.
 
-## 🗓️ 3-Day Plan
-
-| Day | Topics | Schedule | Key Focus |
-|-----|---------|-----------|------------|
-| **Day 1** | **Unit 1: Nonlinear equations** <br>• False Position Method <br>• Fixed Point Iteration <br>• Newton-Raphson Method <br>• Gaussian Elimination (Linear system) | **Morning (2 h):** Theory & derivations of nonlinear root finding <br>**Afternoon (2 h):** Worked examples <br>**Evening (1 h):** Gaussian elimination intro + exercises | - Derive iteration formulas <br>- Check convergence <br>- Compute roots manually <br>- Understand row operations |
-| **Day 2** | **Unit 1 (cont’d)** <br>• Gauss-Jacobi, Gauss-Seidel <br>• Power Method (Eigenvalues) <br><br>**Begin Unit 2: Curve Fitting** <br>• Least Squares | **Morning (2 h):** Iterative methods with examples <br>**Afternoon (2 h):** Curve fitting derivations & problems <br>**Evening (1 h):** Practice question set | - Convergence criteria for Gauss methods <br>- Compare iteration speed <br>- Fit lines/polynomials <br>- Compute correlation |
-| **Day 3** | **Unit 2: Interpolation** <br>• Newton Forward / Backward Difference <br>• Divided Difference <br>• Lagrange’s Interpolation <br>• Inverse Interpolation | **Morning (2 h):** Newton’s forward/backward difference formulas <br>**Afternoon (2 h):** Lagrange & divided difference methods <br>**Evening (1 h):** Solve mixed numerical examples | - Build difference tables <br>- Apply formulas to find f(x) <br>- Compare interpolation accuracy <br>- Relate methods & errors |
-
----
-
-## 📺 YouTube References (English / Tamil only)
-
-### 🔹 Unit 1 – Numerical Solution of Algebraic & Linear Equations
-
-| **Topic**                       | **Video**                                                                                                                  | **Language** | **Notes**                                         |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------- | :----------- | :------------------------------------------------ |
-| False Position (Regula Falsi)   | [False Position Method – Regula Falsi (Oscar Veliz)](https://www.youtube.com/watch?v=pg1I8AG59Ik)                          | English      | Step-by-step with graphical explanation           |
-| False Position – Worked Example | [False Position Method Example – Numerical Methods](https://www.youtube.com/watch?v=pncdkN8YD-Q)                           | English      | Solved problem with convergence steps             |
-| Fixed Point Iteration           | [Fixed Point Iteration Method – Lecture 15 – Numerical Methods for Engineers](https://www.youtube.com/watch?v=mbLw1zZVd9I) | English      | Discusses iterative formula and convergence       |
-| Newton-Raphson Method           | [Newton Raphson Method – Oscar Veliz](https://www.youtube.com/watch?v=Jd9zG1XKXv0)                                         | English      | Derivation with sample computation                |
-| Gaussian Elimination            | [Gaussian Elimination Method – Gate Smashers](https://www.youtube.com/watch?v=RQvZiYo4B1o)                                 | English      | Step-by-step matrix reduction procedure           |
-| Gauss-Jacobi Method             | [Gauss-Jacobi Method – Numerical Methods Series](https://www.youtube.com/watch?v=IlZr1U9LZcg)                              | English      | Demonstrates iteration process clearly            |
-| Gauss-Seidel Method             | [Gauss-Seidel Method – Lecture 35](https://www.youtube.com/watch?v=V6zR2xkqEBA)                                            | English      | Comparison between Jacobi and Seidel              |
-| Power Method (Eigenvalues)      | [Power Method for Eigenvalues – Dr. Will Wood](https://www.youtube.com/watch?v=nZt3b8XyB0k)                                | English      | Numerical example for finding dominant eigenvalue |
+### Evening Session (1 hour)
+**Review & Recap**
+- Summarize the methods learned.
+- Solve a set of problems involving both single-step and multistep methods.
 
 ---
 
-### 🔹 Unit 2 – Curve Fitting & Interpolation
+## 📅 Day 3: Application and Practice
 
-| Topic                               | Video                                                                                                    | Language                                                        | Notes                          |                                      |
-| ----------------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------ | ------------------------------------ |
-| Curve Fitting – Least Squares       | [Curve Fitting by Least Squares Method (English)](https://www.youtube.com/watch?v=f6StGdpN3T8)           | English                                                         | Straight line & polynomial fit |                                      |
-| Newton’s Forward Interpolation      | [Newton Forward Interpolation Method                                                                     | Oscar Veliz](https://www.youtube.com/watch?v=6mA9Vb6-FXU)       | English                        | Full derivation                      |
-| Newton’s Backward Interpolation     | [Newton Backward Interpolation Method                                                                    | Engineering Funda](https://www.youtube.com/watch?v=KO_rRn1iYao) | English                        | Solved examples                      |
-| Newton’s Divided Difference (Eng)   | [Newton Interpolation & Divided Differences                                                              | Dr. Will Wood](https://www.youtube.com/watch?v=S7QIU0i1qLE)     | English                        | Great clarity for divided diff table |
-| Newton’s Divided Difference (Tamil) | [Newton’s Divided Difference Interpolation Formula (Tamil)](https://www.youtube.com/watch?v=HOsrDzp_hrY) | Tamil                                                           | Tamil explanation with table   |                                      |
-| Lagrange Interpolation              | [Lagrange Interpolation Formula                                                                          | Engineering Funda](https://www.youtube.com/watch?v=LgJdUuFxvWk) | English                        | Worked numerical examples            |
-| Inverse Interpolation               | [Inverse Interpolation Method                                                                            | Oscar Veliz](https://www.youtube.com/watch?v=2T53DFB0Dr4)       | English                        | Shows step reduction                 |
-| General Interpolation Intro         | [What is Interpolation? (Intro to Interpolation)](https://www.youtube.com/watch?v=gT90n_J1hj8)           | English                                                         | Conceptual overview            |                                      |
+### Morning Session (3 hours)
+**Mixed Problem Solving**
+- Solve a series of problems that integrate concepts from numerical differentiation, integration, and ODEs.
 
----
+### Afternoon Session (3 hours)
+**Advanced Topics**
+- Explore additional resources or advanced problems to deepen understanding.
 
-## 🧩 Extra Tips
-
-- ## 📘 Common Numerical Methods Formulas
-
-### 🔹 False Position (Regula Falsi) Method
-$$
-{\huge
-x_{r+1} = x_2 - f(x_2) \cdot 
-\frac{(x_2 - x_1)}{f(x_2) - f(x_1)}
-}
-$$
+### Evening Session (1 hour)
+**Final Review**
+- Go over key concepts and formulas.
+- Solve a comprehensive set of problems to test understanding.
 
 ---
 
-### 🔹 Newton–Raphson Method
-$${\huge
-x_{r+1} = x_r - \frac{f(x_r)}{f'(x_r)}
-}$$
+## 📺 Recommended YouTube Videos
 
----
+**Numerical Differentiation**
+- [Forward, Backward, and Central Difference Method](https://www.youtube.com/watch?v=Jqa-aFE9-GI)
+- [Newton’s Forward Difference Formula](https://atozmath.com/example/CONM/NumeDiff.aspx?q=A&q1=E1)
 
-### 🔹 Gauss–Seidel Iterative Method
-$${\huge
-x_i^{(k+1)} =
-\frac{1}{a_{ii}}
-\left(
-b_i - 
-\sum_{j<i} a_{ij}x_j^{(k+1)}
-- 
-\sum_{j>i} a_{ij}x_j^{(k)}
-\right)
-}$$
+**Numerical Integration**
+- [Trapezoidal Rule & Simpson’s Rule](https://www.youtube.com/watch?v=aY6Y66cc4rE)
+- [Errors in Trapezoidal Rule and Simpson’s Rule](https://www.youtube.com/watch?v=tHT798bu3Ss)
 
----
-
-### 🔹 Least Squares Curve Fitting
-$$
-y = a + bx
-$$
-
-Normal equations:
-$${\huge
-\begin{cases}
-\sum y = na + b \sum x \\
-\sum xy = a \sum x + b \sum x^2
-\end{cases}
-}$$
-
----
-
-### 🔹 Interpolation Formulas
-
-**Newton’s Forward Interpolation**
-$${\huge
-f(x) = f(x_0) + p \Delta f(x_0) + 
-\frac{p(p-1)}{2!} \Delta^2 f(x_0) +
-\frac{p(p-1)(p-2)}{3!} \Delta^3 f(x_0) + \cdots
-}$$
-where  
-$${\huge
-p = \frac{x - x_0}{h}
-}$$
-
----
-
-**Newton’s Backward Interpolation**
-$${\huge
-f(x) = f(x_n) + p \nabla f(x_n) +
-\frac{p(p+1)}{2!} \nabla^2 f(x_n) +
-\frac{p(p+1)(p+2)}{3!} \nabla^3 f(x_n) + \cdots
-}$$
-where  
-$${\huge
-p = \frac{x - x_n}{h}
-}$$
-
----
-
-**Newton’s Divided Difference**
-$${\huge
-f(x) = f(x_0) + (x - x_0)f[x_0,x_1]
-+ (x - x_0)(x - x_1)f[x_0,x_1,x_2] + \cdots
-}$$
-
----
-
-**Lagrange’s Interpolation**
-$${\huge
-f(x) =
-\sum_{i=0}^{n}
-\left[
-\frac{\prod_{j=0,\, j \ne i}^{n} (x - x_j)}
-{\prod_{j=0,\, j \ne i}^{n} (x_i - x_j)}
-\right] f(x_i)
-}$$
-
-
-- Practice at least one **numerical example per method**.
-
-
----
-
-### 🔍 Sources
-- SRM Syllabus (21MAB202T)
-- Unit 3 & 4 slides for 2023-24 academic year
-- Verified English/Tamil YouTube lectures
-
----
-
+**Ordinary Differential Equations**
+- [Numerical Solution of Ordinary Differential Equations](https://www.youtube.com/playlist?list=PLMLsjhQWWlUqtQzxZAIttvCVEuM9fIoGa)
+- [Numerical Solution of ODEs (Playlist)](https://www.youtube.com/playlist?list=PLM9RnGtTy9_-RWD93PF86TPSzlyFY4IMP)
