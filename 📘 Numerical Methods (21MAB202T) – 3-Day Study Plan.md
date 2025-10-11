@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-11T11:32:17.950+05:30
-edited_seconds: 30
+updated_at: 2025-10-11T11:35:50.908+05:30
+edited_seconds: 110
 ---
 #Maths 
 ### Units Covered → Unit 1 & Unit 2  
@@ -62,21 +62,102 @@ edited_seconds: 30
 
 ## 🧩 Extra Tips
 
-- Revise daily formulas:  
-  - False Position: \( x_{r+1} = x_2 - f(x_2)\frac{x_2-x_1}{f(x_2)-f(x_1)} \)  
-  - Newton-Raphson: \( x_{r+1} = x_r - \frac{f(x_r)}{f'(x_r)} \)  
-  - Gauss-Seidel: iterative form \( x_i^{(k+1)} = \frac{1}{a_{ii}}(b_i - \sum_{j<i} a_{ij}x_j^{(k+1)} - \sum_{j>i} a_{ij}x_j^{(k)}) \)  
-  - Least Squares: \( y = a + bx \) with normal equations  
-  - Interpolation formulas (forward, backward, divided difference)
+- ## 📘 Common Numerical Methods Formulas
 
-- Practise at least one **numerical example per method**.
+### 🔹 False Position (Regula Falsi) Method
+$$
+{\huge}
+x_{r+1} = x_2 - f(x_2) \cdot 
+\frac{(x_2 - x_1)}{f(x_2) - f(x_1)}
+$$
 
 ---
 
-## ✅ Suggested Next Steps
-- After Day 3, continue with Unit 3 (Numerical Differentiation & Integration).  
-- Ask for a **15-day full-course plan** with similar format.  
-- Optionally, I can add a **Problem Set + Solutions PDF** matching SRM 2021 Regulation.
+### 🔹 Newton–Raphson Method
+$$
+x_{r+1} = x_r - \frac{f(x_r)}{f'(x_r)}
+$$
+
+---
+
+### 🔹 Gauss–Seidel Iterative Method
+$$
+x_i^{(k+1)} =
+\frac{1}{a_{ii}}
+\left(
+b_i - 
+\sum_{j<i} a_{ij}x_j^{(k+1)}
+- 
+\sum_{j>i} a_{ij}x_j^{(k)}
+\right)
+$$
+
+---
+
+### 🔹 Least Squares Curve Fitting
+$$
+y = a + bx
+$$
+
+Normal equations:
+$$
+\begin{cases}
+\sum y = na + b \sum x \\
+\sum xy = a \sum x + b \sum x^2
+\end{cases}
+$$
+
+---
+
+### 🔹 Interpolation Formulas
+
+**Newton’s Forward Interpolation**
+$$
+f(x) = f(x_0) + p \Delta f(x_0) + 
+\frac{p(p-1)}{2!} \Delta^2 f(x_0) +
+\frac{p(p-1)(p-2)}{3!} \Delta^3 f(x_0) + \cdots
+$$
+where  
+$$
+p = \frac{x - x_0}{h}
+$$
+
+---
+
+**Newton’s Backward Interpolation**
+$$
+f(x) = f(x_n) + p \nabla f(x_n) +
+\frac{p(p+1)}{2!} \nabla^2 f(x_n) +
+\frac{p(p+1)(p+2)}{3!} \nabla^3 f(x_n) + \cdots
+$$
+where  
+$$
+p = \frac{x - x_n}{h}
+$$
+
+---
+
+**Newton’s Divided Difference**
+$$
+f(x) = f(x_0) + (x - x_0)f[x_0,x_1]
++ (x - x_0)(x - x_1)f[x_0,x_1,x_2] + \cdots
+$$
+
+---
+
+**Lagrange’s Interpolation**
+$$
+f(x) =
+\sum_{i=0}^{n}
+\left[
+\frac{\prod_{j=0,\, j \ne i}^{n} (x - x_j)}
+{\prod_{j=0,\, j \ne i}^{n} (x_i - x_j)}
+\right] f(x_i)
+$$
+
+
+- Practice at least one **numerical example per method**.
+
 
 ---
 
@@ -87,4 +168,3 @@ edited_seconds: 30
 
 ---
 
-**End of Markdown Block**
