@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-11T11:31:11.042+05:30
-edited_seconds: 20
+updated_at: 2025-10-11T11:32:17.950+05:30
+edited_seconds: 30
 ---
 #Maths 
 ### Units Covered → Unit 1 & Unit 2  
@@ -32,16 +32,16 @@ edited_seconds: 20
 
 ### 🔹 Unit 1 – Numerical Solution of Algebraic & Linear Equations
 
-| Topic | Video | Language | Notes |
-|-------|--------|-----------|-------|
-| False Position (Regula Falsi) | [False Position Method – Regula Falsi (Oscar Veliz)](https://www.youtube.com/watch?v=pg1I8AG59Ik) | English | Step-by-step with graphs |
-| False Position – Worked Example | [False Position Method Example | Numerical Methods](https://www.youtube.com/watch?v=pncdkN8YD-Q) | English | Complete solution illustration |
-| Fixed Point Iteration | [Fixed Point Iteration Method | Lecture 15 | Numerical Methods for Engineers](https://www.youtube.com/watch?v=mbLw1zZVd9I) | English | Includes error convergence |
-| Newton-Raphson Method | [Newton Raphson Method | Oscar Veliz](https://www.youtube.com/watch?v=Jd9zG1XKXv0) | English | Derivation + Example |
-| Gaussian Elimination | [Gaussian Elimination Method | Gate Smashers](https://www.youtube.com/watch?v=RQvZiYo4B1o) | English | Pure step-wise matrix reduction |
-| Gauss-Jacobi Method | [Gauss-Jacobi Method | Numerical Methods Series](https://www.youtube.com/watch?v=IlZr1U9LZcg) | English | Clear derivation and iteration |
-| Gauss-Seidel Method | [Gauss-Seidel Method | Lecture 35](https://www.youtube.com/watch?v=V6zR2xkqEBA) | English | Comparison with Jacobi |
-| Power Method (Eigenvalues) | [Power Method for Eigenvalues | Dr. Will Wood](https://www.youtube.com/watch?v=nZt3b8XyB0k) | English | Uses numerical example |
+| **Topic** | **Video** | **Language** | **Notes** |
+|:-----------|:-----------|:-------------|:-----------|
+| False Position (Regula Falsi) | [False Position Method – Regula Falsi (Oscar Veliz)](https://www.youtube.com/watch?v=pg1I8AG59Ik) | English | Step-by-step with graphical explanation |
+| False Position – Worked Example | [False Position Method Example – Numerical Methods](https://www.youtube.com/watch?v=pncdkN8YD-Q) | English | Solved problem with convergence steps |
+| Fixed Point Iteration | [Fixed Point Iteration Method – Lecture 15 – Numerical Methods for Engineers](https://www.youtube.com/watch?v=mbLw1zZVd9I) | English | Discusses iterative formula and convergence |
+| Newton-Raphson Method | [Newton Raphson Method – Oscar Veliz](https://www.youtube.com/watch?v=Jd9zG1XKXv0) | English | Derivation with sample computation |
+| Gaussian Elimination | [Gaussian Elimination Method – Gate Smashers](https://www.youtube.com/watch?v=RQvZiYo4B1o) | English | Step-by-step matrix reduction procedure |
+| Gauss-Jacobi Method | [Gauss-Jacobi Method – Numerical Methods Series](https://www.youtube.com/watch?v=IlZr1U9LZcg) | English | Demonstrates iteration process clearly |
+| Gauss-Seidel Method | [Gauss-Seidel Method – Lecture 35](https://www.youtube.com/watch?v=V6zR2xkqEBA) | English | Comparison between Jacobi and Seidel |
+| Power Method (Eigenvalues) | [Power Method for Eigenvalues – Dr. Will Wood](https://www.youtube.com/watch?v=nZt3b8XyB0k) | English | Numerical example for finding dominant eigenvalue |
 
 ---
 
