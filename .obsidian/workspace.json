@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Timetable"
             }
+          },
+          {
+            "id": "eb376fa0b42c92ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brief.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brief"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -253,10 +267,11 @@
       "widgets:Add widget": false
     }
   },
-  "active": "461f056e402dd305",
+  "active": "eb376fa0b42c92ec",
   "lastOpenFiles": [
-    "Unit 3 and 4 Formulas.md",
     "Timetable.md",
+    "Brief.md",
+    "Unit 3 and 4 Formulas.md",
     "📘 Numerical Methods (21MAB202T) – 3-Day Study Plan.md",
     "COA/September/COA Notes (10-10-2025).md",
     "APP/Sept/APP Notes (09 10 2025).md",
@@ -284,7 +299,6 @@
     "README.md",
     "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.md",
     "DSA/Sept/DSA Notes (4-9-2025).md",
-    "COA/September/COA Notes (22-09-2025).md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
