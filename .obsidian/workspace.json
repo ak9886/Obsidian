@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackathon App/Untitled.md",
+                "file": "Hackathon App/Translucent Card.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Translucent Card"
             }
           }
         ],
@@ -269,8 +269,9 @@
   },
   "active": "eb376fa0b42c92ec",
   "lastOpenFiles": [
+    "Hackathon App/Hover me!!!.md",
+    "Hackathon App/Translucent Card.md",
     "Hackathon App/Light-mode Dark-mode toggle.md",
-    "Hackathon App/Untitled.md",
     "Hackathon App",
     "Brief.md",
     "Timetable.md",
@@ -299,7 +300,6 @@
     "razer-id-codes-1750090419552.pdf",
     "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
     "DSA/Sept/DSA Notes (22-09-2025).md",
-    "README.md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
