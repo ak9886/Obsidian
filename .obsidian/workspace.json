@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brief.md",
+                "file": "Hackathon App/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brief"
+              "title": "Untitled"
             }
           }
         ],
@@ -269,8 +269,11 @@
   },
   "active": "eb376fa0b42c92ec",
   "lastOpenFiles": [
-    "Timetable.md",
+    "Hackathon App/Light-mode Dark-mode toggle.md",
+    "Hackathon App/Untitled.md",
+    "Hackathon App",
     "Brief.md",
+    "Timetable.md",
     "Unit 3 and 4 Formulas.md",
     "📘 Numerical Methods (21MAB202T) – 3-Day Study Plan.md",
     "COA/September/COA Notes (10-10-2025).md",
@@ -297,8 +300,6 @@
     "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
     "DSA/Sept/DSA Notes (22-09-2025).md",
     "README.md",
-    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.md",
-    "DSA/Sept/DSA Notes (4-9-2025).md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
@@ -306,7 +307,6 @@
     "Semi/Semi Informational Notes.mp3",
     "Semi",
     "OOPD/OOPD.mp3",
-    "OOPD/Key C++ Concepts Illustrated.wav",
     "EEE/zUnit 5.png",
     "EEE/Units 1-4.png"
   ]
