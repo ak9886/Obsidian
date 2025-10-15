@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -279,10 +280,10 @@
       "widgets:Add widget": false
     }
   },
-  "active": "f99df386d220b2d7",
+  "active": "eb376fa0b42c92ec",
   "lastOpenFiles": [
-    "DSA/DSA Notes (15 10 2025).md",
     "Excalidraw/Drawing 2025-10-15 08.33.44.excalidraw.md",
+    "DSA/DSA Notes (15 10 2025).md",
     "Unit 3 and 4 Formulas.md",
     "Brief.md",
     "Hackathon App/Translucent Card.md",
