@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "DSA Notes (15 10 2025)"
             }
+          },
+          {
+            "id": "f99df386d220b2d7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-15 08.33.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-15 08.33.44.excalidraw"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,10 +279,11 @@
       "widgets:Add widget": false
     }
   },
-  "active": "eb376fa0b42c92ec",
+  "active": "f99df386d220b2d7",
   "lastOpenFiles": [
-    "Unit 3 and 4 Formulas.md",
     "DSA/DSA Notes (15 10 2025).md",
+    "Excalidraw/Drawing 2025-10-15 08.33.44.excalidraw.md",
+    "Unit 3 and 4 Formulas.md",
     "Brief.md",
     "Hackathon App/Translucent Card.md",
     "Hackathon App/Hover me!!!.md",
@@ -299,7 +312,6 @@
     "APP/Sept/Java Comprehensive Study Guide.md",
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",
-    "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
     "Untitled.base",
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
