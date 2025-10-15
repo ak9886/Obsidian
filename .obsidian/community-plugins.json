@@ -25,5 +25,6 @@
   "voice",
   "widgets",
   "code-emitter",
-  "execute-code"
+  "execute-code",
+  "obsidian-tikzjax"
 ]
