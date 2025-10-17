@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-17T10:18:45.909+05:30
-edited_seconds: 280
+updated_at: 2025-10-17T10:19:47.934+05:30
+edited_seconds: 350
 ---
 #STEP
 UML = Unified Modelling Language Diagrams
@@ -30,6 +30,13 @@ class Library{
 ```Java
 class Room{
 	Room room;
-	public(Room )
+	public(Room room){
+		this.room=room;
+	}
+}
+class House{
+	public static void main(String)[] args){
+		
+	}
 }
 ```
