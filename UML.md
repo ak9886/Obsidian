@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-17T10:09:01.950+05:30
-edited_seconds: 150
+updated_at: 2025-10-17T10:18:45.909+05:30
+edited_seconds: 280
 ---
 #STEP
 UML = Unified Modelling Language Diagrams
@@ -15,3 +15,21 @@ class cas{
 ```
 
 # Association
+```Java
+class Book{
+}
+class Library{ 
+	public static void main(String[] args){
+		Book b1 = new Book("Chemistry");
+		Book b2 = new Book("Physics");
+		
+	}
+}
+```
+
+```Java
+class Room{
+	Room room;
+	public(Room )
+}
+```
