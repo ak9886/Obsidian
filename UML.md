@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-17T10:19:47.934+05:30
-edited_seconds: 350
+updated_at: 2025-10-17T10:24:26.950+05:30
+edited_seconds: 360
 ---
 #STEP
 UML = Unified Modelling Language Diagrams
@@ -40,3 +40,4 @@ class House{
 	}
 }
 ```
+
