@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-17T10:07:22.700+05:30
-edited_seconds: 120
+updated_at: 2025-10-17T10:09:01.950+05:30
+edited_seconds: 150
 ---
 #STEP
 UML = Unified Modelling Language Diagrams
@@ -14,3 +14,4 @@ class cas{
 }
 ```
 
+# Association
