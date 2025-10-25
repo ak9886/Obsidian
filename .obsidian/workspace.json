@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "DSA Activity"
             }
+          },
+          {
+            "id": "acd2b363ff4c268c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-25 16.29.23.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,10 +247,11 @@
       "widgets:Add widget": false
     }
   },
-  "active": "01e1199166c318dd",
+  "active": "acd2b363ff4c268c",
   "lastOpenFiles": [
-    "DSA/Sept/DSA Notes (21-10-2025).md",
     "DSA/Sept/DSA Activity.md",
+    "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
+    "DSA/Sept/DSA Notes (21-10-2025).md",
     "Excalidraw/Drawing 2025-10-23 14.48.59.excalidraw.md",
     "OS/Sept/OS Notes (23 - 10 - 2025).md",
     "DSA/DSA Notes (15 10 2025).md",
@@ -264,7 +278,6 @@
     "Profile Building Crafting Your Path To Success.md",
     "Test.html",
     "Ideas.md",
-    "Email Draft.md",
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",
     "Untitled.base",
