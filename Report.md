@@ -1,25 +1,27 @@
 ---
-updated_at: 2025-10-27T10:46:23.865+05:30
-edited_seconds: 300
+updated_at: 2025-10-27T10:51:13.335+05:30
+edited_seconds: 360
 ---
 
 
 <center>
-Chat App Using JDBC**  
+Chat App Using JDBC  
 <br>
-Students:**  
+Students:
 <br>
-SHRAVAN ADITYAN J — RA2411030010436  
+DHEERAJ KUMAR — RA2411030010395  
 <br>
 ADARSH KOSHY — RA2411030010400  
 <br>
 SHARANABDHI VINODH — RA2411030010406  
 <br>
-DHEERAJ KUMAR — RA2411030010395  
-
+SHRAVAN ADITYAN J — RA2411030010436  
+<br>
 Course: B.Tech     
 <br>
 Semester: 3
+<br>
+Under the Guidance of: LAKSHMI NARAYANAN
 <br>
 Institution: SRM Institute of Science and Technology, Chennai  
 <br>
