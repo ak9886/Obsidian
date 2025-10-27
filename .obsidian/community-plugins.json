@@ -26,5 +26,7 @@
   "widgets",
   "code-emitter",
   "execute-code",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "any-block",
+  "mermaid-tools"
 ]

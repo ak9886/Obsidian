@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-27T10:42:16.389+05:30
-edited_seconds: 250
+updated_at: 2025-10-27T10:46:23.865+05:30
+edited_seconds: 300
 ---
 
 
@@ -57,16 +57,8 @@ Existing simple chat demos often bypass persistent storage or use specialized me
 - Performance: intended for small user counts; scaling requires architectural changes.
 
 ## 5. Use Case Diagram  
-```mermaid
-%% Use Case: ChatApp (simple)
-%% Render with a Mermaid-capable viewer
-actor User
-User --> (Register / Login)
-User --> (Start Chat)
-User --> (Send Message)
-User --> (View Chat History)
-(User) --> (Logout)
-````
+
+
 
 ---
 
@@ -114,9 +106,9 @@ The system uses a three-tier architecture: Web UI (Servlet/JSP) → Java backend
 
 ---
 
-# Page 4 — 5 Step-by-Step Worked Procedure
+# 5 Step-by-Step Worked Procedure
 
-> **Note:** image placeholders are included — replace with actual screenshots captured from your local deployment (recommended resolution: 1280×720). For each step, sample SQL and JDBC code are provided.
+
 
 ---
 
@@ -259,7 +251,7 @@ public class UserDao {
 }
 ```
 
-**Image (placeholder):**  
+  
 
 
 ---
@@ -293,7 +285,7 @@ public long saveMessage(int chatId, int senderId, String text) throws SQLExcepti
 }
 ```
 
-**Image (placeholder):**  
+  
 
 
 ---
@@ -329,7 +321,7 @@ setInterval(async () => {
 }, 2500);
 ```
 
-**Image (placeholder):**  
+  
 
 
 ---

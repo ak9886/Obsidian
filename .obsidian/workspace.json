@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "457ce0558571bd84",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-27 10.47.03.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-27 10.47.03.excalidraw"
+            }
+          },
+          {
             "id": "acd2b363ff4c268c",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,13 +270,15 @@
       "text2audio:Text to Audio": false,
       "timethings:Activate view": false,
       "voice:Voice": false,
-      "widgets:Add widget": false
+      "widgets:Add widget": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "fc2c7e30304a348d",
+  "active": "457ce0558571bd84",
   "lastOpenFiles": [
-    "DSA/Sept/DSA Activity.md",
     "Report.md",
+    "Excalidraw/Drawing 2025-10-27 10.47.03.excalidraw.md",
+    "DSA/Sept/DSA Activity.md",
     "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
     "DSA/Sept/DSA Notes (21-10-2025).md",
     "Excalidraw/Drawing 2025-10-23 14.48.59.excalidraw.md",
@@ -290,7 +304,6 @@
     "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
     "APP/Mark Conversion Sheet.md",
     "Pasted image 20251008152013.png",
-    "Profile Building Crafting Your Path To Success.md",
     "Test.html",
     "Java__Core_Concepts_Revision.mp4",
     "razer-id-codes-1750090419552.pdf",
