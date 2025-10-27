@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,10 +262,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "457ce0558571bd84",
+  "active": "fc2c7e30304a348d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
+    "Pasted image 20251027105543.png",
     "Excalidraw/Drawing 2025-10-27 10.47.03.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
     "Report.md",
     "DSA/Sept/DSA Activity.md",
     "DSA/Sept/DSA Notes (21-10-2025).md",
@@ -290,7 +291,6 @@
     "DSA/Sept/DSA Notes (08 10 2025).md",
     "DSA/Sept/DSA Notes (07 10 2025).md",
     "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
-    "APP/Mark Conversion Sheet.md",
     "Pasted image 20251008152013.png",
     "Test.html",
     "Java__Core_Concepts_Revision.mp4",

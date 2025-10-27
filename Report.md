@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-27T10:51:13.335+05:30
-edited_seconds: 360
+updated_at: 2025-10-27T10:56:49.377+05:30
+edited_seconds: 390
 ---
 
 
@@ -60,7 +60,7 @@ Existing simple chat demos often bypass persistent storage or use specialized me
 
 ## 5. Use Case Diagram  
 
-
+![[Pasted image 20251027105543.png]]
 
 ---
 
@@ -107,13 +107,6 @@ The system uses a three-tier architecture: Web UI (Servlet/JSP) → Java backend
 **Outputs:** chat message list, status responses (OK / error).
 
 ---
-
-# 5 Step-by-Step Worked Procedure
-
-
-
----
-
 ## Step 1 — Database Setup (SQL commands + description)
 
 **SQL schema (run in MySQL):**
