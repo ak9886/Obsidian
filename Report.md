@@ -1,27 +1,29 @@
 ---
-updated_at: 2025-10-27T10:38:12.037+05:30
-edited_seconds: 10
+updated_at: 2025-10-27T10:42:16.389+05:30
+edited_seconds: 250
 ---
-`markdown
-# **ChatApp Using JDBC**  
-**Project Report**
 
----
 
 <center>
-**ChatApp Using JDBC**  
+Chat App Using JDBC**  
 <br>
-**Students:**  
+Students:**  
+<br>
 SHRAVAN ADITYAN J — RA2411030010436  
-ADARSH KOSHY — RA2411030010400  
-SHARANABDHI VINODH — RA2411030010406  
-DHEERAJ KUMAR — RA2411030010395  
 <br>
-**Course:** B.E. / B.Tech — [Specify]  
-**Guide:** [Guide Name]  
-**Semester:** [Specify Semester]  
-**Institution:** [Your Institution], Chennai  
-**Submission Date:** [Enter Date]  
+ADARSH KOSHY — RA2411030010400  
+<br>
+SHARANABDHI VINODH — RA2411030010406  
+<br>
+DHEERAJ KUMAR — RA2411030010395  
+
+Course: B.Tech     
+<br>
+Semester: 3
+<br>
+Institution: SRM Institute of Science and Technology, Chennai  
+<br>
+Submission Date: 26/10/2025  
 </center>
 
 ---
@@ -33,7 +35,7 @@ This project implements a simple, robust ChatApp built with Java on the backend 
 
 ---
 
-# Page 2 — Problem Statement, Objectives, Scope
+# Problem Statement, Objectives, Scope
 
 ## 1. Introduction / Background  
 Chat applications are essential for real-time communication in modern apps. Many chat systems rely on frameworks or external real-time services; this project demonstrates how to build a basic, maintainable ChatApp using plain Java + JDBC + MySQL, suitable for learning core concepts: database modelling, connection handling, and simple web front-end integration. The system targets small groups or educational deployments (e.g., labs in Chennai).
@@ -68,7 +70,7 @@ User --> (View Chat History)
 
 ---
 
-# Page 3 — Tools, Design & Data Model
+# Tools, Design & Data Model
 
 ## 6. Technology Stack
 
@@ -158,8 +160,6 @@ CREATE TABLE messages (
 );
 ```
 
-**Image (placeholder):**  
-`![DB Schema](./images/db_schema.png)`
 
 ---
 
@@ -212,8 +212,7 @@ public class DBConfig {
 }
 ```
 
-**Image (placeholder):**  
-`![JDBC Connection Setup](./images/jdbc_setup.png)`
+
 
 ---
 
@@ -261,7 +260,7 @@ public class UserDao {
 ```
 
 **Image (placeholder):**  
-`![DAO Code Screenshot](./images/dao_code.png)`
+
 
 ---
 
@@ -295,7 +294,7 @@ public long saveMessage(int chatId, int senderId, String text) throws SQLExcepti
 ```
 
 **Image (placeholder):**  
-`![Send Message Flow](./images/send_message.png)`
+
 
 ---
 
@@ -331,46 +330,7 @@ setInterval(async () => {
 ```
 
 **Image (placeholder):**  
-`![AJAX Polling](./images/polling.png)`
+
 
 ---
 
-## Extra: Security & Best Practices (brief)
-
-- Use bcrypt or Argon2 for password hashing (never store plain text).
-    
-- Use prepared statements (shown) to avoid SQL injection.
-    
-- Use HTTPS for transport in deployed setups.
-    
-- Limit polling frequency; consider WebSocket for production.
-    
-- Apply connection pooling (HikariCP used) for performance.
-    
-
----
-
-## Deliverables (what to submit)
-
-- Project report (this Markdown)
-    
-- Source code (Maven project)
-    
-- SQL schema file (`schema.sql`)
-    
-- Readme with environment setup (MySQL user, DB creation)
-    
-- Screenshots folder (`/images`) with front-end and DB screenshots (capture from local Chennai lab server or development machine)
-    
-
----
-
-## Check
-
-Spelling, grammar, and logical consistency reviewed. Replace placeholders (`[Guide Name]`, `[Specify]`, images and submission date) with project-specific values before final submission.
-
----
-
-**Q1:** **Do you want the front-end implemented as Servlet+JSP (web) or as a JavaFX desktop client?**  
-**Q2:** **Should I include full code for login, chat servlet, and message DAO in the report, or only key excerpts as above?**  
-**Q3:** **Do you want a sample `docker-compose.yml` to run MySQL and the ChatApp locally (Chennai lab friendly)?**
