@@ -28,5 +28,7 @@
   "execute-code",
   "obsidian-tikzjax",
   "any-block",
-  "mermaid-tools"
+  "mermaid-tools",
+  "gnome-terminal-loader",
+  "pycalc"
 ]
