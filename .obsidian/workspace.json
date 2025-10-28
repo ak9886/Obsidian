@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,8 +210,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -220,8 +220,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "example-view"
+              "icon": "lucide-file",
+              "title": "Most edited files"
             }
           },
           {
@@ -230,8 +230,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -298,10 +298,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5d11b05547f7f420",
+  "active": "61a56fbbde85fcec",
   "lastOpenFiles": [
-    "COA Notes (28 10 2025).md",
     "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
+    "COA Notes (28 10 2025).md",
     "OS Notes.md",
     "{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Report.md",
