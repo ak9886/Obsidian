@@ -64,6 +64,18 @@
             }
           },
           {
+            "id": "5d11b05547f7f420",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-28 14.35.13.excalidraw"
+            }
+          },
+          {
             "id": "457ce0558571bd84",
             "type": "leaf",
             "state": {
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -255,9 +267,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "4a39cbe3aaccbc4c",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -290,10 +312,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "61a56fbbde85fcec",
+  "active": "5d11b05547f7f420",
   "lastOpenFiles": [
-    "OS Notes.md",
     "COA Notes (28 10 2025).md",
+    "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
+    "OS Notes.md",
     "{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Report.md",
     "Pasted image 20251027105543.png",
@@ -320,7 +343,6 @@
     "APP/Sept/APP Notes (08 10 2025).md",
     "APP/NPTEL Questions.md",
     "DSA/Sept/DSA Notes (08 10 2025).md",
-    "DSA/Sept/DSA Notes (07 10 2025).md",
     "Pasted image 20251008152013.png",
     "Test.html",
     "Java__Core_Concepts_Revision.mp4",
