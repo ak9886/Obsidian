@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "6bbf437b4fe989c9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-30 15.31.49.excalidraw"
+            }
+          },
+          {
             "id": "ff805eba9524ded6",
             "type": "leaf",
             "state": {
@@ -46,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,10 +282,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "624c90983f7bf765",
+  "active": "6bbf437b4fe989c9",
   "lastOpenFiles": [
-    "Notes.md",
     "PRD.md",
+    "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
+    "Notes.md",
     "APP Notes (28 10 2025).md",
     "COA/September/COA Notes (28 10 2025).md",
     "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
@@ -300,7 +313,6 @@
     "Hackathon App/Hover me!!!.md",
     "Hackathon App/Light-mode Dark-mode toggle.md",
     "Hackathon App",
-    "COA/September/COA Notes (10-10-2025).md",
     "Pasted image 20251008152013.png",
     "Test.html",
     "OS/Java__Core_Concepts_Revision.mp4",
