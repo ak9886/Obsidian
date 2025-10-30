@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "8fcaf96651f2fd8f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-30 23.46.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-30 23.46.13.excalidraw"
+            }
+          },
+          {
             "id": "ff805eba9524ded6",
             "type": "leaf",
             "state": {
@@ -45,7 +57,8 @@
               "title": "Smart Chat"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -269,11 +282,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2c2ec6b835ba0156",
+  "active": "8fcaf96651f2fd8f",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
     "PRD.md",
+    "Excalidraw/Drawing 2025-10-30 23.46.13.excalidraw.md",
     "Notes.md",
+    "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
     "APP Notes (28 10 2025).md",
     "COA/September/COA Notes (28 10 2025).md",
     "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
@@ -298,7 +312,6 @@
     "Brief.md",
     "Hackathon App/Translucent Card.md",
     "Hackathon App/Hover me!!!.md",
-    "Hackathon App/Light-mode Dark-mode toggle.md",
     "Hackathon App",
     "Pasted image 20251008152013.png",
     "Test.html",
