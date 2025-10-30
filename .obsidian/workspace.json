@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#hackath",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -255,7 +256,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e3ef5f9ed49b85b",
+  "active": "82606b004017a52b",
   "lastOpenFiles": [
     "Notes.md",
     "APP Notes (28 10 2025).md",
