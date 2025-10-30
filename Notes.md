@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-10-30T10:37:53.457+05:30
-edited_seconds: 200
+updated_at: 2025-10-30T16:16:33.461+05:30
+edited_seconds: 220
 ---
 #hackathonapp 
 Rounds of 3
@@ -19,4 +19,25 @@ Final Version will be shown to the judges.
 - Title
 - Problem statement
 - Proposed Solution (_Features_)
-- 
+
+
+
+| Limitation              | Fix                                                        |
+| ----------------------- | ---------------------------------------------------------- |
+| Oversimplified matching | Weighted logic: skills, goals, availability, interests     |
+| Scalability             | Lazy loading + Firebase real-time + batch matching         |
+| Incomplete profiles     | Required fields + badges for profile completion            |
+| Swiping feels casual    | Offer dual modes: Quick Match & Detailed Explore           |
+| Ghosting                | Confirm team-up + reputation system                        |
+| Privacy                 | Contact only after both confirm; toggle visibility options |
+
+
+
+
+
+
+
+
+
+
+
