@@ -38,41 +38,27 @@
     "chat_model": {
       "adapter": "ollama",
       "ollama": {
-        "model_key": "llama3:latest",
+        "model_key": "smollm2:135m",
         "host": "http://localhost:11434",
         "models": {
-          "llama3:latest": {
-            "model_name": "llama3:latest",
-            "id": "llama3:latest",
+          "smollm2:135m": {
+            "model_name": "smollm2:135m",
+            "id": "smollm2:135m",
             "multimodal": false,
             "max_input_tokens": 8192,
             "can_use_tools": true
           },
-          "llava:latest": {
-            "model_name": "llava:latest",
-            "id": "llava:latest",
+          "gemma3:1b": {
+            "model_name": "gemma3:1b",
+            "id": "gemma3:1b",
             "multimodal": false,
             "max_input_tokens": 32768,
-            "can_use_tools": true
-          },
-          "tinyllama:latest": {
-            "model_name": "tinyllama:latest",
-            "id": "tinyllama:latest",
-            "multimodal": false,
-            "max_input_tokens": 2048,
-            "can_use_tools": true
-          },
-          "deepseek-r1:8b": {
-            "model_name": "deepseek-r1:8b",
-            "id": "deepseek-r1:8b",
-            "multimodal": false,
-            "max_input_tokens": 131072,
             "can_use_tools": true
           }
         }
       }
     },
-    "active_thread_key": "Untitled Chat 2025-10-28 14-51-14",
+    "active_thread_key": "Untitled Chat 2025-10-30 10-27-48",
     "system_prompt": "",
     "detect_self_referential": true,
     "review_context": true,

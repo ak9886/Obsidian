@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "ff805eba9524ded6",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,7 +256,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e3ef5f9ed49b85b",
+  "active": "ff805eba9524ded6",
   "lastOpenFiles": [
     "Notes.md",
     "APP Notes (28 10 2025).md",
