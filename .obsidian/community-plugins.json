@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "auto-correct-capitals",
-  "better-export-pdf",
   "copilot",
   "custom-classes",
   "mermaid-popup",
@@ -30,5 +29,6 @@
   "any-block",
   "mermaid-tools",
   "gnome-terminal-loader",
-  "pycalc"
+  "pycalc",
+  "better-export-pdf"
 ]
