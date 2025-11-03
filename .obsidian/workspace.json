@@ -260,13 +260,14 @@
       "timethings:Activate view": false,
       "voice:Voice": false,
       "widgets:Add widget": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
   "active": "4d7cf03733af1504",
   "lastOpenFiles": [
-    "DSA/Also DSA Notes.md",
     "DSA Quiz.md",
+    "DSA/Also DSA Notes.md",
     "DSA/DSA_Unit4_Unit5_Notes.md",
     "Excalidraw/DSA Search Trees.png",
     "{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
