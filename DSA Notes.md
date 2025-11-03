@@ -230,7 +230,7 @@ For every node N:
 
 ```c
 #include <stdio.h>
-#include <stdlib.h>   // for malloc()
+#include <stdlib.h>   
 #include <stddef.h>   
 
 struct Node {
