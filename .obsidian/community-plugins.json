@@ -33,5 +33,7 @@
   "better-export-pdf",
   "opener",
   "fast-text-color",
-  "dataview"
+  "dataview",
+  "scrambling-title-animations",
+  "animated-cursor"
 ]
