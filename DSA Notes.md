@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-03T20:01:51.181+05:30
-edited_seconds: 110
+updated_at: 2025-11-03T20:34:06.257+05:30
+edited_seconds: 120
 ---
 #DSA 
 
@@ -229,18 +229,45 @@ For every node N:
 #### **Insertion in BST**
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>   // for malloc()
+#include <stddef.h>   
+
+struct Node {
+    int data;
+    struct Node* left;
+    struct Node* right;
+};
+
 struct Node* insert(struct Node* node, int key) {
     if (node == NULL) {
-        struct Node* temp = malloc(sizeof(struct Node));
+        struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
         temp->data = key;
         temp->left = temp->right = NULL;
         return temp;
     }
+
     if (key < node->data)
         node->left = insert(node->left, key);
     else if (key > node->data)
         node->right = insert(node->right, key);
+
     return node;
+}
+
+// Example test
+int main() {
+    struct Node* root = NULL;
+    root = insert(root, 50);
+    insert(root, 30);
+    insert(root, 70);
+    insert(root, 20);
+    insert(root, 40);
+    insert(root, 60);
+    insert(root, 80);
+
+    printf("BST created successfully.\n");
+    return 0;
 }
 ```
 
