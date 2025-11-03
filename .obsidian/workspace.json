@@ -22,27 +22,17 @@
             }
           },
           {
-            "id": "ea00ea8ef44374ca",
+            "id": "6080a48ecfff4e7e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Unit 4.pdf"
+                "file": "DSA Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Unit 4"
-            }
-          },
-          {
-            "id": "28be94787cf8e2c0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unit 5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Unit 5"
+              "icon": "lucide-file",
+              "title": "DSA Notes"
             }
           }
         ],
@@ -260,13 +250,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a840631802e07d36",
+  "active": "6080a48ecfff4e7e",
   "lastOpenFiles": [
-    "Unit 5.pdf",
+    "UNIT-4-20241105T052904Z-001 (1).zip",
+    "Unit 5-20241105T052933Z-001 (1).zip",
     "COA Notes.md",
+    "DSA Notes.md",
+    "Unit 5.pdf",
     "Unit 4.pdf",
     "COA/September/COA Notes (3 Nov 2025).md",
-    "Untitled.md",
     "Notes.md",
     "COA/September/COA Notes (28 10 2025).md",
     "COA/COA Study Notes.md",
@@ -300,7 +292,6 @@
     "Java_s_Dual_Identity__The_Deep_Dive_into_Write_Once,_Run_Anywhe.mp4",
     "Untitled.canvas",
     "videos.dat",
-    "Semi/Semi Informational Notes.mp3",
     "EEE/zUnit 5.png",
     "EEE/Units 1-4.png"
   ]
