@@ -32,5 +32,6 @@
   "pycalc",
   "better-export-pdf",
   "opener",
-  "fast-text-color"
+  "fast-text-color",
+  "dataview"
 ]
