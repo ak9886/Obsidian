@@ -31,5 +31,6 @@
   "gnome-terminal-loader",
   "pycalc",
   "better-export-pdf",
-  "opener"
+  "opener",
+  "fast-text-color"
 ]

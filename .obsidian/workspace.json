@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a2aaa0da3178375f",
+        "id": "59087b2db5237be3",
         "type": "tabs",
         "children": [
           {
-            "id": "fc3ad6784d958390",
+            "id": "e52e532eb8c220e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/DSA Search Trees.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "DSA Search Trees"
             }
           }
         ]
@@ -235,11 +233,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "fc3ad6784d958390",
+  "active": "e52e532eb8c220e3",
   "lastOpenFiles": [
+    "Excalidraw/DSA Search Trees (Light).png",
+    "README.md",
     "Profile Building Crafting Your Path To Success.md",
     "Brief.md",
-    "Excalidraw/DSA Search Trees (Light).png",
     "Email Draft.md",
     "Excalidraw/DSA Search Trees.png",
     "Ideas.md",
@@ -269,8 +268,6 @@
     "DSA/July/Notes (29-7-25).md",
     "Excalidraw/ExcaliNotes (29-7-25).md",
     "Excalidraw/ExcaliNotes (26-08-2025).md",
-    "Excalidraw/ExcaliNotes (25-7-25).md",
-    "Excalidraw/ExcaliNotes (24-7-25).md",
     "Unconfirmed 937308.crdownload",
     "DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
     "DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
