@@ -62,9 +62,19 @@
               "icon": "lucide-file",
               "title": "DSA_Unit4_Unit5_Notes"
             }
+          },
+          {
+            "id": "d0134b5698380418",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -278,7 +288,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e3eee19d2cd39931",
+  "active": "d0134b5698380418",
   "lastOpenFiles": [
     "Also DSA Notes.md",
     "DSA_Unit4_Unit5_Notes.md",

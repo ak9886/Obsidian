@@ -1,3 +1,7 @@
+---
+updated_at: 2025-11-03T21:01:09.973+05:30
+edited_seconds: 10
+---
 # Data Structures and Algorithms Notes  
 
 ## Unit 4 – Trees and Hashing  
@@ -364,4 +368,3 @@ Starts from any node, grows MST by repeatedly adding the least-weight edge conne
 
 ---  
 
-**End of Notes**  
