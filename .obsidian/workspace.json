@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA Quiz.md",
+                "file": "DSA/DSA Quiz.md",
                 "mode": "preview",
                 "source": false
               },
@@ -22,17 +22,31 @@
             }
           },
           {
-            "id": "dfddd6f64ec34a13",
+            "id": "1cc6f6fdcc82b517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Also DSA Quiz.md",
-                "mode": "preview",
+                "file": "DSA/Also DSA Quiz.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Also DSA Quiz"
+            }
+          },
+          {
+            "id": "986bfa186f6a1b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything Else/Unit 3 and 4 Formulas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unit 3 and 4 Formulas"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -279,17 +293,21 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "dfddd6f64ec34a13",
+  "active": "e3eee19d2cd39931",
   "lastOpenFiles": [
-    "DSA Quiz.md",
-    "Also DSA Quiz.md",
-    "Also DSA Quiz.md",
+    "DSA/Also DSA Quiz.md",
+    "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
+    "Hackathon App/Notes.md",
+    "APP/Topics.md",
+    "Excalidraw/Pasted image 20251027105543.png",
+    "APP/Report.md",
+    "Everything Else/Pasted image 20251008152013.png",
+    "DSA/DSA Quiz.md",
     "DSA/Also DSA Notes.md",
     "DSA/DSA_Unit4_Unit5_Notes.md",
     "Excalidraw/DSA Search Trees.png",
-    "{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
-    "UML.md",
-    "Timetable.md",
+    "Everything Else/UML.md",
+    "Everything Else/Timetable 1.md",
     "Hackathon App/Brief.md",
     "COA/Unit 4.pdf",
     "Excalidraw/ExcaliNotes (4-9-2025).dark.png",
@@ -303,7 +321,6 @@
     "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.light.png",
     "Excalidraw/Stack Operations Example.light.png",
     "Excalidraw/Stack Operations Example.dark.png",
-    "Excalidraw/ExcaliNotes (4-9-2025).light.png",
     "Excalidraw/Drawing 2025-10-30 23.46.13.excalidraw.md",
     "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
     "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
@@ -314,19 +331,15 @@
     "Excalidraw/ExcaliNotes-2 (DSA) (28-08-2025).md",
     "Excalidraw/ExcaliNotes-1 DSA (28-08-2025).md",
     "Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
-    "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
-    "Excalidraw/ExcaliNotes (DSA) (12-09-2025).md",
-    "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
     "Unconfirmed 937308.crdownload",
-    "DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
-    "DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
-    "DSA Unit 4/UNIT-4/unit 4 Binary tree, CBT _ BST.pptx",
-    "DSA Unit 4/UNIT-4/unit 4 Introduction to Trees and Traversals.pptx",
-    "DSA Unit 4/UNIT-4/unit 4 Hashing.pptx",
-    "DSA Unit 4/UNIT-4/trees.pptx",
-    "DSA Unit 4/UNIT-4/HASHING.pptx",
-    "DSA Unit 4/UNIT-4",
-    "Pasted image 20251027105543.png",
+    "DSA/DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
+    "DSA/DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
+    "DSA/DSA Unit 4/UNIT-4/unit 4 Binary tree, CBT _ BST.pptx",
+    "DSA/DSA Unit 4/UNIT-4/unit 4 Introduction to Trees and Traversals.pptx",
+    "DSA/DSA Unit 4/UNIT-4/unit 4 Hashing.pptx",
+    "DSA/DSA Unit 4/UNIT-4/trees.pptx",
+    "DSA/DSA Unit 4/UNIT-4/HASHING.pptx",
+    "DSA/DSA Unit 4/UNIT-4",
     "Untitled.canvas"
   ]
 }

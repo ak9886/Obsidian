@@ -12,7 +12,7 @@
     "inlineHTML": false,
     "exportPath": "C:\\Users\\Tes\\Downloads",
     "filesToExport": [
-      "DSA Quiz.md"
+      "DSA/DSA Quiz.md"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
