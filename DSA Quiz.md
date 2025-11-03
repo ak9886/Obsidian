@@ -1,16 +1,13 @@
 ---
-updated_at: 2025-11-03T22:17:02.339+05:30
-edited_seconds: 80
+updated_at: 2025-11-03T22:34:32.188+05:30
+edited_seconds: 100
 ---
-Excellent — yes, we can make each question **toggle its answer visibility** instead of just showing it once.  
-Below is your **improved interactive DataviewJS version** where each question has a **“Show/Hide Answer”** toggle button.
 
-Paste this directly into a note (e.g., `DataStructureQuiz.md`) → make sure **Dataview** is enabled → view it in **Reading Mode**.
 
 ---
 
 
-## 🧠 Data Structure Quiz (Toggle Version)
+##  Data Structure Quiz (Toggle Version)
 
 ---
 
