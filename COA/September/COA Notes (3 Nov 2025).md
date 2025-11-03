@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-03T12:03:10.836+05:30
-edited_seconds: 310
+updated_at: 2025-11-03T12:08:02.087+05:30
+edited_seconds: 330
 ---
 #COA 
 # Parallelism: Needs, types, applications and challenges
@@ -18,3 +18,5 @@ edited_seconds: 310
 ## Software Parallelism
 - It is defined by the control and data dependence of programs.
 - It varies based on the complexity of the program
+Types:
+- Instruction level parallelism
