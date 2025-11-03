@@ -1,13 +1,13 @@
 ---
-updated_at: 2025-11-03T21:07:13.563+05:30
-edited_seconds: 140
+updated_at: 2025-11-03T21:21:20.793+05:30
+edited_seconds: 170
 ---
 Source: [[DSA Notes]] [[Also DSA Notes]] [[DSA_Unit4_Unit5_Notes]]
 ```You
 Make long notes of the following topics... and only make them if they're DSA Notes
 ```
 
-```Gemma
+
 
 Okay, let's solidify and expand the DSA notes on the topics we've covered so far – Dijkstra's, Kruskal's, and Prim's.  I'll organize them into categories and expand on key concepts and potential pitfalls.  I'll focus on providing a structured overview rather than a lengthy, overwhelming list.
 
@@ -63,15 +63,13 @@ To make this more useful, could you provide a specific task or question you’d 
 *   "Explain how Dijkstra's algorithm works and why it's important."
 *   "Describe the key differences between Dijkstra's and Kruskal's algorithm."
 *   "What is the role of the DSU data structure in Kruskal's algorithm?"
-```
-
 
 ```You
 Answer all the 3 questions
 ```
 
 
-```Gemma
+
 
 Okay, let's break down these questions about Dijkstra's algorithm, Kruskal's algorithm, DSU, and their roles.
 
@@ -123,5 +121,4 @@ They are complementary algorithms.
 
 ---
 
-Let me know if you'd like me to elaborate on any of these points further or want me to provide more examples.
-```
+

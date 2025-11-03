@@ -86,21 +86,9 @@
               "icon": "lucide-file",
               "title": "Gemma's Responses"
             }
-          },
-          {
-            "id": "a86bb9712c2f9726",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-03 21.08.42.excalidraw"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -314,10 +302,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a86bb9712c2f9726",
+  "active": "41cbe9d911744958",
   "lastOpenFiles": [
-    "Gemma's Responses.md",
     "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.md",
+    "Gemma's Responses.md",
     "DSA_Unit4_Unit5_Notes.md",
     "Also DSA Notes.md",
     "Unconfirmed 937308.crdownload",
