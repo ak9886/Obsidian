@@ -8,87 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a840631802e07d36",
+            "id": "a562b633840611e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "COA Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.dark.png"
               },
-              "icon": "lucide-file",
-              "title": "COA Notes"
-            }
-          },
-          {
-            "id": "6080a48ecfff4e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSA Notes"
-            }
-          },
-          {
-            "id": "a3aca9d52652d919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Also DSA Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Also DSA Notes"
-            }
-          },
-          {
-            "id": "d2ba978480edbf63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA_Unit4_Unit5_Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSA_Unit4_Unit5_Notes"
-            }
-          },
-          {
-            "id": "d0134b5698380418",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
-            }
-          },
-          {
-            "id": "41cbe9d911744958",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemma's Responses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gemma's Responses"
+              "icon": "lucide-image",
+              "title": "Drawing 2025-11-03 21.08.42.excalidraw.dark"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -302,14 +233,42 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "41cbe9d911744958",
+  "active": "a562b633840611e2",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.light.png",
     "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.md",
-    "Gemma's Responses.md",
-    "DSA_Unit4_Unit5_Notes.md",
-    "Also DSA Notes.md",
+    "Excalidraw/Drawing 2025-11-03 21.08.42.excalidraw.dark.png",
+    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.dark.png",
+    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.light.png",
+    "Excalidraw/Stack Operations Example.light.png",
+    "Excalidraw/Stack Operations Example.dark.png",
+    "Excalidraw/ExcaliNotes (4-9-2025).light.png",
+    "Excalidraw/ExcaliNotes (4-9-2025).dark.png",
+    "Excalidraw/Drawing 2025-10-30 23.46.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-27 10.47.03.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-23 14.48.59.excalidraw.md",
+    "Excalidraw/Stack Operations Example.md",
+    "Excalidraw/ExcaliNotes-2 (DSA) (28-08-2025).md",
+    "Excalidraw/ExcaliNotes-1 DSA (28-08-2025).md",
+    "Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
+    "Excalidraw/ExcaliNotes (DSA) 22-09-2025.md",
+    "Excalidraw/ExcaliNotes (DSA) (12-09-2025).md",
+    "Excalidraw/ExcaliNotes (DSA) (07 10 2025).md",
+    "Excalidraw/ExcaliNotes (COA) 17-09-2025.md",
+    "Excalidraw/ExcaliNotes (4-9-2025).md",
+    "Excalidraw/ExcaliNotes (4-8-25).md",
+    "DSA/July/Notes (29-7-25).md",
+    "Excalidraw/ExcaliNotes (29-7-25).md",
+    "Excalidraw/ExcaliNotes (26-08-2025).md",
+    "Excalidraw/ExcaliNotes (25-7-25).md",
+    "Excalidraw/ExcaliNotes (24-7-25).md",
+    "Excalidraw/ExcaliNotes (21 Aug 2025).md",
+    "Excalidraw/ExcaliNotes (20-8-2025).md",
+    "Excalidraw/ExcaliNotes (14-8-25).md",
     "Unconfirmed 937308.crdownload",
-    "DSA Notes.md",
     "DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
     "DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
     "DSA Unit 4/UNIT-4/unit 4 Binary tree, CBT _ BST.pptx",
@@ -319,32 +278,8 @@
     "DSA Unit 4/UNIT-4/HASHING.pptx",
     "DSA Unit 4/UNIT-4",
     "DSA Unit 4",
-    "COA Notes.md",
-    "COA/September/COA Notes (3 Nov 2025).md",
-    "Notes.md",
-    "COA/September/COA Notes (28 10 2025).md",
-    "COA/COA Study Notes.md",
-    "PRD.md",
-    "Unit 5.md",
-    "APP ChatGPT Notes.md",
-    "Topics.md",
-    "APP ChatGPT Video Notes.md",
-    "Excalidraw/Drawing 2025-10-30 23.46.13.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-30 15.31.49.excalidraw.md",
-    "APP Notes (28 10 2025).md",
-    "Excalidraw/Drawing 2025-10-28 14.35.13.excalidraw.md",
-    "DSA/Sept/DSA Activity.md",
-    "Report.md",
-    "README.md",
-    "OS Notes.md",
     "{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Pasted image 20251027105543.png",
-    "Excalidraw/Drawing 2025-10-27 10.47.03.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-25 16.29.23.excalidraw.md",
-    "DSA/Sept/DSA Notes (21-10-2025).md",
-    "Pasted image 20251008152013.png",
-    "Untitled.canvas",
-    "EEE/zUnit 5.png",
-    "EEE/Units 1-4.png"
+    "Untitled.canvas"
   ]
 }
