@@ -30,5 +30,6 @@
   "mermaid-tools",
   "gnome-terminal-loader",
   "pycalc",
-  "better-export-pdf"
+  "better-export-pdf",
+  "opener"
 ]
