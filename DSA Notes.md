@@ -1,10 +1,9 @@
 ---
-updated_at: 2025-11-03T19:57:16.137+05:30
-edited_seconds: 80
+updated_at: 2025-11-03T20:01:51.181+05:30
+edited_seconds: 110
 ---
 #DSA 
 
-Source: [[]]
 # **UNIT 4 – TREES AND HASHING**
 
 ---
@@ -533,3 +532,499 @@ int main() {
     
 
 ---
+
+# **UNIT 5 – GRAPH ALGORITHMS**
+
+---
+
+## **1. Graph Introduction**
+
+### **1.1 Definition**
+
+A **graph** is a non-linear data structure consisting of a set of **vertices (nodes)** and **edges** connecting them.
+
+```text
+Graph G = (V, E)
+where V = {set of vertices}, E = {set of edges connecting pairs of vertices}
+```
+
+Graphs represent relationships such as roads between cities, links in a network, or dependencies between tasks.
+
+---
+
+### **1.2 Terminology**
+
+|Term|Description|
+|---|---|
+|Vertex|A node in the graph|
+|Edge|Connection between two vertices|
+|Degree|Number of edges incident to a vertex|
+|Path|Sequence of vertices connected by edges|
+|Cycle|Path that starts and ends at the same vertex|
+|Connected Graph|Every vertex reachable from every other|
+|Directed Graph|Edges have direction (A → B)|
+|Undirected Graph|Edges have no direction|
+|Weighted Graph|Each edge has a cost/weight|
+|Adjacency|Two vertices connected by an edge|
+
+---
+
+### **1.3 Graph Representation**
+
+#### **(a) Adjacency Matrix**
+
+A 2D array `adj[n][n]` where:
+
+```text
+adj[i][j] = 1  if there is an edge from i to j
+adj[i][j] = 0  otherwise
+```
+
+```c
+#define V 4
+int graph[V][V] = {
+  {0, 1, 1, 0},
+  {1, 0, 1, 1},
+  {1, 1, 0, 0},
+  {0, 1, 0, 0}
+};
+```
+
+---
+
+#### **(b) Adjacency List**
+
+Each vertex has a list of adjacent vertices.
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int V = 4;
+    vector<int> adj[V];
+    adj[0].push_back(1);
+    adj[0].push_back(2);
+    adj[1].push_back(0);
+    adj[1].push_back(2);
+    for (int i = 0; i < V; i++) {
+        cout << i << ": ";
+        for (int v : adj[i])
+            cout << v << " ";
+        cout << endl;
+    }
+}
+```
+
+---
+
+### **1.4 Graph Traversals**
+
+#### **(a) Depth First Search (DFS)**
+
+Explores as far as possible along each branch before backtracking.
+
+```cpp
+void DFS(int v, vector<int> adj[], vector<bool>& visited) {
+    visited[v] = true;
+    cout << v << " ";
+    for (int u : adj[v])
+        if (!visited[u])
+            DFS(u, adj, visited);
+}
+```
+
+#### **(b) Breadth First Search (BFS)**
+
+Explores all neighbors of a vertex before going deeper.
+
+```cpp
+#include <queue>
+
+void BFS(int start, vector<int> adj[], int V) {
+    vector<bool> visited(V, false);
+    queue<int> q;
+    visited[start] = true;
+    q.push(start);
+    while(!q.empty()) {
+        int v = q.front();
+        q.pop();
+        cout << v << " ";
+        for (int u : adj[v]) {
+            if(!visited[u]) {
+                visited[u] = true;
+                q.push(u);
+            }
+        }
+    }
+}
+```
+
+---
+
+### **1.5 Applications of Graphs**
+
+- Networking and routing
+    
+- Social networks
+    
+- Compiler dependency resolution
+    
+- Map navigation
+    
+- Scheduling problems
+    
+
+---
+
+## **2. Topological Sorting**
+
+### **2.1 Definition**
+
+**Topological Sort** of a **Directed Acyclic Graph (DAG)** is a linear ordering of vertices such that for every directed edge (u → v), vertex `u` appears before `v`.
+
+---
+
+### **2.2 Conditions**
+
+- Works only on **DAGs** (no cycles).
+    
+- Multiple valid orders may exist.
+    
+
+---
+
+### **2.3 Algorithm (Kahn’s Algorithm)**
+
+```text
+1. Compute in-degree of all vertices.
+2. Push all vertices with in-degree 0 into a queue.
+3. While queue not empty:
+    a. Pop vertex v.
+    b. Add v to result.
+    c. For each neighbor u of v:
+         - Decrement in-degree of u.
+         - If in-degree(u) == 0, enqueue(u).
+```
+
+---
+
+### **2.4 Implementation**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+void topoSort(int V, vector<int> adj[]) {
+    vector<int> indeg(V, 0);
+    for(int i=0; i<V; i++)
+        for(int j : adj[i])
+            indeg[j]++;
+    
+    queue<int> q;
+    for(int i=0; i<V; i++)
+        if(indeg[i] == 0) q.push(i);
+
+    while(!q.empty()) {
+        int v = q.front(); q.pop();
+        cout << v << " ";
+        for(int u : adj[v]) {
+            indeg[u]--;
+            if(indeg[u] == 0)
+                q.push(u);
+        }
+    }
+}
+```
+
+---
+
+### **2.5 Applications**
+
+- Scheduling tasks
+    
+- Build systems (resolving dependencies)
+    
+- Course prerequisite ordering
+    
+
+---
+
+## **3. Prim’s Algorithm (Minimum Spanning Tree)**
+
+### **3.1 Concept**
+
+A **Minimum Spanning Tree (MST)** of a connected weighted graph is a subset of edges that connects all vertices with **minimum total weight** and **no cycles**.
+
+Prim’s Algorithm grows the MST from a starting vertex by repeatedly adding the smallest weight edge connecting to an unvisited vertex.
+
+---
+
+### **3.2 Steps**
+
+```text
+1. Select any vertex as the starting node.
+2. Mark it as part of MST.
+3. Repeatedly choose the minimum weight edge that connects a new vertex.
+4. Continue until all vertices are included.
+```
+
+---
+
+### **3.3 Implementation**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <climits>
+using namespace std;
+
+int minKey(int key[], bool mstSet[], int V) {
+    int min = INT_MAX, min_index;
+    for(int v = 0; v < V; v++)
+        if(!mstSet[v] && key[v] < min)
+            min = key[v], min_index = v;
+    return min_index;
+}
+
+void primMST(int graph[5][5], int V) {
+    int parent[V];
+    int key[V];
+    bool mstSet[V];
+    for(int i=0; i<V; i++)
+        key[i] = INT_MAX, mstSet[i] = false;
+
+    key[0] = 0;
+    parent[0] = -1;
+
+    for(int count=0; count < V-1; count++) {
+        int u = minKey(key, mstSet, V);
+        mstSet[u] = true;
+        for(int v=0; v<V; v++)
+            if(graph[u][v] && !mstSet[v] && graph[u][v] < key[v]) {
+                parent[v] = u;
+                key[v] = graph[u][v];
+            }
+    }
+
+    cout << "Edge \tWeight\n";
+    for(int i=1; i<V; i++)
+        cout << parent[i] << " - " << i << "\t" << graph[i][parent[i]] << endl;
+}
+```
+
+---
+
+### **3.4 Time Complexity**
+
+```text
+O(V^2)
+```
+
+With Min-Heap:
+
+```text
+O(E log V)
+```
+
+---
+
+## **4. Kruskal’s Algorithm**
+
+### **4.1 Idea**
+
+Kruskal’s algorithm constructs the MST by sorting all edges in increasing order of weight and adding them one by one, avoiding cycles.
+
+---
+
+### **4.2 Steps**
+
+```text
+1. Sort all edges by weight.
+2. Pick the smallest edge that doesn’t form a cycle.
+3. Use Disjoint Set Union (DSU) to detect cycles.
+4. Repeat until (V - 1) edges are selected.
+```
+
+---
+
+### **4.3 Implementation**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+struct Edge {
+    int u, v, w;
+    bool operator<(Edge const& other) {
+        return w < other.w;
+    }
+};
+
+int find(int v, vector<int>& parent) {
+    if (v == parent[v]) return v;
+    return parent[v] = find(parent[v], parent);
+}
+
+void unite(int a, int b, vector<int>& parent, vector<int>& rank) {
+    a = find(a, parent);
+    b = find(b, parent);
+    if (a != b) {
+        if (rank[a] < rank[b]) swap(a, b);
+        parent[b] = a;
+        if (rank[a] == rank[b]) rank[a]++;
+    }
+}
+
+int main() {
+    int V = 4;
+    vector<Edge> edges = {
+        {0, 1, 10}, {0, 2, 6}, {0, 3, 5}, {1, 3, 15}, {2, 3, 4}
+    };
+
+    sort(edges.begin(), edges.end());
+    vector<int> parent(V), rank(V, 0);
+    for (int i = 0; i < V; i++) parent[i] = i;
+
+    int cost = 0;
+    for (Edge e : edges) {
+        if (find(e.u, parent) != find(e.v, parent)) {
+            cost += e.w;
+            cout << e.u << " - " << e.v << " = " << e.w << endl;
+            unite(e.u, e.v, parent, rank);
+        }
+    }
+    cout << "Total cost = " << cost << endl;
+}
+```
+
+---
+
+### **4.4 Complexity**
+
+```text
+O(E log E)
+```
+
+---
+
+### **4.5 Comparison with Prim’s**
+
+|Feature|Prim’s|Kruskal’s|
+|---|---|---|
+|Data structure|Adjacency matrix / heap|Edge list + DSU|
+|Works well on|Dense graphs|Sparse graphs|
+|Complexity|O(E log V)|O(E log E)|
+
+---
+
+## **5. Dijkstra’s Algorithm**
+
+### **5.1 Definition**
+
+Dijkstra’s algorithm finds the **shortest path** from a **source vertex** to all other vertices in a **weighted graph** with non-negative weights.
+
+---
+
+### **5.2 Principle**
+
+At each step, the algorithm picks the vertex with the **minimum distance value** and relaxes all its adjacent edges.
+
+---
+
+### **5.3 Steps**
+
+```text
+1. Initialize distances from source to all vertices as ∞.
+2. Set distance[source] = 0.
+3. Repeat until all vertices processed:
+   a. Pick vertex u with minimum distance.
+   b. For each neighbor v of u:
+        if dist[u] + weight(u, v) < dist[v]:
+            dist[v] = dist[u] + weight(u, v)
+```
+
+---
+
+### **5.4 Implementation**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <climits>
+using namespace std;
+
+#define V 5
+
+int minDistance(int dist[], bool sptSet[]) {
+    int min = INT_MAX, min_index;
+    for (int v = 0; v < V; v++)
+        if (!sptSet[v] && dist[v] <= min)
+            min = dist[v], min_index = v;
+    return min_index;
+}
+
+void dijkstra(int graph[V][V], int src) {
+    int dist[V];
+    bool sptSet[V];
+
+    for (int i = 0; i < V; i++)
+        dist[i] = INT_MAX, sptSet[i] = false;
+
+    dist[src] = 0;
+
+    for (int count = 0; count < V - 1; count++) {
+        int u = minDistance(dist, sptSet);
+        sptSet[u] = true;
+        for (int v = 0; v < V; v++)
+            if (!sptSet[v] && graph[u][v] && dist[u] != INT_MAX &&
+                dist[u] + graph[u][v] < dist[v])
+                dist[v] = dist[u] + graph[u][v];
+    }
+
+    cout << "Vertex \tDistance from Source\n";
+    for (int i = 0; i < V; i++)
+        cout << i << " \t\t" << dist[i] << endl;
+}
+
+int main() {
+    int graph[V][V] = {
+        {0, 10, 0, 5, 0},
+        {0, 0, 1, 2, 0},
+        {0, 0, 0, 0, 4},
+        {0, 3, 9, 0, 2},
+        {7, 0, 6, 0, 0}
+    };
+    dijkstra(graph, 0);
+}
+```
+
+---
+
+### **5.5 Complexity**
+
+- Using array: O(V²)
+    
+- Using priority queue: O(E log V)
+    
+
+---
+
+### **5.6 Applications**
+
+- GPS navigation
+    
+- Network routing (e.g., OSPF)
+    
+- Map software (Google Maps)
+    
+- Robot motion planning
+    
+
+---
+
