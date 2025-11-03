@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-03T11:43:17.172+05:30
-edited_seconds: 190
+updated_at: 2025-11-03T12:03:10.836+05:30
+edited_seconds: 310
 ---
 #COA 
 # Parallelism: Needs, types, applications and challenges
@@ -10,6 +10,11 @@ edited_seconds: 190
 - Software Parallelism
 ## Hardware Parallelism
 - One way to characterize the parallelism in a processor is by the number of instruction issues per machine cycle.
+- using 2 issue processor:
+	- The processor can execute one memory access (load or store) and 1 arithmetic operation (multiply , add, subtract) simultaneously.
+	- The Program must execute in 7 cycles.
+	- The h/w parallelism average is 8/7 = 1.14
+
 ## Software Parallelism
 - It is defined by the control and data dependence of programs.
 - It varies based on the complexity of the program
