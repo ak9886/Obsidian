@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-03T22:12:18.420+05:30
-edited_seconds: 70
+updated_at: 2025-11-03T22:17:02.339+05:30
+edited_seconds: 80
 ---
 Excellent — yes, we can make each question **toggle its answer visibility** instead of just showing it once.  
 Below is your **improved interactive DataviewJS version** where each question has a **“Show/Hide Answer”** toggle button.
