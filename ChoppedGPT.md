@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T12:35:25.259+05:30
-edited_seconds: 10
+updated_at: 2025-11-04T12:52:11.909+05:30
+edited_seconds: 20
 ---
 Here’s the updated **report on “Morality Myths”**, expanded to include a **case study** and a clear note on **who the discussion refers to** (i.e., individuals, organizations, and societies collectively).
 
