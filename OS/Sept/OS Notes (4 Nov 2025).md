@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T15:48:17.061+05:30
-edited_seconds: 220
+updated_at: 2025-11-04T15:49:57.754+05:30
+edited_seconds: 260
 ---
 #OS 
 # Single Level Directory
@@ -11,15 +11,3 @@ edited_seconds: 220
 # Acyclic Graph Directories
 - have shared subdirectories and files
 - Adds ability to directly share 
-for i in range(10):
-	print("Hello World")
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
-Hello World
