@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T14:41:12.917+05:30
-edited_seconds: 510
+updated_at: 2025-11-04T14:45:54.546+05:30
+edited_seconds: 620
 ---
 #COA 
 # ARM Core Dataflow Model
@@ -19,11 +19,15 @@ edited_seconds: 510
 - Within each core, threads are time-spaced
 ## Instruction Encoding
 - Remember that in a stored program computer, instructions are stored in memory (just like data)
-- Each instruction is fetched (according to the address specifiecd in the PC), decoded and executed in the CPU.
+- Each instruction is fetched (according to the address specified in the PC), decoded and executed in the CPU.
 - The ISA Defines the format of an instruction (syntax) and its meaning
 - An ISA will define a number of different instruction formats.
 - Each format has different fields
-- 
+- the OPCODE fields says what the instruction does (eg. ADD)
+- the OPERAND field(s) say where to find the inputs and the outputs of the instruction.
 ### MIPS Instruction Encoding
 - All instructions are thee same size (32 bits = 1 word)
-- 
+- 3 types of times:
+	- i-time
+	- j-time
+	- r-time
