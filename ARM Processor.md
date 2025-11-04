@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T14:36:02.680+05:30
-edited_seconds: 320
+updated_at: 2025-11-04T14:41:12.917+05:30
+edited_seconds: 510
 ---
 #COA 
 # ARM Core Dataflow Model
@@ -16,3 +16,14 @@ edited_seconds: 320
 ## Multi-core CPU Chip
 - Cores run in parallel
 - Threads are parallel
+- Within each core, threads are time-spaced
+## Instruction Encoding
+- Remember that in a stored program computer, instructions are stored in memory (just like data)
+- Each instruction is fetched (according to the address specifiecd in the PC), decoded and executed in the CPU.
+- The ISA Defines the format of an instruction (syntax) and its meaning
+- An ISA will define a number of different instruction formats.
+- Each format has different fields
+- 
+### MIPS Instruction Encoding
+- All instructions are thee same size (32 bits = 1 word)
+- 
