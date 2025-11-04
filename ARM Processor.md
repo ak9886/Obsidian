@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T14:47:26.819+05:30
-edited_seconds: 650
+updated_at: 2025-11-04T14:56:51.957+05:30
+edited_seconds: 730
 ---
 #COA 
 # ARM Core Dataflow Model
@@ -31,3 +31,4 @@ edited_seconds: 650
 	- i-type
 	- j-type
 	- r-type
+**HW: ARM 5 and ARM 7**
