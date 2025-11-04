@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "DSA/DSA Quiz.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "DSA Quiz"
+            }
+          },
+          {
+            "id": "4cc715460f1b6e42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChoppedGPT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ChoppedGPT"
             }
           },
           {
@@ -295,16 +309,17 @@
   },
   "active": "2785b0fd1e2a2dbd",
   "lastOpenFiles": [
-    "DSA/DSA_Unit4_Unit5_Notes.md",
+    "DSA/DSA Quiz.md",
+    "ChoppedGPT.md",
     "DSA/Also DSA Quiz.md",
     "Everything Else/Unit 3 and 4 Formulas.md",
+    "DSA/DSA_Unit4_Unit5_Notes.md",
     "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Hackathon App/Notes.md",
     "APP/Topics.md",
     "Excalidraw/Pasted image 20251027105543.png",
     "APP/Report.md",
     "Everything Else/Pasted image 20251008152013.png",
-    "DSA/DSA Quiz.md",
     "DSA/Also DSA Notes.md",
     "Excalidraw/DSA Search Trees.png",
     "Everything Else/UML.md",
@@ -331,7 +346,6 @@
     "Excalidraw/Stack Operations Example.md",
     "Excalidraw/ExcaliNotes-2 (DSA) (28-08-2025).md",
     "Excalidraw/ExcaliNotes-1 DSA (28-08-2025).md",
-    "Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
     "Unconfirmed 937308.crdownload",
     "DSA/DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
     "DSA/DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
