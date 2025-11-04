@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-04T14:45:54.546+05:30
-edited_seconds: 620
+updated_at: 2025-11-04T14:47:26.819+05:30
+edited_seconds: 650
 ---
 #COA 
 # ARM Core Dataflow Model
@@ -27,7 +27,7 @@ edited_seconds: 620
 - the OPERAND field(s) say where to find the inputs and the outputs of the instruction.
 ### MIPS Instruction Encoding
 - All instructions are thee same size (32 bits = 1 word)
-- 3 types of times:
-	- i-time
-	- j-time
-	- r-time
+- 3 types:
+	- i-type
+	- j-type
+	- r-type
