@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -335,16 +335,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "e3eee19d2cd39931",
+  "active": "62e477ecae9618f0",
   "lastOpenFiles": [
-    "OS/Everything Else",
+    "DSA/DSA_Unit4_Unit5_Notes.md",
     "COA/September/ARM Processor.md",
     "OS/Sept/OS Notes (4 Nov 2025).md",
+    "OS/Everything Else",
     "ChoppedGPT.md",
     "DSA/DSA Quiz.md",
     "DSA/Also DSA Quiz.md",
     "Everything Else/Unit 3 and 4 Formulas.md",
-    "DSA/DSA_Unit4_Unit5_Notes.md",
     "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Hackathon App/Notes.md",
     "APP/Topics.md",
@@ -382,7 +382,6 @@
     "DSA/DSA Unit 4/UNIT-4/unit 4 Hashing.pptx",
     "DSA/DSA Unit 4/UNIT-4/trees.pptx",
     "DSA/DSA Unit 4/UNIT-4/HASHING.pptx",
-    "DSA/DSA Unit 4/UNIT-4",
     "Untitled.canvas"
   ]
 }
