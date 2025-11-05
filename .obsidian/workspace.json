@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -349,8 +349,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "c7bdbe2e32410171",
+  "active": "1cc6f6fdcc82b517",
   "lastOpenFiles": [
+    "DSA/DSA Quiz.md",
+    "DSA/DSA Notes (15 10 2025).md",
     "COA/September/ARM Processor.md",
     "DSA/DSA_Unit4_Unit5_Notes.md",
     "DSA/Also DSA Notes.md",
@@ -359,7 +361,6 @@
     "OS/Sept/OS Notes (4 Nov 2025).md",
     "OS/Everything Else",
     "ChoppedGPT.md",
-    "DSA/DSA Quiz.md",
     "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Hackathon App/Notes.md",
     "APP/Topics.md",
