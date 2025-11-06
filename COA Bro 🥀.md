@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-06T21:18:59.608+05:30
-edited_seconds: 50
+updated_at: 2025-11-06T21:22:30.248+05:30
+edited_seconds: 80
 ---
 #COA 
 ## 💻 Computer Organization and Architecture (COA) Notes
@@ -86,6 +86,7 @@ Used when a cache set is full and a new block needs to be brought in: **LRU (Lea
 
 ---
 ```dataviewjs
+// Full 10-question Quiz Array
 const quiz = [
     {
         question: "In a single-bus processor architecture, what is the role of the temporary register 'Y' during an arithmetic operation like `ADD R1, R2, R3` (R3 <- R1 + R2)?",
@@ -126,6 +127,16 @@ const quiz = [
             "It allows for the transfer of multiple operands in a single clock cycle, reducing the number of steps to execute an instruction."
         ],
         answer: 3
+    },
+    {
+        question: "According to Flynn's classification, a computer architecture that uses multiple processors to execute different instructions on different sets of data is categorized as:",
+        options: [
+            "MIMD (Multiple Instruction, Multiple Data)",
+            "SISD (Single Instruction, Single Data)",
+            "MISD (Multiple Instruction, Single Data)",
+            "SIMD (Single Instruction, Multiple Data)"
+        ],
+        answer: 0
     },
     {
         question: "According to Flynn's classification, a computer architecture that uses multiple processors to execute different instructions on different sets of data is categorized as:",
@@ -191,10 +202,38 @@ function shuffleArray(array) {
 shuffleArray(quiz);
 quiz.forEach(q => shuffleArray(q.options));
 
-// Render quiz
+// Render quiz with interactive show/hide answers
 quiz.forEach((q, idx) => {
-    dv.header(3, `Q${idx + 1}: ${q.question}`);
-    dv.list(q.options.map((opt, i) => `${String.fromCharCode(65+i)}. ${opt}`));
+    const container = document.createElement('div');
+    container.style.marginBottom = "20px";
+
+    const header = document.createElement('h3');
+    header.innerText = `Q${idx + 1}: ${q.question}`;
+    container.appendChild(header);
+
+    const ul = document.createElement('ul');
+    q.options.forEach((opt, i) => {
+        const li = document.createElement('li');
+        li.innerText = `${String.fromCharCode(65 + i)}. ${opt}`;
+        ul.appendChild(li);
+    });
+    container.appendChild(ul);
+
+    const button = document.createElement('button');
+    button.innerText = "Show/Hide Answer";
+    button.style.marginTop = "5px";
+    button.onclick = () => {
+        answerDiv.style.display = answerDiv.style.display === "none" ? "block" : "none";
+    };
+    container.appendChild(button);
+
+    const answerDiv = document.createElement('div');
+    answerDiv.innerHTML = `<strong>Answer:</strong> ${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`;
+    answerDiv.style.display = "none";
+    answerDiv.style.marginTop = "5px";
+    container.appendChild(answerDiv);
+
+    dv.container.appendChild(container);
 });
 ```
 
