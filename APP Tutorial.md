@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-06T13:19:34.173+05:30
-edited_seconds: 30
+updated_at: 2025-11-06T13:28:44.735+05:30
+edited_seconds: 50
 ---
 #APP 
 Perfect — let’s go step by step for your *Week 11 Tutorial Assignment (17-10-2025)* on *Parallel and Network Programming Paradigms*.
@@ -58,6 +58,7 @@ for t in threads:
 
 print("\nFinal Scoreboard:", scoreboard)
 
+```
 
 ---
 
@@ -83,7 +84,7 @@ print("\nFinal Scoreboard:", scoreboard)
 
 ### *Python Code:*
 
-python
+```python
 import multiprocessing
 import random
 
