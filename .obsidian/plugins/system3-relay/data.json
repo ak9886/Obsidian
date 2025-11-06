@@ -20,5 +20,11 @@
   "debugging": false,
   "login": {
     "provider": "google"
-  }
+  },
+  "enableSyncMenu": true,
+  "enableAttachmentSync": true,
+  "enableDocumentServer": true,
+  "enableMicrosoftLogin": true,
+  "enableGitHubLogin": true,
+  "enableOIDCLogin": true
 }
