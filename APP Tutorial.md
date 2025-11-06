@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-06T13:15:42.346+05:30
-edited_seconds: 10
+updated_at: 2025-11-06T13:19:34.173+05:30
+edited_seconds: 30
 ---
 #APP 
 Perfect — let’s go step by step for your *Week 11 Tutorial Assignment (17-10-2025)* on *Parallel and Network Programming Paradigms*.
@@ -29,8 +29,7 @@ To ensure correctness, use *thread synchronization mechanisms* such as a *Lock (
 ---
 
 ### *Example Code:*
-
-python
+```python
 import threading
 
 # Shared scoreboard
@@ -113,6 +112,7 @@ if __name__ == "__main__":
     print("\nAll temperatures:", all_temps)
     print(f"Average temperature: {average_temp:.2f} °C")
 
+```
 
 ---
 
