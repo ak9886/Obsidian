@@ -30,7 +30,6 @@
   "mermaid-tools",
   "gnome-terminal-loader",
   "pycalc",
-  "better-export-pdf",
   "opener",
   "fast-text-color",
   "dataview",
@@ -42,5 +41,7 @@
   "blur",
   "webpage-html-export",
   "system3-relay",
-  "convert-url-to-iframe"
+  "convert-url-to-iframe",
+  "better-export-pdf",
+  "obsidian-enhancing-export"
 ]
