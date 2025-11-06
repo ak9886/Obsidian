@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APP Report.md",
+                "file": "APP Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "APP Report"
+              "title": "APP Tutorial"
             }
           }
         ],
@@ -269,7 +269,7 @@
   "active": "66708bdba9de7743",
   "lastOpenFiles": [
     "Also NMA Notes.md",
-    "APP Report.md",
+    "APP Tutorial.md",
     "NMA Notes.md",
     "DSA/Also DSA Quiz.md",
     "DSA/DSA Quiz.md",
