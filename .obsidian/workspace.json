@@ -49,8 +49,7 @@
               "title": "Formulas - NMA"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,10 +265,10 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "0a0651984149d9d9",
+  "active": "23d4e0b84a74b9dc",
   "lastOpenFiles": [
-    "Exam Timetable.md",
     "Formulas - NMA.md",
+    "Exam Timetable.md",
     "NMA Notes.md",
     "Also NMA Notes.md",
     "APP Tutorial.md",
