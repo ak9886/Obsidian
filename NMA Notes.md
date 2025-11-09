@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-09T11:09:09.277+05:30
-edited_seconds: 80
+updated_at: 2025-11-09T11:14:29.955+05:30
+edited_seconds: 210
 ---
 #Maths 
 
@@ -92,7 +92,7 @@ $$E_a = \left| \frac{x_{m}^{(i)} - x_{m}^{(i-1)}}{x_{m}^{(i)}} \right| \times 10
 
 Alternatively, the **absolute error** at the $$i^{th}$$ iteration is:
 
-$$E_{abs}^{(i)} = \frac{b_i - a_i}{2}$$
+$$$$E_{abs}^{(i)} = \frac{b_i - a_i}{2}$$
 
 ---
 
@@ -101,11 +101,11 @@ $$E_{abs}^{(i)} = \frac{b_i - a_i}{2}$$
 The Bisection Method converges **linearly**.  
 The **rate of convergence** is given as:
 
-$$|x_{i+1} - x^_| = \frac{1}{2} |x_i - x^_|$$
+	$$|x_{i+1} - x^_| = \frac{1}{2} |x_i - x^_|$$
 
 where $$x^*$$ is the true root.
 
-Thus, the error reduces by half after each iteration, which is slower than methods like **Newton-Raphson** or **Secant**, but the method guarantees convergence if $$f(x)$$ is continuous and $$f(a) \times f(b) < 0$$.
+Thus, the error reduces by half after each iteration, which is slower than methods like **Newton-Raphson** or **Secant**, but the method guarantees convergence if $$f(x)$$ is continuous and $$$$f(a) \times f(b) < 0$$.
 
 ---
 
@@ -116,7 +116,7 @@ Find the root of $$f(x) = x^3 - 4x - 9 = 0$$ between $$x = 2$$ and $$x = 3$$, co
 **Step 1:**  
 Compute $$f(2) = 2^3 - 4(2) - 9 = -9$$  
 Compute $$f(3) = 3^3 - 4(3) - 9 = 6$$  
-Since $$f(2)f(3) < 0$$, root lies between 2 and 3.
+Since $$$$f(2)f(3) < 0$$, root lies between 2 and 3.
 
 **Iteration 1:**  
 $$x_m = \frac{2 + 3}{2} = 2.5$$  
@@ -130,10 +130,10 @@ Still negative, so $$b = 2.25$$
 
 **Iteration 3:**  
 $$x_m = \frac{2.25 + 2.5}{2} = 2.375$$  
-$$f(2.375) = 2.375^3 - 4(2.375) - 9 = -5.076$$  
-Continue narrowing until $$|b - a| < 0.001$$.
+$$$$f(2.375) = 2.375^3 - 4(2.375) - 9 = -5.076$$  
+Continue narrowing until $$$$|b - a| < 0.001$$.
 
-The process yields a root near $$x = 2.915$$.
+The process yields a root near $$$$x = 2.915$$.
 
 ---
 
@@ -164,7 +164,7 @@ The iteration continues until one of the following is satisfied:
     
 6. If $$f(x_m) = 0$$, print root.
     
-7. Else, adjust $$a$$ or $$b$$ depending on the sign.
+7. Else, adjust $$a$$ or $$$$b$$ depending on the sign.
     
 8. Repeat until desired accuracy.
     
@@ -233,14 +233,14 @@ The Bisection Method is used for:
     $$|x_{i+1} - x^_| = \frac{1}{2}|x_i - x^_|$$
     
 6. Approximate error percentage:  
-    $$E_a = \left| \frac{x_i - x_{i-1}}{x_i} \right| \times 100%$$
+    $$$$E_a = \left| \frac{x_i - x_{i-1}}{x_i} \right| \times 100%$$
     
 
 ---
 
 ### **14. Tabular Form of Iteration Example**
 
-|Iteration|a|b|Midpoint $$x_m$$|$$f(a)$$|$$f(x_m)$$|Interval|Error $$E$$|
+|Iteration|a|b|Midpoint $$x_m$$|$$f(a)$$|$$f(x_m)$$|Interval|Error $$$$E$$|
 |---|---|---|---|---|---|---|---|
 |1|2.0|3.0|2.5|-9|-3.375|[2, 2.5]|0.5|
 |2|2.0|2.5|2.25|-9|-6.797|[2, 2.25]|0.25|
@@ -289,7 +289,7 @@ $$E_n = \frac{b - a}{2^n}$$
 
 For example, if $$b - a = 1$$ and $$\epsilon = 10^{-3}$$, then:
 
-$$n = \log_2(1000) \approx 10$$ iterations.
+$$$$n = \log_2(1000) \approx 10$$ iterations.
 
 ---
 
@@ -299,7 +299,8 @@ $$n = \log_2(1000) \approx 10$$ iterations.
 |---|---|---|---|---|
 |Bisection|$$f(a)f(b) < 0$$|1 (Linear)|Slow|Guaranteed|
 |Regula-Falsi|$$f(a)f(b) < 0$$|1 (Slightly faster)|Moderate|Guaranteed|
-|Newton-Raphson|Derivative $$f'(x)$$ required|2 (Quadratic)|Fast|Not guaranteed|
+|Newton-Raphson|Derivative $$$$
+f'(x)$$ required|2 (Quadratic)|Fast|Not guaranteed|
 |Secant|Two initial guesses|1.62|Faster|Not guaranteed|
 
 ---
@@ -319,16 +320,16 @@ $$n = \log_2(1000) \approx 10$$ iterations.
 
 ### **19. Compact Formula Summary**
 
-1. $$x_{mid} = \frac{a + b}{2}$$
+1. $$$$x_{mid} = \frac{a + b}{2}$$
     
-2. $$f(a)f(x_{mid}) < 0 \implies b = x_{mid}$$
+2. $$$$f(a)f(x_{mid}) < 0 \implies b = x_{mid}$$
     
 3. $$f(x_{mid})f(b) < 0 \implies a = x_{mid}$$
     
 4. $$$$E = \frac{b - a}{2}$$
     
 5. Stop when $$
-E < \epsilon$$
+$$E < \epsilon$$
 
 ---
 
