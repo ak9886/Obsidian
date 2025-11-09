@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-09T11:14:29.955+05:30
-edited_seconds: 210
+updated_at: 2025-11-09T11:16:38.402+05:30
+edited_seconds: 330
 ---
 #Maths 
 
@@ -100,12 +100,13 @@ $$$$E_{abs}^{(i)} = \frac{b_i - a_i}{2}$$
 
 The Bisection Method converges **linearly**.  
 The **rate of convergence** is given as:
-
-	$$|x_{i+1} - x^_| = \frac{1}{2} |x_i - x^_|$$
+$$
+\lvert x_{i+1} - x^{*} \rvert \le \tfrac{1}{2} \lvert x_i - x^{*} \rvert
+$$
 
 where $$x^*$$ is the true root.
 
-Thus, the error reduces by half after each iteration, which is slower than methods like **Newton-Raphson** or **Secant**, but the method guarantees convergence if $$f(x)$$ is continuous and $$$$f(a) \times f(b) < 0$$.
+Thus, the error reduces by half after each iteration, which is slower than methods like **Newton-Raphson** or **Secant**, but the method guarantees convergence if $$f(x)$$ is continuous and $$$$$$f(a) \times f(b) < 0$$.
 
 ---
 
@@ -121,7 +122,7 @@ Since $$$$f(2)f(3) < 0$$, root lies between 2 and 3.
 **Iteration 1:**  
 $$x_m = \frac{2 + 3}{2} = 2.5$$  
 $$f(2.5) = 2.5^3 - 4(2.5) - 9 = -3.375$$  
-Since $$f(2)f(2.5) < 0$$ → set $$b = 2.5$$
+Since $$f(2)f(2.5) < 0$$ → set $$$$b = 2.5$$
 
 **Iteration 2:**  
 $$x_m = \frac{2 + 2.5}{2} = 2.25$$  
@@ -130,7 +131,7 @@ Still negative, so $$b = 2.25$$
 
 **Iteration 3:**  
 $$x_m = \frac{2.25 + 2.5}{2} = 2.375$$  
-$$$$f(2.375) = 2.375^3 - 4(2.375) - 9 = -5.076$$  
+$$$$$$f(2.375) = 2.375^3 - 4(2.375) - 9 = -5.076$$  
 Continue narrowing until $$$$|b - a| < 0.001$$.
 
 The process yields a root near $$$$x = 2.915$$.
@@ -164,7 +165,7 @@ The iteration continues until one of the following is satisfied:
     
 6. If $$f(x_m) = 0$$, print root.
     
-7. Else, adjust $$a$$ or $$$$b$$ depending on the sign.
+7. Else, adjust $$a$$ or $$$$$$b$$ depending on the sign.
     
 8. Repeat until desired accuracy.
     
@@ -230,17 +231,19 @@ The Bisection Method is used for:
     $$n \geq \log_2 \left( \frac{b - a}{\epsilon} \right)$$
     
 5. Convergence:  
-    $$|x_{i+1} - x^_| = \frac{1}{2}|x_i - x^_|$$
-    
-6. Approximate error percentage:  
-    $$$$E_a = \left| \frac{x_i - x_{i-1}}{x_i} \right| \times 100%$$
-    
+    $$
+\lvert x_{i+1} - x^{*} \rvert \le \tfrac{1}{2} \lvert x_i - x^{*} \rvert
+$$
 
+6. Approximate error percentage:  
+    $$$$$$E_a = \left| \frac{x_i - x_{i-1}}{x_i} \right| \times 100%
+    
+$$
 ---
 
 ### **14. Tabular Form of Iteration Example**
 
-|Iteration|a|b|Midpoint $$x_m$$|$$f(a)$$|$$f(x_m)$$|Interval|Error $$$$E$$|
+|Iteration|a|b|Midpoint$$x_m$$|$$f(a)$$|$$f(x_m)$$|Interval|Error $$$$E$$|
 |---|---|---|---|---|---|---|---|
 |1|2.0|3.0|2.5|-9|-3.375|[2, 2.5]|0.5|
 |2|2.0|2.5|2.25|-9|-6.797|[2, 2.25]|0.25|
@@ -289,7 +292,7 @@ $$E_n = \frac{b - a}{2^n}$$
 
 For example, if $$b - a = 1$$ and $$\epsilon = 10^{-3}$$, then:
 
-$$$$n = \log_2(1000) \approx 10$$ iterations.
+$$$$$$n = \log_2(1000) \approx 10$$ iterations.
 
 ---
 
@@ -300,7 +303,7 @@ $$$$n = \log_2(1000) \approx 10$$ iterations.
 |Bisection|$$f(a)f(b) < 0$$|1 (Linear)|Slow|Guaranteed|
 |Regula-Falsi|$$f(a)f(b) < 0$$|1 (Slightly faster)|Moderate|Guaranteed|
 |Newton-Raphson|Derivative $$$$
-f'(x)$$ required|2 (Quadratic)|Fast|Not guaranteed|
+$$f'(x)$$ required|2 (Quadratic)|Fast|Not guaranteed|
 |Secant|Two initial guesses|1.62|Faster|Not guaranteed|
 
 ---
@@ -339,7 +342,4 @@ The **Bisection Method** stands out as the most **reliable and systematic** brac
 
 ---
 
-**Q1:** What is the mathematical difference between linear and quadratic convergence in numerical methods?  
-**Q2:** How does the Bisection Method’s error bound compare to that of Regula-Falsi?  
-**Q3:** Why does the Bisection Method fail when $$f(a)f(b) > 0$$ even if $$f(x)$$ crosses zero between them?
 
