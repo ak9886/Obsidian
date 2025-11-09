@@ -1,13 +1,13 @@
 ---
-updated_at: 2025-11-09T11:16:38.402+05:30
-edited_seconds: 330
+updated_at: 2025-11-09T11:23:45.460+05:30
+edited_seconds: 430
 ---
 #Maths 
 
 
 ---
 
-## **Bisection Method – Detailed Notes**
+## **Bisection Method**
 
 ### **1. Introduction**
 
@@ -334,11 +334,359 @@ $$f'(x)$$ required|2 (Quadratic)|Fast|Not guaranteed|
 5. Stop when $$
 $$E < \epsilon$$
 
+## **Regula–Falsi Method**
+
+### **1. Introduction**
+
+The **Regula–Falsi Method**, also known as the **Method of False Position**, is a bracketing technique used to determine the root of a nonlinear equation  
+$$  
+f(x) = 0  
+$$  
+It combines the reliability of the **Bisection Method** with the faster convergence tendency of **linear interpolation**.
+
+Unlike the Bisection Method, which simply halves the interval each time, Regula–Falsi estimates the root by drawing a **secant line** between two points on the curve and using the **x-intercept of that line** as the next approximation.
+
+---
+
+### **2. Geometrical Concept**
+
+Consider two points on the function curve:  
+$$  
+(x_0, f(x_0)) \quad \text{and} \quad (x_1, f(x_1))  
+$$  
+such that $$f(x_0)f(x_1) < 0$$, meaning the root lies between them.
+
+A straight line joining these points intersects the x-axis at some point $$x_2$$. This intersection is a better estimate of the actual root.
+
+The equation of the line passing through these two points is:  
+$$  
+y - f(x_0) = \frac{f(x_1) - f(x_0)}{x_1 - x_0} (x - x_0)  
+$$
+
+Setting $$y = 0$$ to find where the line crosses the x-axis gives:  
+$$  
+0 - f(x_0) = \frac{f(x_1) - f(x_0)}{x_1 - x_0} (x_2 - x_0)  
+$$
+
+Solving for $$x_2$$:  
+$$  
+x_2 = x_0 - f(x_0) \frac{x_1 - x_0}{f(x_1) - f(x_0)}  
+$$
+
+This is the **main formula of the Regula–Falsi Method**.
+
+---
+
+### **3. Iterative Formula**
+
+For subsequent iterations, the formula generalizes as:  
+$$  
+x_{i+1} = x_i - f(x_i) \frac{x_{i-1} - x_i}{f(x_{i-1}) - f(x_i)}  
+$$
+
+Each iteration uses the two most recent points that bracket the root.
+
+---
+
+### **4. Step-by-Step Algorithm**
+
+1. Choose two initial approximations $$x_0$$ and $$x_1$$ such that $$f(x_0)f(x_1) < 0$$.
+    
+2. Compute:  
+    $$  
+    x_2 = x_0 - f(x_0)\frac{x_1 - x_0}{f(x_1) - f(x_0)}  
+    $$
+    
+3. Evaluate $$f(x_2)$$.
+    
+4. If $$f(x_0)f(x_2) < 0$$, then set $$x_1 = x_2$$ (root lies between $$x_0$$ and $$x_2$$).  
+    If $$f(x_1)f(x_2) < 0$$, then set $$x_0 = x_2$$ (root lies between $$x_2$$ and $$x_1$$).
+    
+5. Repeat steps 2–4 until:  
+    $$  
+    \lvert f(x_2) \rvert < \epsilon \quad \text{or} \quad \lvert x_{i+1} - x_i \rvert < \epsilon  
+    $$
+    
+
+---
+
+### **5. Derivation of the Formula**
+
+The slope of the secant joining the two points is:  
+$$  
+m = \frac{f(x_1) - f(x_0)}{x_1 - x_0}  
+$$
+
+Equation of the secant line:  
+$$  
+y - f(x_0) = m(x - x_0)  
+$$
+
+Setting $$y = 0$$ gives:  
+$$  
+x = x_0 - \frac{f(x_0)}{m}  
+$$
+
+Substituting for $$m$$:  
+$$  
+x_2 = x_0 - f(x_0)\frac{x_1 - x_0}{f(x_1) - f(x_0)}  
+$$
+
+This formula effectively replaces the midpoint formula of the Bisection Method with a **weighted linear interpolation**, giving faster convergence.
+
+---
+
+### **6. Error and Convergence**
+
+Let the true root be $$x^{*}$$.  
+The error after the $$i^{th}$$ iteration is:  
+$$  
+E_i = \lvert x_{i} - x^{} \rvert  
+$$
+
+The convergence rate is **super-linear**, slower than Newton–Raphson but faster than Bisection.  
+Empirically, the rate of convergence is approximately between **1.2 and 1.4**.
+
+---
+
+### **7. Iteration Termination**
+
+The process stops when:  
+$$  
+\lvert f(x_{i+1}) \rvert < \epsilon \quad \text{or} \quad \lvert x_{i+1} - x_i \rvert < \epsilon  
+$$  
+where $$\epsilon$$ is a small positive tolerance.
+
+Alternatively, a fixed maximum iteration count $$n_{max}$$ may be set.
+
+---
+
+### **8. Example**
+
+Find the root of:  
+$$  
+f(x) = x^3 - 5x + 1 = 0  
+$$  
+using Regula–Falsi, correct to three decimal places.
+
+**Step 1:**  
+Choose $$x_0 = 0$$ and $$x_1 = 1$$.
+
+$$f(0) = 1, \quad f(1) = -3$$  
+Since $$f(0)f(1) < 0$$, the root lies between 0 and 1.
+
+**Iteration 1:**  
+$$  
+x_2 = 0 - 1 \times \frac{1 - 0}{-3 - 1} = 0.25  
+$$  
+$$f(0.25) = 0.25^3 - 5(0.25) + 1 = -0.9375$$  
+Now, $$f(0)f(0.25) < 0$$ → new interval is [0, 0.25].
+
+**Iteration 2:**  
+$$  
+x_3 = 0 - 1 \times \frac{0.25 - 0}{-0.9375 - 1} = 0.117  
+$$  
+$$f(0.117) = 0.117^3 - 5(0.117) + 1 = 0.415$$  
+Root lies between $$x_2 = 0.117$$ and $$x_1 = 0.25$$.
+
+Continue iterations until:  
+$$  
+\lvert x_{i+1} - x_i \rvert < 0.001  
+$$
+
+Final result:  
+$$x \approx 0.202$$
+
+---
+
+### **9. Graphical Interpretation**
+
+- In each iteration, Regula–Falsi draws a **secant** through the two current points on $$f(x)$$.
+    
+- The point where the secant cuts the x-axis is used as the new estimate of the root.
+    
+- Only **one endpoint** is updated each time — the one that has the same sign as the new $$f(x)$$ value.
+    
+
+This makes the interval **shrink asymmetrically**, unlike in the Bisection Method.
+
+---
+
+### **10. Flow of Computation**
+
+1. Start
+    
+2. Input $$f(x)$$, $$x_0$$, $$x_1$$, $$\epsilon$$
+    
+3. Check $$f(x_0)f(x_1) < 0$$
+    
+4. Compute $$x_2 = x_0 - f(x_0)\frac{x_1 - x_0}{f(x_1) - f(x_0)}$$
+    
+5. Evaluate $$f(x_2)$$
+    
+6. If $$f(x_0)f(x_2) < 0$$ → set $$x_1 = x_2$$  
+    Else → set $$x_0 = x_2$$
+    
+7. Check for convergence
+    
+8. Repeat until condition met
+    
+9. Output $$x_2$$
+    
+
+---
+
+### **11. Formula Summary**
+
+1. **Main Iteration:**  
+    $$  
+    x_{i+1} = x_i - f(x_i)\frac{x_{i-1} - x_i}{f(x_{i-1}) - f(x_i)}  
+    $$
+    
+2. **Error:**  
+    $$  
+    E_i = \lvert x_{i+1} - x_i \rvert  
+    $$
+    
+3. **Stopping Criterion:**  
+    $$  
+    E_i < \epsilon \quad \text{or} \quad \lvert f(x_{i+1}) \rvert < \epsilon  
+    $$
+    
+
+---
+
+### **12. Comparison with Bisection**
+
+|Property|Bisection|Regula–Falsi|
+|---|---|---|
+|Basis|Interval halving|Linear interpolation|
+|Speed|Slower|Faster|
+|Convergence|Linear|Super-linear|
+|Derivatives|Not required|Not required|
+|Guarantee|Always convergent|Convergent but slower if slope imbalance|
+|Error formula|$$E_n = \frac{b - a}{2^n}$$|Variable, depends on function curvature|
+
+---
+
+### **13. Accuracy and Limitations**
+
+Although faster than Bisection, Regula–Falsi can **stall** when $$f(x)$$ is highly nonlinear or one endpoint remains fixed for many iterations. This occurs because:
+
+- One function value remains large in magnitude.
+    
+- The secant line repeatedly passes close to the same endpoint.
+    
+
+To mitigate this, a **Modified Regula–Falsi** (Illinois Method) can be used, where the function value of the stagnant endpoint is halved after repeated use.
+
+---
+
+### **14. Advantages**
+
+- Faster than Bisection.
+    
+- Requires only function evaluations (no derivatives).
+    
+- Simple to implement on a computer.
+    
+- Guaranteed convergence (for continuous $$f(x)$$ with sign change).
+    
+
+---
+
+### **15. Disadvantages**
+
+- May converge slowly if one endpoint dominates.
+    
+- Can stagnate for certain function shapes.
+    
+- Slightly more computational effort per iteration (needs both function values).
+    
+- Still slower than derivative-based methods (e.g., Newton–Raphson).
+    
+
+---
+
+### **16. Example 2**
+
+Find the root of:  
+$$  
+f(x) = x e^x - 1 = 0  
+$$  
+using Regula–Falsi with $$x_0 = 0$$, $$x_1 = 1$$, $$\epsilon = 0.001$$.
+
+Compute:  
+$$f(0) = -1, \quad f(1) = 1.718$$  
+Since $$f(0)f(1) < 0$$, proceed.
+
+**Iteration 1:**  
+$$  
+x_2 = 0 - (-1)\frac{1 - 0}{1.718 - (-1)} = 0.368  
+$$  
+$$f(0.368) = 0.368e^{0.368} - 1 = 0.108$$  
+Root lies between 0 and 0.368.
+
+**Iteration 2:**  
+$$  
+x_3 = 0 - (-1)\frac{0.368 - 0}{0.108 - (-1)} = 0.332  
+$$  
+$$f(0.332) = -0.006$$  
+Since $$\lvert f(0.332) \rvert < 0.001$$ → Stop.
+
+Hence, $$x \approx 0.332$$.
+
+---
+
+### **17. Estimation of Iterations**
+
+No exact iteration count formula like in Bisection exists, but roughly:  
+$$  
+E_{n+1} \approx C E_n^{p}  
+$$  
+where $$1 < p < 2$$ indicates **super-linear convergence** and $$C$$ is a constant depending on $$f(x)$$ near the root.
+
+---
+
+### **18. Pseudocode**
+
+```
+Input f(x), x0, x1, ε
+If f(x0)*f(x1) > 0
+    Print "Invalid interval"
+Else
+    Repeat
+        x2 = x0 - f(x0)*(x1 - x0)/(f(x1) - f(x0))
+        If f(x0)*f(x2) < 0
+            x1 = x2
+        Else
+            x0 = x2
+        EndIf
+    Until |f(x2)| < ε or |x1 - x0| < ε
+EndIf
+Output x2 as approximate root
+```
+
+---
+
+### **19. Example Table**
+
+|Iter|$$x_0$$|$$x_1$$|$$f(x_0)$$|$$f(x_1)$$|$$x_2$$|$$f(x_2)$$|$$E$$|
+|---|---|---|---|---|---|---|---|
+|1|0.0|1.0|-1|1.718|0.368|0.108|0.368|
+|2|0.0|0.368|-1|0.108|0.332|-0.006|0.036|
+|3|0.332|0.368|-0.006|0.108|0.333|-0.001|0.001|
+
+Root ≈ **0.333**.
+
 ---
 
 ### **20. Final Remarks**
 
-The **Bisection Method** stands out as the most **reliable and systematic** bracketing technique in numerical computation. Despite being slower than open methods like Newton-Raphson, its **predictable convergence**, **error control**, and **independence from derivatives** make it the foundational approach for root-finding problems in computational mathematics and engineering.
+The **Regula–Falsi Method** provides a useful balance between **robustness and efficiency**. It improves upon Bisection by incorporating **linear interpolation**, leading to fewer iterations for well-behaved functions.  
+However, in cases where the function is highly nonlinear, convergence may slow down, requiring modifications like the **Illinois** or **Anderson–Björck** variants.
+
+Despite these limitations, Regula–Falsi remains a cornerstone method in numerical root-finding — simple, reliable, and still widely used in engineering computations.
 
 ---
 
