@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-09T16:52:34.980+05:30
-edited_seconds: 10
+updated_at: 2025-11-10T17:52:57.052+05:30
+edited_seconds: 20
 ---
 #Maths 
 # Numerical Methods YouTube Resources for SRM University
@@ -65,6 +65,3 @@ This file contains a curated list of YouTube videos covering all topics from Uni
 
 ---
 
-**Q1:** Which topics from your list are highest priority for you right now?  
-**Q2:** Do you prefer videos that include solved problems tailored for engineering (rather than purely theoretical) or both?  
-**Q3:** Is there a maximum video length you prefer (e.g., under 20 minutes) so filtering can be done accordingly?
