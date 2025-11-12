@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "ChoppedGPT Says"
             }
+          },
+          {
+            "id": "73fddc115d1a8af1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Finite difference full notes.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Finite difference full notes"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,10 +264,11 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "2785b0fd1e2a2dbd",
+  "active": "73fddc115d1a8af1",
   "lastOpenFiles": [
-    "GreensTech.md",
     "ChoppedGPT Says.md",
+    "Finite difference full notes.pdf",
+    "GreensTech.md",
     "NMA Notes.md",
     "Also NMA Notes.md",
     "Exam Timetable.md",
@@ -284,7 +297,6 @@
     "Excalidraw/DSA Search Trees.png",
     "Everything Else/UML.md",
     "Everything Else/Timetable 1.md",
-    "Hackathon App/Brief.md",
     "COA/Unit 4.pdf",
     "Excalidraw/ExcaliNotes (4-9-2025).dark.png",
     "Excalidraw/DSA Search Trees (Light).png",
@@ -299,7 +311,6 @@
     "DSA/DSA Unit 4/UNIT-4/unit 4 Introduction to Trees and Traversals.pptx",
     "DSA/DSA Unit 4/UNIT-4/unit 4 Hashing.pptx",
     "DSA/DSA Unit 4/UNIT-4/trees.pptx",
-    "DSA/DSA Unit 4/UNIT-4/HASHING.pptx",
     "Untitled.canvas"
   ]
 }
