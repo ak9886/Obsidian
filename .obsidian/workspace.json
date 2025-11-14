@@ -11,10 +11,24 @@
             "id": "e23274f2e11322ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "COA/Perplexity Says.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Perplexity Says"
+            }
+          },
+          {
+            "id": "f0c5bebed62038e3",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
             }
           }
         ]
@@ -235,10 +249,12 @@
   },
   "active": "e23274f2e11322ce",
   "lastOpenFiles": [
+    "COA/COA List of Videos.md",
+    "GreensTech.md",
+    "COA/Perplexity Says.md",
     "NMA Notes.md",
     "ChoppedGPT Says.md",
     "Finite difference full notes.pdf",
-    "GreensTech.md",
     "Also NMA Notes.md",
     "Exam Timetable.md",
     "Formulas - NMA.md",
@@ -247,7 +263,6 @@
     "APP Tutorial.md",
     "T12.md",
     "COA Bro 🥀.md",
-    "COA/COA List of Videos.md",
     "DSA/Also DSA Quiz.md",
     "DSA/DSA Quiz.md",
     "DSA/DSA Notes (15 10 2025).md",
