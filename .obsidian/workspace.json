@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -320,12 +320,12 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "5e0abcd2f73dd336",
+  "active": "f0c5bebed62038e3",
   "lastOpenFiles": [
+    "NMA Flashcards.md",
+    "Test.md",
     "Untitled.md",
     "Perplexity.md",
-    "Test.md",
-    "NMA Flashcards.md",
     "NMA Cheat Sheet.md",
     "NMA As well.md",
     "COA/Perplexity Says.md",

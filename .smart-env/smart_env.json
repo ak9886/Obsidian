@@ -58,7 +58,7 @@
         }
       }
     },
-    "active_thread_key": "Untitled Chat 2025-11-14 16-20-14",
+    "active_thread_key": "Untitled Chat 2025-11-15 18-43-04",
     "system_prompt": "",
     "detect_self_referential": true,
     "review_context": true,
@@ -96,5 +96,6 @@
         "after": "</context>"
       }
     }
-  }
+  },
+  "smart_completions": {}
 }
