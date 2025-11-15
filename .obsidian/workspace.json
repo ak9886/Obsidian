@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -320,13 +320,14 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "f0c5bebed62038e3",
+  "active": "5e0abcd2f73dd336",
   "lastOpenFiles": [
+    "2025-11-15.md",
+    "NMA Cheat Sheet.md",
     "NMA Flashcards.md",
     "Test.md",
     "Untitled.md",
     "Perplexity.md",
-    "NMA Cheat Sheet.md",
     "NMA As well.md",
     "COA/Perplexity Says.md",
     "COA/COA List of Videos.md",
@@ -348,7 +349,6 @@
     "COA/September/ARM Processor.md",
     "DSA/DSA_Unit4_Unit5_Notes.md",
     "DSA/Also DSA Notes.md",
-    "Everything Else/Unit 3 and 4 Formulas.md",
     "OS/Everything Else",
     "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Excalidraw/Pasted image 20251027105543.png",
