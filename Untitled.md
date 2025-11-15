@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-15T18:16:21.719+05:30
-edited_seconds: 360
+updated_at: 2025-11-15T18:28:18.934+05:30
+edited_seconds: 450
 ---
 Here are detailed stepwise solutions mapped to both the Question Paper and corresponding Answer Key for each type of PYQ from "21MAB202T Numerical Methods" (May 2024). Each section contains the reasoning, calculation, and explicit answer method as expected for a full worked solution.
 
@@ -28,8 +28,19 @@ Each answer in Part A is direct and based on concepts:
 - **Formula:** $$  
     x_{n+1} = \frac{a f(b) - b f(a)}{f(b) - f(a)}
     
-
-- **Calculate:** Substitute values for $$$$a, b, f(a), f(b)$$, solve for next approximation. - **Repeat until required decimal accuracy:** Update endpoints and apply formula to get successive approximations. - **Final answer:** State root value rounded to specified decimals. #### 2. Gauss Elimination (Solving Linear Equations) - **Form augmented matrix:** Write system as matrix. - **Reduce matrix:** Use row operations to create zeros below pivots (upper-triangular form). - **Back substitution:** Solve for each variable starting from the last. - **Write answer as vector:** Final values of $$x, y, z$$. #### 3. Least Squares Fit (Sum of Squares of Residuals) - **Write fit line:** $$y = ax + b$$. - **Set up normal equations:** Use given x-y pairs, sum products, solve for $$a, b$$ by simultaneous equations. - **Plug into formula for E (residual sum):** $$ E = \sum (y_i - (a x_i + b))^2
+$$
+- **Calculate:** Substitute values for $$a, b, f(a), f(b)$$ solve for next approximation. 
+- **Repeat until required decimal accuracy:** Update endpoints and apply formula to get successive approximations.
+- **Final answer:** State root value rounded to specified decimals. 
+- #### 2. Gauss Elimination (Solving Linear Equations) 
+- **Form augmented matrix:** Write system as matrix. 
+- **Reduce matrix:** Use row operations to create zeros below pivots (upper-triangular form). 
+- **Back substitution:** Solve for each variable starting from the last. 
+- **Write answer as vector:** Final values of $$x, y, z$$
+#### 3. Least Squares Fit (Sum of Squares of Residuals)
+- **Write fit line:** $$y = ax + b$$
+- **Set up normal equations:** Use given x-y pairs, sum products, solve for $$a, b$$ by simultaneous equations.
+- **Plug into formula for E (residual sum):** $$ E = \sum (y_i - (a x_i + b))^2
 $$
 - **Calculate total residuals:** Substitute fitted values, sum squared differences.
     
@@ -72,7 +83,8 @@ $$
 - **Substitute and calculate stepwise:** For requested points $$(x=0.2, 0.4)$$
 - **Present result:** Final y-values correct to specified decimals. #### 7. Improved Euler’s Method - **Predictor step:** $$y^* = y_n + h f(x_n, y_n)$$
 - **Corrector step:** $$y_{n+1} = y_n + \frac{h}{2}[f(x_n, y_n) + f(x_{n+1}, y^*)]$$
-- **Iterate for points:** Calculate and show each iteration as in answer key. - **Final answer:** Write y at requested x. #### 8. Bender-Schmidt Formula (PDE) - **Set up mesh/table:** Given initial conditions, write $$u(x, t)$$ grid. 
+- **Iterate for points:** Calculate and show each iteration as in answer key. - **Final answer:** Write y at requested x. 
+- #### 8. Bender-Schmidt Formula (PDE) - **Set up mesh/table:** Given initial conditions, write $$u(x, t)$$ grid. 
 - **Apply formula:** Compute each new time step using explicit scheme. 
 - **Show progression:** Step tabulation as done in key.
 - **Final answer:** Values at each t requested. #### 9. Crank-Nicholson Method 
