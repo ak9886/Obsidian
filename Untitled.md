@@ -1,6 +1,6 @@
 ---
 updated_at: 2025-11-16T09:07:45.017+05:30
-edited_seconds: 460
+edited_seconds: 470
 ---
 Here are detailed stepwise solutions mapped to both the Question Paper and corresponding Answer Key for each type of PYQ from "21MAB202T Numerical Methods" (May 2024). Each section contains the reasoning, calculation, and explicit answer method as expected for a full worked solution.
 
@@ -12,7 +12,7 @@ Each answer in Part A is direct and based on concepts:
 
 - _Example:_ In Gauss elimination, the coefficient matrix is reduced to upper triangular form.21MAB202T-May-2024-QP.PDF+1​
     
-- Each answer is a single word, such as "upper triangular", "method of tangents", or "Lagrange’s interpolation formula".21MAB202T-May-2024-Answer-key.PDF​
+- Each answer is a single word, such as "upper triangular", "method of tangents", or "Lagrange’s interpolation formula"
     
 
 ---
