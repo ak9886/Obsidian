@@ -1,8 +1,8 @@
 ---
-updated_at: 2025-11-16T13:19:18.496+05:30
-edited_seconds: 60
+updated_at: 2025-11-16T17:50:55.163+05:30
+edited_seconds: 130
 ---
-Here’s the reformatted cheat-sheet using `$$ $$` for multi-line math and `$ $` for inline expressions:
+
 
 ---
 
@@ -11,64 +11,64 @@ Here’s the reformatted cheat-sheet using `$$ $$` for multi-line math and `$ $`
 ## **1. Bisection Method**
 
 Iteration formula:  
-$$x_n = \frac{a_n + b_n}{2}$$
+$$\huge x_n = \frac{a_n + b_n}{2}$$
 
 Left interval update:  
-$$a_{n+1} = x_n \quad \text{if } f(a_n)f(x_n) > 0$$
+$$\huge a_{n+1} = x_n \quad \text{if } f(a_n)f(x_n) > 0$$
 
 Right interval update:  
-$$b_{n+1} = x_n \quad \text{if } f(a_n)f(x_n) < 0$$
+$$\huge b_{n+1} = x_n \quad \text{if } f(a_n)f(x_n) < 0$$
 
 ---
 
 ## **2. False Position (Regula Falsi)**
 
-$$x_n = \frac{a_n f(b_n) - b_n f(a_n)}{f(b_n) - f(a_n)}$$
+$$\huge x_n = \frac{a_n f(b_n) - b_n f(a_n)}{f(b_n) - f(a_n)}$$
 
 ---
 
 ## **3. Fixed Point Iteration**
 
 Iteration:  
-$$x_{n+1} = g(x_n)$$
+$$\huge x_{n+1} = g(x_n)$$
 
 Convergence:  
-$$|g'(x)| < 1$$
+$$\huge |g'(x)| < 1$$
 
 ---
 
 ## **4. Newton–Raphson**
 
-$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
+$$\huge x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
 ---
 
 ## **5. Gauss Elimination / Gauss–Jordan**
 
 Back substitution:  
-$$x_n = \frac{b_n - \sum_{j=n+1}^{m} a_{nj} x_j}{a_{nn}}$$
+$$\huge x_n = \frac{b_n - \sum_{j=n+1}^{m} a_{nj} x_j}{a_{nn}}$$
 
 Gauss–Jordan pivot:  
-$$a_{ij}^{(new)} = a_{ij}^{(old)} - \frac{a_{ik} a_{kj}}{a_{kk}}$$
+$$\huge a_{ij}^{(new)} = a_{ij}^{(old)} - \frac{a_{ik} a_{kj}}{a_{kk}}$$
 
 ---
 
 ## **6. Jacobi Method**
 
-$$x_i^{(k+1)} = \frac{1}{a_{ii}} \left(b_i - \sum_{j \ne i} a_{ij} x_j^{(k)} \right)$$
+$$\huge x_i^{(k+1)} = \frac{1}{a_{ii}} \left(b_i - \sum_{j \ne i} a_{ij} x_j^{(k)} \right)$$
 
 ---
 
 ## **7. Gauss–Seidel Method**
 
-$$x_i^{(k+1)} = \frac{1}{a_{ii}}\left(b_i - \sum_{j<i} a_{ij} x_j^{(k+1)} - \sum_{j>i} a_{ij} x_j^{(k)} \right)$$
+$$\huge x_i^{(k+1)} = \frac{1}{a_{ii}}\left(b_i - \sum_{j<i} a_{ij} x_j^{(k+1)} - \sum_{j>i} a_{ij} x_j^{(k)} \right)$$
 
 ---
 
 ## **8. Finite Differences**
 
 Forward:  
-$$\Delta f(x) = f(x+h) - f(x)$$  
+$$\huge \Delta f(x) = f(x+h) - f(x)$$  
 $$\Delta^2 f(x) = \Delta f(x+h) - \Delta f(x)$$  
 $$\Delta^3 f(x) = \Delta^2 f(x+h) - \Delta^2 f(x)$$
 
