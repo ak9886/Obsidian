@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-15T18:28:18.934+05:30
-edited_seconds: 450
+updated_at: 2025-11-16T09:07:45.017+05:30
+edited_seconds: 460
 ---
 Here are detailed stepwise solutions mapped to both the Question Paper and corresponding Answer Key for each type of PYQ from "21MAB202T Numerical Methods" (May 2024). Each section contains the reasoning, calculation, and explicit answer method as expected for a full worked solution.
 
@@ -23,7 +23,7 @@ Each answer in Part A is direct and based on concepts:
 
 - **Identify root interval:** Based on sign change between consecutive integer values.
     
-    - Try values, find bracket for root (e.g., between x=2x = 2x=2 and x=3x = 3x=3).21MAB202T-May-2024-Answer-key.PDF​
+    - Try values, find bracket for root (e.g., between x=2x = 2x=2 and x=3x = 3x=3).
         
 - **Formula:** $$  
     x_{n+1} = \frac{a f(b) - b f(a)}{f(b) - f(a)}

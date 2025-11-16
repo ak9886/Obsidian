@@ -1,6 +1,6 @@
 ---
 updated_at: 2025-11-16T09:02:19.848+05:30
-edited_seconds: 180
+edited_seconds: 190
 ---
 # Question
 ![[WhatsApp Image 2025-11-16 at 01.35.21_32ba9acb.jpg]]
@@ -121,9 +121,9 @@ $$[
 
 Compute numerator:
 $$
-- (0.5 \times -0.5 = -0.25)
+(0.5 \times -0.5 = -0.25)
 $$    
--$$ (-0.25 \times -1.5 = 0.375)
+$$ (-0.25 \times -1.5 = 0.375)
     
 $$
 Then:
