@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-16T19:22:43.678+05:30
-edited_seconds: 90
+updated_at: 2025-11-16T19:24:04.306+05:30
+edited_seconds: 140
 ---
 ---
 
@@ -172,7 +172,7 @@ Corrector:
 
 $$[  
 y_{n+1} = y_n + \frac{h}{2}\big]$$$$[f(x_n,y_n)+f(x_{n+1},y_n^*)\big]$$  
-]
+
 
 Compute $(y(0.2)), (y(0.4))$.
 
@@ -234,10 +234,16 @@ Solution: (x=a,; y=b,; z=c).
 
 General form:
 
+$$[
+\frac{u_i^{j+1} - u_i^{j}}{k}
+= \frac{1}{2}\left(
+\frac{u_{i+1}^{j} - 2u_i^{j} + u_{i-1}^{j}}{h^2}
++
+\frac{u_{i+1}^{j+1} - 2u_i^{j+1} + u_{i-1}^{j+1}}{h^2}
+\right)
+]$$
 $$[  
-\frac{u_i^{j+1}-u_i^{j}}{k}  
-=\frac{1}{2}\left$$[  
-\frac{u_{i+1}^j - 2u_i^j + u_{i-1}^j}{h^2}  
+\frac{u_{i+1}^j - 2u_i^j + u_{i-1}^j}{h^2} ]$$
 +  
 \frac{u_{i+1}^{j+1} - 2u_i^{j+1} + u_{i-1}^{j+1}}{h^2}  
 \right]$$  
@@ -272,4 +278,3 @@ Evaluate at (x=0.1) and (0.2).
 
 ---
 
-If you want this exported as **a single `.tex` file**, **Obsidian callouts**, or **MathJax-only block**, just tell me.
