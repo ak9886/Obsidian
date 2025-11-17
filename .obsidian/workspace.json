@@ -267,7 +267,8 @@
       "webpage-html-export:Export as HTML": false,
       "system3-relay:Relay": false,
       "templater-obsidian:Templater": false,
-      "obsidian-rich-links:Rich Links": false
+      "obsidian-rich-links:Rich Links": false,
+      "enhance-youtube-links:Get YouTube data": false
     }
   },
   "active": "623689c9b0410758",
