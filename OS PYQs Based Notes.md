@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-20T08:19:01.221+05:30
-edited_seconds: 280
+updated_at: 2025-11-20T08:23:57.278+05:30
+edited_seconds: 360
 ---
 ##OS 
 
@@ -1411,3 +1411,543 @@ Finding a page in a book (seek), turning it to face you (latency), then reading 
 
 ---
 
+# Protection and Security (Topic 9) 
+
+### **1. What “Protection” Means in an OS**
+
+Protection is about **controlling how processes and users access system resources**.  
+Think of your OS as a big apartment building:
+
+- Each apartment = a process
+    
+- Shared areas (water, electricity, corridors) = shared system resources
+    
+- The building’s security rules = protection mechanisms
+    
+
+The OS must make sure that one “resident” (process/user) **cannot invade or damage another**.
+
+#### Core idea:
+
+> Protection = “Who can do what to which resource?”
+
+Examples:
+
+- Can Process A read Process B’s memory?
+    
+- Can a user write to a system file?
+    
+- Can an application access your camera?
+    
+
+### **2. Protection Domains**
+
+A **domain** defines the **set of resources a process is allowed to access**.
+
+Think of a domain like an ID card specifying:
+
+- which rooms you can enter
+    
+- which keys you hold
+    
+- which tools you can use
+    
+
+Domains can be:
+
+- per user
+    
+- per process
+    
+- per procedure/function (in some systems)
+    
+
+This makes the system modular and prevents accidental damage.
+
+### **3. Access Matrix**
+
+This is a conceptual model describing **permissions**.
+
+Imagine a big table:
+
+| Subjects (users/processes) | Objects (files/devices) | Rights (read/write/execute) |
+
+For example:
+
+| Process A | File X | Read |  
+| Process B | File Y | Write |
+
+The OS doesn’t store the matrix directly.  
+Instead, it uses **access control lists (ACLs)** or **capabilities** to represent it efficiently.
+
+### **4. Access Control Lists (ACLs)**
+
+An ACL is attached to an object and says:
+
+> “Who is allowed to do what with me?”
+
+Example for a file:
+
+- user1 → read/write
+    
+- user2 → read-only
+    
+- others → no access
+    
+
+Analogy:  
+A list taped to a classroom door showing which people are allowed inside.
+
+### **5. Capability Lists**
+
+Capabilities are attached to the **subject** instead.
+
+Example for a process:
+
+- Can read file A
+    
+- Can write file B
+    
+- Can execute program C
+    
+
+Analogy:  
+A bundle of keys held by one person.
+
+Difference:
+
+- ACL → check who is allowed to enter a room
+    
+- Capability → check what the visitor’s keys allow
+    
+
+### **6. The Need for Revocation**
+
+Sometimes, permissions must be **taken back**.
+
+Real-life analogy:  
+Removing a security pass from an employee who leaves a company.
+
+Techniques include:
+
+- Delete entry
+    
+- Mark as expired
+    
+- Change associated keys
+    
+- Regenerate domain keys altogether
+    
+
+### **7. Security vs Protection**
+
+These two sound similar, but they are different.
+
+|Protection|Security|
+|---|---|
+|Prevents **accidental** misuse|Prevents **intentional** misuse|
+|“Rules inside the system”|“Defending against attackers”|
+
+Protection is internal, security is external.
+
+### **8. Types of Security Threats**
+
+1. **Breach of confidentiality**
+    
+    - Unauthorized reading
+        
+    - Example: leaking personal info
+        
+2. **Breach of integrity**
+    
+    - Unauthorized modifying
+        
+    - Example: editing bank records
+        
+3. **Breach of availability**
+    
+    - Making resources unavailable
+        
+    - Example: DDoS attack crashing a website
+        
+
+These three form the **CIA Triad**.
+
+### **9. Program Threats**
+
+These occur from malicious programs.
+
+- **Trojan horse** → Pretends to be something useful but is harmful
+    
+- **Virus** → Inserts itself into other programs
+    
+- **Worm** → Spreads automatically over networks
+    
+- **Spyware** → Watches user activity
+    
+
+### **10. System Threats**
+
+Larger-scale attacks targeting the OS itself.
+
+- **Port scanning**
+    
+- **DDoS attacks**
+    
+- **Privilege escalation**
+    
+- **Man-in-the-middle attacks**
+    
+
+### **11. Cryptography in OS Security**
+
+Used to secure:
+
+- passwords
+    
+- transmissions
+    
+- files
+    
+- communication
+    
+
+Two common methods:
+
+- **Symmetric encryption** (one shared key)
+    
+- **Asymmetric encryption** (public/private key pair)
+    
+
+OS uses these for login, SSH, HTTPS, etc.
+
+### **12. Authentication Mechanisms**
+
+To verify a user is who they claim to be:
+
+1. **Something you know**
+    
+    - Password, PIN
+        
+2. **Something you have**
+    
+    - OTP device, smartphone
+        
+3. **Something you are**
+    
+    - Biometrics (fingerprint, face)
+        
+
+Modern systems use multi-factor authentication (MFA).
+
+---
+
+# Distributed Systems (Topic 10) 
+
+A **distributed system** is a collection of **multiple computers** that work together so well that they _appear_ like a single system to the user.
+
+### **1. What is a Distributed System?**
+
+Imagine a team project where:
+
+- each member works from a different place
+    
+- but the final report must look like it was written by **one person**
+    
+
+A distributed system works the same way:
+
+- **Many nodes (computers)**
+    
+- Connected over a **network**
+    
+- Performing tasks **cooperatively**
+    
+- Presenting a **single unified output**
+    
+
+Examples:
+
+- Google Search
+    
+- Netflix streaming
+    
+- Multiplayer online games
+    
+- Cloud storage (Google Drive, OneDrive)
+    
+
+### **2. Why Do We Need Distributed Systems?**
+
+#### **a) Resource Sharing**
+
+Multiple computers share:
+
+- files
+    
+- printers
+    
+- servers
+    
+- processing power
+    
+
+Analogy:  
+Everyone in a school accessing the same library books.
+
+#### **b) Scalability**
+
+Add more machines → increase performance.  
+Like adding more delivery trucks to speed up shipments.
+
+#### **c) Reliability**
+
+If one machine fails, others take over.  
+Like a group project where teammates cover each other.
+
+#### **d) Faster Computation**
+
+Divide heavy tasks among multiple machines.  
+Like 10 chefs chopping vegetables faster than 1 chef.
+
+---
+
+### **3. Key Characteristics of Distributed Systems**
+
+#### **a) Concurrency**
+
+Many computations occur at the same time.  
+Imagine many people editing parts of a shared document.
+
+#### **b) Lack of global clock**
+
+Machines do NOT share a single perfect clock.  
+So timing coordination is tricky.
+
+#### **c) Independent failures**
+
+Any component can fail independently.
+
+---
+
+### **4. Types of Distributed Systems**
+
+#### **1. Distributed Computing Systems**
+
+Focus: splitting heavy computation  
+Examples:
+
+- MapReduce
+    
+- Apache Spark
+    
+- Supercomputing clusters
+    
+
+Analogy:  
+Breaking a huge chocolate bar into many pieces and giving each piece to a different person to eat.
+
+#### **2. Distributed Information Systems**
+
+Focus: sharing data  
+Examples:
+
+- Database servers
+    
+- Enterprise systems
+    
+
+#### **3. Distributed Embedded Systems**
+
+Focus: real-time control  
+Examples:
+
+- Smart cars
+    
+- Industrial robots
+    
+- IoT devices
+    
+
+---
+
+### **5. Issues in Distributed Systems**
+
+#### **a) Transparency**
+
+Users should not feel that files or programs are spread across many machines.
+
+8 types of transparency:
+
+- Access
+    
+- Location
+    
+- Migration
+    
+- Replication
+    
+- Failure
+    
+- Performance
+    
+- Concurrency
+    
+- Scaling
+    
+
+Goal:  
+Make the whole system look “simple and local”.
+
+#### **b) Naming**
+
+Every resource must have a unique name:
+
+- hostnames
+    
+- IP addresses
+    
+- URLs
+    
+
+#### **c) Synchronization**
+
+Clocks differ → require algorithms like:
+
+- Lamport’s logical clock
+    
+- Vector clocks
+    
+
+#### **d) Communication**
+
+Nodes communicate through:
+
+- RPC (Remote Procedure Calls)
+    
+- Message Passing
+    
+- Sockets
+    
+
+#### **e) Fault Tolerance**
+
+Handling machine failures:
+
+- Replication
+    
+- Redundancy
+    
+- Checkpointing
+    
+- Recovery
+    
+
+Analogy:  
+Saving game progress so you can reload after dying.
+
+---
+
+### **6. Distributed File System (DFS)**
+
+A DFS allows multiple computers to access files over a network **as if they were local**.
+
+Examples:
+
+- NFS (Network File System)
+    
+- AFS (Andrew File System)
+    
+
+Features:
+
+- Location transparency
+    
+- Replication
+    
+- Caching
+    
+- Consistency models
+    
+
+---
+
+### **7. Distributed Scheduling**
+
+Goal:  
+Distribute tasks efficiently across machines.
+
+Techniques:
+
+- Load sharing
+    
+- Load balancing
+    
+- Job migration
+    
+
+Analogy:  
+Assigning workload evenly across all bakers in a bakery.
+
+---
+
+### **8. Distributed Deadlocks**
+
+Deadlock can happen across multiple machines.  
+Harder to detect because processes may not know what others are doing.
+
+Methods:
+
+- Path-pushing
+    
+- Edge-chasing
+    
+- Hierarchical algorithms
+    
+
+---
+
+### **9. Distributed Shared Memory (DSM)**
+
+A system where physically separate memory appears as **one big shared memory**.
+
+Analogy:  
+A big notebook that looks like one book but is actually spread across multiple desks.
+
+---
+
+### **10. Advantages and Disadvantages**
+
+### **Advantages**
+
+- Scalability
+    
+- Reliability
+    
+- Faster completion
+    
+- Resource sharing
+    
+- Modularity
+    
+
+### **Disadvantages**
+
+- Complex to design
+    
+- Hard to debug
+    
+- Security vulnerabilities
+    
+- Inconsistent network delays
+    
+- Synchronization issues
+    
+
+---
+
+### **Bold Follow-Up Questions**
+
+**Q1:** Want diagrams for distributed architecture (client-server, peer-to-peer, layered)?  
+**Q2:** Want a compact exam-oriented summary for 2-mark/13-mark answers?  
+**Q3:** Move to **Topic 11: Case Studies (Linux, Windows, Mach)**?
