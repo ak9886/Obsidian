@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-22T14:12:40.964+05:30
+updated_at: 2025-11-22T14:23:16.125+05:30
 edited_seconds: 10
 ---
 # DSA NOTES — FULLY EXPANDED (TOPICS 1–7)
@@ -824,4 +824,4 @@ Answer: Because of shifting of elements.
 
 ---
 
-# **Topic 10 Complete — Ready for Topic 11**
+# **Topic 10 Complete — Ready for Topic 11**wwwwwwwwwwww
