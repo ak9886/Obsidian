@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-24T12:04:20.639+05:30
-edited_seconds: 190
+updated_at: 2025-11-24T12:06:03.189+05:30
+edited_seconds: 220
 ---
 #DSA 
 
@@ -885,22 +885,21 @@ Applications: memory management, stacks/queues, polynomial representation, adjac
 ### **Structure**
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
 struct Node {
     int data;
-    struct Node* next;
+    Node* next;
 };
 
 int main() {
-    struct Node* head = malloc(sizeof(struct Node));
+    Node* head = new Node;   // now Node is fully defined
     head->data = 10;
-    head->next = NULL;
+    head->next = nullptr;
 
-    printf("Node data: %d\n", head->data);
+    std::cout << "Node data: " << head->data << std::endl;
 
-    free(head);
+    delete head;
     return 0;
 }
 
@@ -946,11 +945,28 @@ int main() {
 ### **Structure**
 
 ```c
+#include <iostream>
+
 struct Node {
     int data;
-    struct Node* next;
-    struct Node* prev;
+    Node* next;
+    Node* prev;
 };
+
+int main() {
+    // Create a single node
+    Node* head = new Node;
+    head->data = 10;
+    head->next = nullptr;
+    head->prev = nullptr;
+
+    std::cout << "Node data: " << head->data << std::endl;
+
+    // Clean up
+    delete head;
+    return 0;
+}
+
 ```
 
 ### **Operations**
