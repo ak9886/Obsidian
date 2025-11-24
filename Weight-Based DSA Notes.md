@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-24T11:58:46.050+05:30
-edited_seconds: 120
+updated_at: 2025-11-24T12:04:20.639+05:30
+edited_seconds: 190
 ---
 #DSA 
 
@@ -143,11 +143,23 @@ Structure members are stored in order, but with padding for alignment.
 Example:
 
 ```c
+#include <stdio.h>
+
 struct A {
-    char x;   // 1 byte + 3 bytes padding
-    int y;    // 4 bytes
-    char z;   // 1 byte + 3 bytes padding
+    char x;
+    int y;
+    char z;
 };
+
+int main() {
+    struct A a;
+    a.x = 'a';
+    a.y = 123;
+    a.z = 'b';
+    printf("x=%c y=%d z=%c\n", a.x, a.y, a.z);
+    return 0;
+}
+
 ```
 
 Total size = 12 bytes (not 6).
@@ -684,6 +696,441 @@ Key focus areas:
 - MST & shortest paths for weighted graphs
     
 - Topological sorting for DAGs
+    
+
+---
+
+
+Lemme break it down for you, Mark.  
+Here’s **Topic 4 (Trees — 16.43%)**, scaled for proportional depth and in the Obsidian collapsible style (`#` once, then `##` and `###`).
+
+---
+
+# **Topic 4 — Trees (Binary, BST, AVL, B/B+ Trees, Traversal, Properties, Rotations) (16.43%)**
+
+## **Overview (Medium Depth — 16.43%)**
+
+Trees are hierarchical data structures with nodes connected by edges.
+
+- **Root** → top node
+    
+- **Child / Parent** → relationships
+    
+- **Leaf nodes** → nodes with no children
+    
+
+Applications: expression parsing, databases, file systems, routing, search trees.
+
+---
+
+## **Tree Terminology (16.43%)**
+
+- **Height/Depth** → longest path from root to leaf
+    
+- **Level** → distance from root
+    
+- **Degree of node** → number of children
+    
+- **Subtree** → any node and its descendants
+    
+- **Binary Tree** → each node has at most 2 children
+    
+
+---
+
+## **Binary Search Tree (BST) (16.43%)**
+
+### **Definition**
+
+- Left child < parent < right child
+    
+- Efficient searching, insertion, deletion
+    
+
+### **Operations**
+
+1. **Search** → O(h)
+    
+2. **Insert** → O(h)
+    
+3. **Delete** → O(h)  
+    _(h = height of tree)_
+    
+
+### **Traversal Types**
+
+- **Inorder (LPR)** → sorted output
+    
+- **Preorder (PLR)** → used for copying
+    
+- **Postorder (LRP)** → used for deletion
+    
+
+---
+
+## **AVL Tree (16.43%)**
+
+### **Definition**
+
+- Self-balancing BST
+    
+- Balance factor = height(left) - height(right)
+    
+- Allowed: -1, 0, +1
+    
+
+### **Rotations**
+
+- **Single Rotation**
+    
+    - Left Rotation (LL)
+        
+    - Right Rotation (RR)
+        
+- **Double Rotation**
+    
+    - Left-Right (LR)
+        
+    - Right-Left (RL)
+        
+
+### **Operations**
+
+- Insert → check balance → rotate if needed
+    
+- Delete → adjust balance
+    
+
+---
+
+## **B/B+ Trees (16.43%)**
+
+### **B-Tree**
+
+- Balanced multi-way search tree
+    
+- Each node can have multiple keys & children
+    
+- All leaves at same level
+    
+
+### **B+ Tree**
+
+- Leaf nodes linked for fast sequential access
+    
+- Internal nodes store only keys
+    
+- Used in databases and file systems
+    
+
+---
+
+## **Tree Traversals (16.43%)**
+
+|Traversal Type|Order|Use Case|
+|---|---|---|
+|Inorder|LPR|Sorted data|
+|Preorder|PLR|Expression trees|
+|Postorder|LRP|Deletion, evaluation|
+|Level-order|BFS|Printing, shortest path in trees|
+
+---
+
+## **Tree Properties (16.43%)**
+
+- Number of nodes in a binary tree of height h ≤ 2^(h+1) - 1
+    
+- Height-balanced → ensures O(log n) operations
+    
+- Full tree → all nodes have 0 or 2 children
+    
+- Complete tree → all levels filled except last
+    
+
+---
+
+## **Summary (16.43%)**
+
+This topic is medium-weighted, so the notes are shorter than previous units.  
+Focus areas:
+
+- BST operations and traversals
+    
+- AVL rotations for balance
+    
+- B/B+ trees for databases
+    
+- Tree properties and structure analysis
+    
+
+---
+
+# **Topic 5 — Linked Lists (Singly, Doubly, Circular, Polynomial Representation, Josephus Problem) (13.93%)**
+
+## **Overview (Short–Moderate Depth — 13.93%)**
+
+Linked lists are dynamic linear data structures where elements (nodes) are connected via pointers.
+
+- **Node** → data + pointer to next (or previous)
+    
+- **Advantages over arrays** → dynamic size, efficient insertion/deletion
+    
+
+Applications: memory management, stacks/queues, polynomial representation, adjacency lists.
+
+---
+
+## **Singly Linked List (13.93%)**
+
+### **Structure**
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+int main() {
+    struct Node* head = malloc(sizeof(struct Node));
+    head->data = 10;
+    head->next = NULL;
+
+    printf("Node data: %d\n", head->data);
+
+    free(head);
+    return 0;
+}
+
+```
+
+### **Operations**
+
+- **Traversal** → follow `next` pointers
+    
+- **Insertion**
+    
+    - At head → O(1)
+        
+    - At tail → O(n)
+        
+    - After node → O(1)
+        
+- **Deletion**
+    
+    - Head → O(1)
+        
+    - After node → O(1)
+        
+
+### **Advantages**
+
+- Dynamic size
+    
+- Efficient insertion/deletion at head
+    
+
+### **Disadvantages**
+
+- No backward traversal
+    
+- Random access O(n)
+    
+
+---
+
+## **Doubly Linked List (13.93%)**
+
+### **Structure**
+
+```c
+struct Node {
+    int data;
+    struct Node* next;
+    struct Node* prev;
+};
+```
+
+### **Operations**
+
+- Traversal in both directions
+    
+- Insertion/deletion at both ends efficient
+    
+
+### **Use Cases**
+
+- Browser history
+    
+- Undo/redo operations
+    
+
+---
+
+## **Circular Linked List (13.93%)**
+
+- Last node points to first node
+    
+- Useful in round-robin scheduling, multiplayer games
+    
+- Traversal requires careful stop condition
+    
+
+---
+
+## **Polynomial Representation (13.93%)**
+
+- Represent polynomial as linked list of terms
+    
+- Each node: coefficient + exponent + pointer to next term
+    
+- Useful for addition, subtraction, multiplication of polynomials
+    
+
+---
+
+## **Josephus Problem (13.93%)**
+
+- Classic problem solved with circular linked list
+    
+- `n` people in circle, remove every `k`th person
+    
+- Efficient implementation → circular list, O(n) time
+    
+
+---
+
+## **Summary (13.93%)**
+
+This unit is lower-weighted than trees, so the notes are shorter.  
+Focus areas:
+
+- Node structure and pointer management
+    
+- Variants: singly, doubly, circular
+    
+- Applications: polynomials, Josephus problem
+    
+
+---
+
+# **Topic 6 — Hashing and Sorting (Hash Functions, Collision Resolution, Probing, Sorting Algorithms) (9.29%)**
+
+## **Overview (Shortest Depth — 9.29%)**
+
+This topic is low-weighted, so notes are concise.  
+Hashing and sorting are essential for quick data retrieval and ordering.
+
+---
+
+## **Hashing (9.29%)**
+
+### **Definition**
+
+Converts a key into an index of a table using a hash function.
+
+### **Hash Functions**
+
+- **Division method:** `h(k) = k mod m`
+    
+- **Multiplication method:** `h(k) = floor(m * (k * A mod 1))`
+    
+- **Mid-square method**
+    
+- **Folding method**
+    
+
+### **Collision Resolution**
+
+- **Chaining:** Linked list at each slot
+    
+- **Open addressing:** probe sequence
+    
+    - Linear probing
+        
+    - Quadratic probing
+        
+    - Double hashing
+        
+
+### **Use Cases**
+
+- Symbol tables
+    
+- Caches
+    
+- Database indexing
+    
+
+---
+
+## **Sorting Algorithms (9.29%)**
+
+### **1. Bubble Sort**
+
+- Repeatedly swap adjacent elements if out of order
+    
+- Time: O(n²)
+    
+- Stable
+    
+
+### **2. Selection Sort**
+
+- Find minimum and swap
+    
+- Time: O(n²)
+    
+- Not stable
+    
+
+### **3. Insertion Sort**
+
+- Insert element in sorted portion
+    
+- Time: O(n²), Best: O(n) if nearly sorted
+    
+- Stable
+    
+
+### **4. Merge Sort**
+
+- Divide and conquer
+    
+- Time: O(n log n)
+    
+- Stable
+    
+
+### **5. Quick Sort**
+
+- Partition and recursively sort
+    
+- Average: O(n log n), Worst: O(n²)
+    
+- Not stable
+    
+
+### **6. Heap Sort**
+
+- Build max heap, extract max repeatedly
+    
+- Time: O(n log n)
+    
+- Not stable
+    
+
+---
+
+## **Summary (9.29%)**
+
+- Hashing → efficient key-based access
+    
+- Sorting → organizes data for searching, reporting, and algorithms
+    
+- Low weight → keep understanding concise, focus on hash collisions and common sorts
     
 
 ---
