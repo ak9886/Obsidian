@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-11-24T11:28:24.581+05:30
-edited_seconds: 110
+updated_at: 2025-11-24T11:58:46.050+05:30
+edited_seconds: 120
 ---
 #DSA 
 
@@ -482,6 +482,209 @@ This unit is second-highest in weight, so its depth is extensive.
 Understanding stack operations helps with recursion and expression handling.  
 Mastering queues is essential for scheduling and BFS/level-order algorithms.  
 Circular and priority queues prepare you for operating system and graph topics.
+
+---
+
+Lemme break it down for you, Mark.  
+Here’s **Topic 3 (Graphs and Graph Algorithms, 18.57%)** with proportional depth and the Obsidian collapsible style (`#` once, then `##` and `###`).
+
+---
+
+# **Topic 3 — Graphs and Graph Algorithms (18.57%)**
+
+## **Overview (Moderate Depth — 18.57%)**
+
+Graphs are non-linear data structures used to represent relationships between entities.
+
+- **Vertices (Nodes)** → entities
+    
+- **Edges (Links)** → connections
+    
+
+Applications: social networks, routing, dependencies, scheduling, game maps, network topology.
+
+---
+
+## **Graph Representation (18.57%)**
+
+### **1. Adjacency Matrix**
+
+- 2D array of size V×V
+    
+- Entry 1 if edge exists, 0 otherwise
+    
+- Good for dense graphs
+    
+- Access: O(1)
+    
+
+### **2. Adjacency List**
+
+- Array of lists
+    
+- Each vertex stores list of neighbors
+    
+- Efficient for sparse graphs
+    
+- Traversal: O(V + E)
+    
+
+### **3. Edge List**
+
+- Simple list of edges
+    
+- Useful for algorithms like Kruskal's MST
+    
+
+---
+
+## **Graph Types (18.57%)**
+
+- **Directed / Undirected**
+    
+- **Weighted / Unweighted**
+    
+- **Cyclic / Acyclic**
+    
+- **Connected / Disconnected**
+    
+- **Complete Graphs**
+    
+
+---
+
+## **Graph Traversal (18.57%)**
+
+### **1. Breadth-First Search (BFS)**
+
+- Uses **queue**
+    
+- Explores level by level
+    
+- Complexity: O(V + E)
+    
+- Applications: shortest path in unweighted graphs, connectivity
+    
+
+### **2. Depth-First Search (DFS)**
+
+- Uses **stack / recursion**
+    
+- Explores deeper nodes first
+    
+- Complexity: O(V + E)
+    
+- Applications: topological sorting, cycle detection, component identification
+    
+
+---
+
+## **Minimum Spanning Tree (MST) (18.57%)**
+
+### **Purpose**
+
+Connect all vertices with **minimum total edge weight** without cycles.
+
+### **Algorithms**
+
+1. **Kruskal’s Algorithm**
+    
+    - Edge-based
+        
+    - Uses union-find for cycle detection
+        
+    - Sort edges → pick smallest → add if no cycle
+        
+2. **Prim’s Algorithm**
+    
+    - Vertex-based
+        
+    - Start with one vertex, add smallest edge connecting to tree
+        
+
+---
+
+## **Shortest Path Algorithms (18.57%)**
+
+### **1. Dijkstra’s Algorithm**
+
+- Finds shortest path from source to all vertices (weighted, non-negative)
+    
+- Uses min-priority queue / heap
+    
+- Complexity: O((V+E) log V)
+    
+
+### **2. Bellman-Ford Algorithm**
+
+- Handles negative weights
+    
+- Detects negative cycles
+    
+- Complexity: O(V × E)
+    
+
+### **3. Floyd-Warshall Algorithm**
+
+- All-pairs shortest path
+    
+- Dynamic programming approach
+    
+- Complexity: O(V³)
+    
+
+---
+
+## **Topological Sorting (18.57%)**
+
+- Ordering of vertices for a **DAG** such that for every edge u→v, u comes before v
+    
+- **Algorithms**:
+    
+    - DFS-based
+        
+    - Kahn’s algorithm (queue-based)
+        
+
+### **Applications**
+
+- Task scheduling
+    
+- Prerequisite resolution
+    
+- Compilation order
+    
+
+---
+
+## **Graph Properties (18.57%)**
+
+- Degree of vertex
+    
+- Path length / distance
+    
+- Connectivity
+    
+- Cycles
+    
+- Bipartite property
+    
+
+---
+
+## **Summary (18.57%)**
+
+This unit is moderately weighted, so the notes are slightly shorter than Topics 1 & 2.  
+Key focus areas:
+
+- Representation choices (matrix vs list)
+    
+- BFS & DFS for traversal
+    
+- MST & shortest paths for weighted graphs
+    
+- Topological sorting for DAGs
+    
 
 ---
 
