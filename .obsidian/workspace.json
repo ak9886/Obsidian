@@ -34,6 +34,18 @@
               "icon": "lucide-file",
               "title": "13-01-2026"
             }
+          },
+          {
+            "id": "0d6285f74e22645d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-13 09.26.51.excalidraw"
+            }
           }
         ],
         "currentTab": 1
@@ -257,16 +269,21 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "voice:Voice read text": false
+      "voice:Voice read text": false,
+      "smart-second-brain:Open S2B Chat": false
     }
   },
   "active": "778ae5052f16a1be",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.dark.png",
+    "Sem 4/DBMS/13-01-2026.md",
+    "Excalidraw",
     "Pasted image 20260113083510.png",
     "strix_runs/owasp-org_c38f",
     "strix_runs",
     "Sem 4/Design Thinking and Methodology/9-1-26.md",
-    "Sem 4/DBMS/13-01-2026.md",
     "Sem 4/DBMS",
     "DTM_Curriculum.pdf",
     "Sem 4/DAA/9-1-26.md",
@@ -294,20 +311,15 @@
     "Untitled.md",
     "Sem 4/AI Class",
     "Weight-Based DSA Notes.md",
-    "Sem 4",
     "Sem 3/Everything Else/📘 Numerical Methods (21MAB202T) – 3-Day Study Plan.md",
     "Sem 3/Everything Else/Worksheets with Answers — UNIT 1.md",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
     "Sem 3/Everything Else/Wanna Master Them.md",
-    "Sem 3/Everything Else/Unit-1 – Data Structures & Algorithms.md",
     "Sem 3/Everything Else/Pasted image 20251008152013.png",
     "Sem 3/COA/September/Pasted image 20250901114156.png",
     "Sem 3/APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Sem 3/WhatsApp Image 2025-11-16 at 01.35.21_32ba9acb.jpg",
     "Sem 3/Excalidraw/Scripts/Downloaded/Darken background color.svg",
-    "Sem 3/Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Sem 3/Excalidraw/Stack Operations Example.light.png",
-    "Sem 3/Excalidraw/Stack Operations Example.dark.png",
     "Untitled.canvas"
   ]
 }
