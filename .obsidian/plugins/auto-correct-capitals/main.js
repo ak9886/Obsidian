@@ -30,7 +30,7 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var TRIGGER_CHARS = [" ", ".", ",", ";", ":", "!", "?", "{", '"', ")", "]", "%", "}"];
 var LAST_WORD_REGEX = /[\p{L}\p{M}']+(?=\W*$)/u;
-var LIST_ITEM_REGEX = /^- (\S+)/;
+var LIST_ITEM_REGEX = /^[\t ]*[-*]\s+(\S+)/;
 var NUMBERED_LIST_REGEX = /^(\d+)\.\s+(\S+)/;
 var DEFAULT_SETTINGS = {
   exclusionList: [],
@@ -112,10 +112,10 @@ var AutoCorrectPlugin = class extends import_obsidian.Plugin {
     if (!trigger)
       return;
     if (this.settings.capitalizeListItem) {
-      const trimmed = fullLine.trim();
-      if (trimmed.startsWith("- ")) {
+      const trimmedIndent = fullLine.replace(/^[\t ]+/, "");
+      if (/^[-*]\s+/.test(trimmedIndent)) {
         this.correctListItem(editor, fullLine, lineNo);
-      } else if (NUMBERED_LIST_REGEX.test(trimmed)) {
+      } else if (NUMBERED_LIST_REGEX.test(trimmedIndent)) {
         this.correctNumberedList(editor, fullLine, lineNo);
       }
     }

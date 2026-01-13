@@ -4,137 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f9cc67ab11f0a1d2",
+        "id": "45245947fb234b23",
         "type": "tabs",
         "children": [
           {
-            "id": "3c96ba3319b53108",
+            "id": "e730e4fb46e7d1cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cheat Sheet"
-            }
-          },
-          {
-            "id": "a2c003f3cf5cb82c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "May 2024 Paper.md",
+                "file": "Sem 4/Design Thinking and Methodology/9-1-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "May 2024 Paper"
+              "title": "9-1-26"
             }
           },
           {
-            "id": "623689c9b0410758",
+            "id": "778ae5052f16a1be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COA/COA YT Videos.md",
+                "file": "Sem 4/DBMS/13-01-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COA YT Videos"
-            }
-          },
-          {
-            "id": "6213a8261f14cd2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS PYQs Based Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OS PYQs Based Notes"
-            }
-          },
-          {
-            "id": "5a8ff8f3b18d4d86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChoppedGPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ChoppedGPT"
-            }
-          },
-          {
-            "id": "10d04ba352393e62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotebookLM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NotebookLM"
-            }
-          },
-          {
-            "id": "bec8da53ac1d0bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA Exam Question Recurrence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSA Exam Question Recurrence"
-            }
-          },
-          {
-            "id": "32088ce26698ce34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
-          },
-          {
-            "id": "0921b1a114f04a83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weight-Based DSA Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Weight-Based DSA Notes"
+              "title": "13-01-2026"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,8 +172,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           },
           {
@@ -280,8 +182,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Most edited files"
+              "icon": "lucide-ghost",
+              "title": "example-view"
             }
           },
           {
@@ -290,18 +192,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "2785b0fd1e2a2dbd",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -310,12 +202,22 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
+            }
+          },
+          {
+            "id": "35e01391e18144cc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -324,8 +226,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "flashcards-obsidian:Generate flashcards": false,
-      "minimal-quiz:Start quiz": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -338,71 +238,76 @@
       "edge-tts:Read note aloud": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": true,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-tts:Text to Speech": false,
       "text2audio:Text to Audio": false,
       "timethings:Activate view": false,
-      "voice:Voice": false,
       "widgets:Add widget": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "webpage-html-export:Export as HTML": false,
       "system3-relay:Relay": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "minimal-quiz:Start quiz": false,
       "templater-obsidian:Templater": false,
       "obsidian-rich-links:Rich Links": false,
-      "enhance-youtube-links:Get YouTube data": false
+      "enhance-youtube-links:Get YouTube data": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "voice:Voice read text": false
     }
   },
-  "active": "2785b0fd1e2a2dbd",
+  "active": "778ae5052f16a1be",
   "lastOpenFiles": [
-    "Untitled 2.md",
-    "Weight-Based DSA Notes.md",
-    "DSA Exam Question Recurrence.md",
-    "NotebookLM.md",
-    "OS PYQs Based Notes.md",
-    "COA/COA YT Videos.md",
-    "ChoppedGPT.md",
-    "May 2024 Paper.md",
-    "templates/youtube-embed.md",
-    "templates/Youtube-Embed-Template.md",
-    "_templater",
-    "templates",
-    "Untitled 3.md",
-    "Cheat Sheet.md",
-    "Test.md",
-    "Untitled 1.md",
+    "Sem 4/Design Thinking and Methodology/9-1-26.md",
+    "Sem 4/DBMS/13-01-2026.md",
+    "Sem 4/DBMS",
+    "DTM_Curriculum.pdf",
+    "Sem 4/DAA/9-1-26.md",
+    "Sem 4/Design Thinking and Methodology/8-1-2026.md",
+    "Sem 4/AI Class/8-1-2026.md",
+    "Sem 4/Design Thinking and Methodology/Untitled.pdf",
+    "Pasted image 20260109100320.png",
+    "copilot-custom-prompts/Rewrite as press release.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts",
+    "Sem 4/DAA",
+    "Sem 4/Design Thinking and Methodology",
     "Untitled.md",
-    "ChoppedGPT Says.md",
-    "Also NMA Notes.md",
-    "NMA Notes.md",
-    "COA/Perplexity Says.md",
-    "NMA Cheat Sheet.md",
-    "NMA Flashcards.md",
-    "Perplexity.md",
-    "WhatsApp Image 2025-11-16 at 01.35.21_32ba9acb.jpg",
-    "2025-11-15.md",
-    "NMA As well.md",
-    "COA/COA List of Videos.md",
-    "GreensTech.md",
-    "Finite difference full notes.pdf",
-    "OS/Everything Else",
-    "APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
-    "Excalidraw/Pasted image 20251027105543.png",
-    "Everything Else/Pasted image 20251008152013.png",
-    "Excalidraw/DSA Search Trees.png",
-    "COA/Unit 4.pdf",
-    "Excalidraw/ExcaliNotes (4-9-2025).dark.png",
-    "Excalidraw/DSA Search Trees (Light).png",
-    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.dark.png",
-    "Excalidraw/Drawing 2025-09-22 21.39.59.excalidraw.light.png",
-    "Excalidraw/Stack Operations Example.light.png",
-    "Unconfirmed 937308.crdownload",
-    "DSA/DSA Unit 4/UNIT-4/UNIT-4 Tree_TT_BT_BST.pptx",
-    "DSA/DSA Unit 4/UNIT-4/unit 4 AVL trees.pptx",
-    "DSA/DSA Unit 4/UNIT-4/unit 4 Binary tree, CBT _ BST.pptx",
-    "DSA/DSA Unit 4/UNIT-4/unit 4 Introduction to Trees and Traversals.pptx",
+    "Sem 4/AI Class",
+    "Weight-Based DSA Notes.md",
+    "Sem 4",
+    "Sem 3/Everything Else/📘 Numerical Methods (21MAB202T) – 3-Day Study Plan.md",
+    "Sem 3/Everything Else/Worksheets with Answers — UNIT 1.md",
+    "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
+    "Sem 3/Everything Else/Wanna Master Them.md",
+    "Sem 3/Everything Else/Untitled.base",
+    "Sem 3/Everything Else/Unit-1 – Data Structures & Algorithms.md",
+    "Sem 3/Everything Else/Unit I – Advanced Programming Practice (APP).md",
+    "Sem 3/Everything Else/razer-id-codes-1750090419552.pdf",
+    "Sem 3/Everything Else/Pasted image 20251008152013.png",
+    "Sem 3/COA/September/Pasted image 20250901114156.png",
+    "Sem 3/APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
+    "Sem 3/WhatsApp Image 2025-11-16 at 01.35.21_32ba9acb.jpg",
+    "Sem 3/Excalidraw/Scripts/Downloaded/Darken background color.svg",
+    "Sem 3/Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Sem 3/Excalidraw/Stack Operations Example.light.png",
+    "Sem 3/Excalidraw/Stack Operations Example.dark.png",
     "Untitled.canvas"
   ]
 }
