@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "91c369dd60f45382",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
+          },
+          {
             "id": "0d6285f74e22645d",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,7 +285,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "778ae5052f16a1be",
+  "active": "35e01391e18144cc",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.md",
     "Sem 4/DBMS/13-01-2026.md",
