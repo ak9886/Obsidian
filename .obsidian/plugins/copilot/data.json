@@ -348,5 +348,6 @@
   "maxRecentConversations": 30,
   "quickCommandIncludeNoteContext": true,
   "autoIncludeTextSelection": false,
-  "defaultSendShortcut": "enter"
+  "defaultSendShortcut": "enter",
+  "suggestedDefaultCommands": true
 }
