@@ -1,6 +1,8 @@
 ---
-updated_at: 2026-01-21T21:35:05.882+05:30
-edited_seconds: 30
+updated_at: 2026-01-21T21:39:35.858+05:30
+edited_seconds: 50
 ---
 - [ ] Company Purpose (one sentence)
-- [ ] Out
+- [ ] Outline
+- [ ] TAM, SAM, and SOM
+- [ ] 
