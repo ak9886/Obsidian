@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "22-01-2026"
             }
+          },
+          {
+            "id": "72b96f2e3523acb5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -289,7 +302,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "e9646879dbac2088",
+  "active": "89e5936536f2bfe0",
   "lastOpenFiles": [
     "Sem 4/DBMS/13-01-2026.md",
     "Sem 4/DBMS/22-01-2026.md",
