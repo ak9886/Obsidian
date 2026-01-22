@@ -268,12 +268,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Sept/OS Notes (18-09-2025).md",
+                "file": "Chats/New Chat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OS Notes (18-09-2025)"
+              "title": "Outgoing links from New Chat"
             }
           },
           {
@@ -325,14 +325,45 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "e8dcb4fbe825ef7d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "594b510f54320e3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "9ecf83b8e0896d44",
+            "type": "leaf",
+            "state": {
+              "type": "chat-view",
+              "state": {
+                "file": "Chats/New Chat.md"
+              },
+              "icon": "message-square",
+              "title": "New Chat"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -372,11 +403,13 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "afe5de071f30e892",
+  "active": "9ecf83b8e0896d44",
   "lastOpenFiles": [
+    "Sem 4/DBMS/21-1-2026.md",
+    "Chats/New Chat.md",
+    "Chats",
     "Sem 4/Cryptography/21-1-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
-    "Sem 4/DBMS/21-1-2026.md",
     "Shit we need to do.md",
     "Sem 4/DAA/20-1-2026.md",
     "Sem 4/Cryptography/13-01-2026.md",
@@ -414,8 +447,6 @@
     "copilot-custom-prompts/Make shorter.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
     "Sem 3/Everything Else/Pasted image 20251008152013.png",
     "Sem 3/COA/September/Pasted image 20250901114156.png",
