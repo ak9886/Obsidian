@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "d79070ef793e0bfe",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-22 08.54.01.excalidraw"
+            }
+          },
+          {
             "id": "e289e0ab93679120",
             "type": "leaf",
             "state": {
@@ -146,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -268,12 +280,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 4/DBMS/21-1-2026.md",
+                "file": "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 21-1-2026"
+              "title": "Outgoing links from Drawing 2026-01-22 08.54.01.excalidraw"
             }
           },
           {
@@ -404,10 +416,13 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "afe5de071f30e892",
+  "active": "d79070ef793e0bfe",
   "lastOpenFiles": [
-    "Chats/New Chat.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
     "Sem 4/DBMS/21-1-2026.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md",
+    "Chats/New Chat.md",
     "Chats",
     "Sem 4/Cryptography/21-1-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
@@ -446,12 +461,9 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Simplify.md",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
     "Sem 3/Everything Else/Pasted image 20251008152013.png",
     "Sem 3/COA/September/Pasted image 20250901114156.png",
-    "Sem 3/APP/{0F03D0AF-D24F-4B97-9153-3E4A53524A16}.png",
     "Untitled.canvas"
   ]
 }
