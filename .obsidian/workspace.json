@@ -268,12 +268,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chats/New Chat.md",
+                "file": "Sem 4/DBMS/21-1-2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from New Chat"
+              "title": "Outgoing links from 21-1-2026"
             }
           },
           {
@@ -363,7 +363,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -403,10 +404,10 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "9ecf83b8e0896d44",
+  "active": "afe5de071f30e892",
   "lastOpenFiles": [
-    "Sem 4/DBMS/21-1-2026.md",
     "Chats/New Chat.md",
+    "Sem 4/DBMS/21-1-2026.md",
     "Chats",
     "Sem 4/Cryptography/21-1-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
