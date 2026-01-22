@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -372,10 +372,10 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "e289e0ab93679120",
+  "active": "afe5de071f30e892",
   "lastOpenFiles": [
-    "Sem 4/DBMS/21-1-2026.md",
     "Shit we need to do.md",
+    "Sem 4/DBMS/21-1-2026.md",
     "Sem 4/Cryptography/21-1-2026.md",
     "Sem 4/DAA/20-1-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
