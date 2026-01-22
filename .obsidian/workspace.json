@@ -32,9 +32,18 @@
               "icon": "lucide-file",
               "title": "22-01-2026"
             }
+          },
+          {
+            "id": "ca6c7353c7352090",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,8 +96,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,12 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 4/DBMS/22-01-2026.md",
+                "file": "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 22-01-2026"
+              "title": "Outgoing links from Drawing 2026-01-22 08.54.01.excalidraw"
             }
           },
           {
@@ -246,9 +254,19 @@
               "icon": "message-square",
               "title": "New Chat"
             }
+          },
+          {
+            "id": "78737024e1a00975",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "smart-lookup",
+              "title": "Lookup"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -293,10 +311,11 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "5e14663aa3e45337",
+  "active": "10ae9b128cc3d77e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md",
     "Sem 4/DBMS/22-01-2026.md",
+    "Chats/New Chat.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.md",
     "Sem 4/DBMS/21-1-2026.md",
     "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.md",
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
@@ -310,7 +329,6 @@
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
     "Sem 4/Cryptography/21-1-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
-    "Chats/New Chat.md",
     "Chats",
     "Shit we need to do.md",
     "Sem 4/DAA/20-1-2026.md",
