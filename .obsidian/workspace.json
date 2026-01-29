@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "29-01-2026"
             }
+          },
+          {
+            "id": "5468903305ae07c4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-29 15.34.08.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,10 +306,11 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "698ab77bb8e8359c",
+  "active": "5468903305ae07c4",
   "lastOpenFiles": [
-    "Sem 4/Cryptography/29-01-2026.md",
     "Sem 4/DBMS/29-01-2026.md",
+    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
+    "Sem 4/Cryptography/29-01-2026.md",
     "Sem 4/DAA/23-01-2026.md",
     "Sem 4/Cryptography/23-01-2026.md",
     "Sem 4/Social Engg/23-01-2026.md",
@@ -339,7 +352,6 @@
     "Sem 4/AI Class/8-1-2026.md",
     "Pasted image 20260109100320.png",
     "copilot-custom-prompts/Rewrite as press release.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
     "Sem 3/Everything Else/Pasted image 20251008152013.png",
     "Untitled.canvas"
