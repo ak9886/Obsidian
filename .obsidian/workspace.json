@@ -259,9 +259,19 @@
               "icon": "smart-lookup",
               "title": "Lookup"
             }
+          },
+          {
+            "id": "c2a151bf8ff2b05b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -306,7 +316,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "698ab77bb8e8359c",
+  "active": "c2a151bf8ff2b05b",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
