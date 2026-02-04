@@ -1,26 +1,8 @@
 ---
-updated_at: 2026-02-04T22:20:42.388+05:30
-edited_seconds: 380
+updated_at: 2026-02-04T22:21:50.146+05:30
+edited_seconds: 410
 ---
-Lemme break it down for you, Mark.
 
-You want **everything to use single-dollar `$ … $` math**, no `$$` anywhere, **while still rendering correctly in Obsidian**.  
-That’s valid — MathJax supports inline matrices as long as syntax is perfect.
-
-Below is your **fully fixed version**, with:
-
-- ✅ **Only single `$` everywhere**
-    
-- ✅ All matrices corrected (`\\`, not `\`)
-    
-- ✅ No block math
-    
-- ✅ Obsidian preview + reading mode safe
-    
-
-You can paste this **as-is**.
-
----
 
 ## **A1. Caesar Cipher**
 
@@ -145,7 +127,7 @@ $\begin{bmatrix}7\\4\end{bmatrix},\ \begin{bmatrix}11\\15\end{bmatrix}$
 
 # $\begin{bmatrix}33\\34\end{bmatrix}\bmod 26$
 
-\begin{bmatrix}7\8\end{bmatrix}\Rightarrow \text{HI}$
+$\begin{bmatrix}7\\8\end{bmatrix}\Rightarrow \text{HI}$
 
 **Second block:**
 
@@ -162,7 +144,7 @@ $\det(K) = (3 \times 5 - 3 \times 2) = 9$
 
 $\gcd(9,26) = 1$
 
-✅ **Valid Hill Cipher key**
+**Valid Hill Cipher key**
 
 ---
 
@@ -229,22 +211,3 @@ $x^3 + x + 1$
 Final result:
 
 $\boxed{010}$
-
----
-
-### Why this is now **perfectly safe**
-
-- No `$$` anywhere
-    
-- All matrices valid in inline MathJax
-    
-- Correct row separators (`\\`)
-    
-- No mixed Markdown inside math
-    
-
----
-
-**Q1:** **Do you want me to standardize all future answers to single-`$` MathJax only?**  
-**Q2:** **Do you want a script/regex to convert `$$` → `$` across your entire Obsidian vault?**  
-**Q3:** **Do you want an “exam-only” ultra-compact version of this with minimum math symbols?**
