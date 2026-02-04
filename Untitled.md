@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-02-04T22:10:42.484+05:30
-edited_seconds: 160
+updated_at: 2026-02-04T22:15:32.622+05:30
+edited_seconds: 310
 ---
 ## **A1. Caesar Cipher**
 
@@ -8,26 +8,22 @@ edited_seconds: 160
 
 Caesar Cipher rule:
 
-$$  
-C = (P + k) \bmod 26  
-$$
+$C = (P + k) \bmod 26$
 
-|Plain|Position|+4|Cipher|
-|---|---|---|---|
-|S|18|22|W|
-|E|4|8|I|
-|C|2|6|G|
-|U|20|24|Y|
-|R|17|21|V|
-|I|8|12|M|
-|T|19|23|X|
-|Y|24|2|C|
+| Plain | Position | +4  | Cipher |
+| ----- | -------- | --- | ------ |
+| S     | 18       | 22  | W      |
+| E     | 4        | 8   | I      |
+| C     | 2        | 6   | G      |
+| U     | 20       | 24  | Y      |
+| R     | 17       | 21  | V      |
+| I     | 8        | 12  | M      |
+| T     | 19       | 23  | X      |
+| Y     | 24       | 2   | C      |
 
 **Encrypted text:**
 
-$$  
-\boxed{\text{WIGYVMXC}}  
-$$
+$\boxed{\text{WIGYVMXC}}$
 
 ---
 
@@ -35,9 +31,7 @@ $$
 
 Decryption rule:
 
-$$  
-P = (C - k) \bmod 26  
-$$
+$P = (C - k) \bmod 26$
 
 |Cipher|−4|Plain|
 |---|---|---|
@@ -48,9 +42,7 @@ $$
 
 **Decrypted text:**
 
-$$  
-\boxed{\text{SGDM}}  
-$$
+$\boxed{\text{SGDM}}$
 
 ---
 
@@ -65,12 +57,12 @@ Rules:
 - Remove duplicates
     
 
-|M|O|N|A|R|
-|---|---|---|---|---|
-|C|H|Y|B|D|
-|E|F|G|I|K|
-|L|P|Q|S|T|
-|U|V|W|X|Z|
+| M   | O   | N   | A   | R   |
+| --- | --- | --- | --- | --- |
+| C   | H   | Y   | B   | D   |
+| E   | F   | G   | I   | K   |
+| L   | P   | Q   | S   | T   |
+| U   | V   | W   | X   | Z   |
 
 ---
 
@@ -92,9 +84,7 @@ IN ST RU ME NT
 
 **Ciphertext:**
 
-$$  
-\boxed{\text{GATLMXCERQ}}  
-$$
+$\boxed{\text{GATLMXCERQ}}$
 
 ---
 
@@ -135,44 +125,44 @@ $$
 
 Plaintext values:
 
-$$  
-H=7,\ E=4,\ L=11,\ P=15  
-$$
+  
+$H=7,\ E=4,\ L=11,\ P=15$
 
 Vectors:
 
-$$  
-\begin{bmatrix}7\4\end{bmatrix},  
-\begin{bmatrix}11\15\end{bmatrix}  
-$$
+
+$\begin{bmatrix}7\\4\end{bmatrix},\begin{bmatrix}11\\15\end{bmatrix}$
 
 **First block:**
-
-# $$  
-\begin{bmatrix}  
-3 & 3\  
-2 & 5  
-\end{bmatrix}  
-\begin{bmatrix}  
-7\4  
-\end{bmatrix}
-
-# \begin{bmatrix}  
-33\34  
-\end{bmatrix}  
-\bmod 26
-
-\begin{bmatrix}  
-7\8  
-\end{bmatrix}  
-\Rightarrow HI  
 $$
+\begin{bmatrix}
+3 & 3\\
+2 & 5
+\end{bmatrix}
+\begin{bmatrix}
+7\\
+4
+\end{bmatrix}
+=
+\begin{bmatrix}
+33\\
+34
+\end{bmatrix}
+\bmod 26
+=
+\begin{bmatrix}
+7\\
+8
+\end{bmatrix}
+\Rightarrow \text{HI}
+$$
+
 
 **Second block:**
 
 $$  
 \begin{bmatrix}  
-6\19  
+6\\19  
 \end{bmatrix}  
 \Rightarrow GT  
 $$
@@ -297,23 +287,3 @@ $$
 \boxed{010}  
 $$
 
----
-
-### **Why this version is Obsidian-perfect**
-
-- No matrices inside code blocks
-    
-- Only `$$` block math
-    
-- Proper `\\` row breaks everywhere
-    
-- Clean preview + reading mode
-    
-- Safe for PDF export
-    
-
----
-
-**Q1:** **Do you want me to auto-convert all future math to Obsidian-safe MathJax like this?**  
-**Q2:** **Do you want a global find-and-fix rule for broken `[` `]` math in your vault?**  
-**Q3:** **Should I now compress this into a last-minute exam-revision version?**
