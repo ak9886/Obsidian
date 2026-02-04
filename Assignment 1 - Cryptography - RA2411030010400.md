@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-02-04T22:21:50.146+05:30
-edited_seconds: 410
+updated_at: 2026-02-04T22:38:58.542+05:30
+edited_seconds: 450
 ---
 
 
@@ -26,7 +26,7 @@ $C = (P + k) \bmod 26$
 **Encrypted text:**  
 $\boxed{\text{WIGYVMXC}}$
 
----
+
 
 ### **1(b) Decrypt “WKHQ”**
 
@@ -34,17 +34,17 @@ Decryption rule:
 
 $P = (C - k) \bmod 26$
 
-|Cipher|−4|Plain|
-|---|---|---|
-|W|S|S|
-|K|G|G|
-|H|D|D|
-|Q|M|M|
+| Cipher | −4  | Plain |
+| ------ | --- | ----- |
+| W      | S   | S     |
+| K      | G   | G     |
+| H      | D   | D     |
+| Q      | M   | M     |
 
 **Decrypted text:**  
 $\boxed{\text{SGDM}}$
 
----
+
 
 ## **A2. Playfair Cipher**
 
@@ -64,7 +64,7 @@ Rules:
 |L|P|Q|S|T|
 |U|V|W|X|Z|
 
----
+
 
 ### **Encrypt “INSTRUMENT”**
 
@@ -85,7 +85,7 @@ IN ST RU ME NT
 **Ciphertext:**  
 $\boxed{\text{GATLMXCERQ}}$
 
----
+
 
 ### **2(b) Encrypt “BALLOON” (digraph formation)**
 
@@ -103,7 +103,7 @@ BA LX LO ON
 **Ciphertext:**  
 $\boxed{\text{DBSUPMNA}}$
 
----
+
 
 ## **A3. Hill Cipher**
 
@@ -136,7 +136,7 @@ $\begin{bmatrix}6\\19\end{bmatrix}\Rightarrow \text{GT}$
 **Ciphertext:**  
 $\boxed{\text{HIGT}}$
 
----
+
 
 ### **3(b) Validity of key matrix**
 
@@ -146,7 +146,7 @@ $\gcd(9,26) = 1$
 
 **Valid Hill Cipher key**
 
----
+
 
 ## **A4. Modular Arithmetic**
 
@@ -158,7 +158,7 @@ $(17 + 20) \bmod 26 = \boxed{11}$
 
 $(7 \times 9) \bmod 26 = \boxed{11}$
 
----
+
 
 ### **Multiplicative inverse of 5 mod 7**
 
@@ -166,7 +166,7 @@ $5 \times 3 = 15 \equiv 1 \pmod{7}$
 
 $\boxed{5^{-1} \equiv 3 \pmod{7}}$
 
----
+
 
 ## **A5. Euclidean Algorithm**
 
@@ -180,7 +180,7 @@ $5 = 2 \times 2 + 1$
 
 $\boxed{\gcd(26,7)=1}$
 
----
+
 
 ### **Extended Euclidean Algorithm**
 
@@ -196,7 +196,7 @@ $1 = 3 \times 26 - 11 \times 7$
 
 $\boxed{7^{-1} \equiv 15 \pmod{26}}$
 
----
+
 
 ## **A6. Finite Fields**
 
