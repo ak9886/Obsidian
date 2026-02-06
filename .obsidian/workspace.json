@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Assignment 1 - Cryptography - RA2411030010400"
             }
+          },
+          {
+            "id": "ec64fd70c1178fdd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-06 07.54.27.excalidraw"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -332,10 +344,13 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "c2a151bf8ff2b05b",
+  "active": "ec64fd70c1178fdd",
   "lastOpenFiles": [
-    "Sem 4/DAA/04-02-2025.md",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
     "Assignment 1 - Cryptography - RA2411030010400.md",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
+    "Sem 4/DAA/04-02-2025.md",
     "Experiment 3 - Use Brute Force Algorithm to perform string matching using the Brute Force Algorithm Technique.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Untitled.pdf",
@@ -368,7 +383,6 @@
     "Chats",
     "Shit we need to do.md",
     "DAA Course Hand out - V2.xlsx",
-    "Sem 4/Design Thinking and Methodology/19-1-2026.md",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.dark.png",
     "Sem 4/Cryptography",
@@ -378,8 +392,6 @@
     "Excalidraw",
     "Pasted image 20260113083510.png",
     "strix_runs/owasp-org_c38f",
-    "Sem 4/DAA/9-1-26.md",
-    "Pasted image 20260109100320.png",
     "Untitled.canvas"
   ]
 }
