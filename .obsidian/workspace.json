@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "06-02-2026"
             }
+          },
+          {
+            "id": "82c163529154e116",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -332,7 +344,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "c3055e64e9de8e31",
+  "active": "c2a151bf8ff2b05b",
   "lastOpenFiles": [
     "Assignment 1 - Cryptography - RA2411030010400.md",
     "Sem 4/DAA/04-02-2025.md",
