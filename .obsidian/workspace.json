@@ -81,14 +81,10 @@
             "id": "7926f81d1d18e25d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Story of the abysals.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Story of the abysals"
+              "title": "New tab"
             }
           }
         ],
@@ -360,7 +356,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "7926f81d1d18e25d",
+  "active": "c2a151bf8ff2b05b",
   "lastOpenFiles": [
     "Prologue.md",
     "Sem 4/DAA/06-02-2026.md",
