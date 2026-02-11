@@ -4,81 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d2a78fc97d9e641",
+        "id": "362e8669928dee05",
         "type": "tabs",
         "children": [
           {
-            "id": "7f27b92da686cc0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 4/Cryptography/29-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29-01-2026"
-            }
-          },
-          {
-            "id": "698ab77bb8e8359c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 4/DBMS/29-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29-01-2026"
-            }
-          },
-          {
-            "id": "e8a983307a6e61ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 4/DAA/04-02-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04-02-2025"
-            }
-          },
-          {
-            "id": "c3055e64e9de8e31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 4/DAA/06-02-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06-02-2026"
-            }
-          },
-          {
-            "id": "d04c057b10dee449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prologue.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prologue"
-            }
-          },
-          {
-            "id": "7926f81d1d18e25d",
+            "id": "aae5a004dc285385",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -87,8 +17,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -358,10 +287,13 @@
   },
   "active": "c2a151bf8ff2b05b",
   "lastOpenFiles": [
-    "Prologue.md",
-    "Sem 4/DAA/06-02-2026.md",
-    "Assignment 1 - Cryptography - RA2411030010400.md",
+    "Sem 4/Cryptography/29-01-2026.md",
     "Sem 4/DAA/04-02-2025.md",
+    "Sem 4/DAA/06-02-2026.md",
+    "Obsidian",
+    "New folder",
+    "Prologue.md",
+    "Assignment 1 - Cryptography - RA2411030010400.md",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
@@ -371,7 +303,6 @@
     "Sem 4/DBMS/29-01-2026.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
-    "Sem 4/Cryptography/29-01-2026.md",
     "Sem 4/DAA/23-01-2026.md",
     "Sem 4/Cryptography/23-01-2026.md",
     "Sem 4/Social Engg/23-01-2026.md",
@@ -393,7 +324,6 @@
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
     "Sem 4/Design Thinking and Methodology/9-1-26.md",
     "Sem 4/Cryptography/13-01-2026.md",
-    "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
     "Chats",
     "DAA Course Hand out - V2.xlsx",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
@@ -402,8 +332,6 @@
     "Sem 4/Social Engg",
     "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.dark.png",
-    "Excalidraw",
-    "strix_runs/owasp-org_c38f",
     "Untitled.canvas"
   ]
 }
