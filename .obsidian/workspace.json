@@ -20,8 +20,81 @@
               "icon": "lucide-file",
               "title": "11-02-2026"
             }
+          },
+          {
+            "id": "c360f0c2b5b99a2f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2026-02-06 07.54.27.excalidraw.light"
+            }
+          },
+          {
+            "id": "5c13350982b5e238",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2026-02-06 07.54.27.excalidraw.dark"
+            }
+          },
+          {
+            "id": "98e8cf9e41d389ab",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-29 15.34.08.excalidraw"
+            }
+          },
+          {
+            "id": "c4cac6893c451258",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2026-01-22 08.54.01.excalidraw.light"
+            }
+          },
+          {
+            "id": "f6ef1f6dbcee16a7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2026-01-22 08.54.01.excalidraw.dark"
+            }
+          },
+          {
+            "id": "73efc43bd1d8fb55",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2026-01-29 15.34.08.excalidraw.light"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -289,10 +362,15 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "e3eee19d2cd39931",
+  "active": "f6ef1f6dbcee16a7",
   "lastOpenFiles": [
-    "Sem 4/DAA/2 - February/04-02-2026.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
     "Sem 4/DAA/2 - February/11-02-2026.md",
+    "Sem 4/DAA/2 - February/04-02-2026.md",
     "Sem 4/DAA/2 - February/04-02-2025.md",
     "Sem 4/DAA/2 - February/06-02-2026.md",
     "Sem 4/DAA/2 - February",
@@ -317,22 +395,16 @@
     "Prologue.md",
     "Assignment 1 - Cryptography - RA2411030010400.md",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
     "Experiment 3 - Use Brute Force Algorithm to perform string matching using the Brute Force Algorithm Technique.md",
-    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Untitled.pdf",
     "Sem 4/DBMS/29-01-2026.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
     "Sem 4/DAA/23-01-2026.md",
     "Sem 4/Cryptography/23-01-2026.md",
-    "Sem 4/Social Engg/23-01-2026.md",
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
-    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.light.png",
