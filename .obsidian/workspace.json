@@ -82,6 +82,18 @@
             }
           },
           {
+            "id": "4ace73569c9ada81",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-19 16.07.11.excalidraw"
+            }
+          },
+          {
             "id": "73efc43bd1d8fb55",
             "type": "leaf",
             "state": {
@@ -94,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -362,10 +374,12 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "c2a151bf8ff2b05b",
+  "active": "5c13350982b5e238",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
@@ -400,8 +414,6 @@
     "Sem 4/DBMS/29-01-2026.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
     "Sem 4/DAA/23-01-2026.md",
-    "Sem 4/Cryptography/23-01-2026.md",
-    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
