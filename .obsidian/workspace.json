@@ -74,6 +74,18 @@
             }
           },
           {
+            "id": "eb86639100cc86aa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-12 12.41.45.excalidraw"
+            }
+          },
+          {
             "id": "c4cac6893c451258",
             "type": "leaf",
             "state": {
@@ -122,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -390,10 +402,13 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "d1f393d3eb1f03a3",
+  "active": "eb86639100cc86aa",
   "lastOpenFiles": [
-    "Barclay's/Untitled.md",
+    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.dark.png",
     "Sem 4/Cryptography/12-02-2026.md",
+    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.md",
+    "Barclay's/Untitled.md",
     "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.md",
     "Barclay's",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
@@ -430,14 +445,11 @@
     "Obsidian",
     "New folder",
     "Prologue.md",
-    "Assignment 1 - Cryptography - RA2411030010400.md",
-    "Experiment 3 - Use Brute Force Algorithm to perform string matching using the Brute Force Algorithm Technique.md",
     "Untitled.pdf",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.dark.png",
     "Untitled.canvas"
   ]
 }
