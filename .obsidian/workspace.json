@@ -34,6 +34,18 @@
             }
           },
           {
+            "id": "f5c621ab4c750792",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-12 08.13.41.excalidraw"
+            }
+          },
+          {
             "id": "c4cac6893c451258",
             "type": "leaf",
             "state": {
@@ -82,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -350,8 +362,12 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "76c91d02ca11b580",
+  "active": "c4cac6893c451258",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.dark.png",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
@@ -384,19 +400,15 @@
     "New folder",
     "Prologue.md",
     "Assignment 1 - Cryptography - RA2411030010400.md",
-    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
     "Experiment 3 - Use Brute Force Algorithm to perform string matching using the Brute Force Algorithm Technique.md",
     "Untitled.pdf",
     "Sem 4/DBMS/29-01-2026.md",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
-    "Sem 4/DAA/23-01-2026.md",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-01-13 09.26.51.excalidraw.dark.png",
     "Untitled.canvas"
   ]
 }
