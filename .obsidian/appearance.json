@@ -2,5 +2,6 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "Snippet1"
-  ]
+  ],
+  "textFontFamily": "JetBrains Mono"
 }
