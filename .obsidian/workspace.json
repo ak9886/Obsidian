@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -402,12 +402,12 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "eb86639100cc86aa",
+  "active": "d1f393d3eb1f03a3",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.md",
+    "Sem 4/Cryptography/12-02-2026.md",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.dark.png",
-    "Sem 4/Cryptography/12-02-2026.md",
-    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.md",
     "Barclay's/Untitled.md",
     "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.md",
     "Barclay's",
@@ -449,7 +449,6 @@
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.dark.png",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
-    "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.light.png",
     "Untitled.canvas"
   ]
 }
