@@ -22,39 +22,15 @@
             }
           },
           {
-            "id": "c360f0c2b5b99a2f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png"
-              },
-              "icon": "lucide-image",
-              "title": "Drawing 2026-02-06 07.54.27.excalidraw.light"
-            }
-          },
-          {
-            "id": "5c13350982b5e238",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png"
-              },
-              "icon": "lucide-image",
-              "title": "Drawing 2026-02-06 07.54.27.excalidraw.dark"
-            }
-          },
-          {
-            "id": "98e8cf9e41d389ab",
+            "id": "76c91d02ca11b580",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-29 15.34.08.excalidraw"
+              "title": "Drawing 2026-02-06 07.54.27.excalidraw"
             }
           },
           {
@@ -106,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -374,14 +350,14 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "5c13350982b5e238",
+  "active": "76c91d02ca11b580",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
     "Sem 4/DAA/2 - February/11-02-2026.md",
     "Sem 4/DAA/2 - February/04-02-2026.md",
