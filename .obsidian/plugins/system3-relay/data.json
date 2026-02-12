@@ -2,14 +2,26 @@
   "release": {
     "channel": "stable"
   },
-  "sharedFolders": [],
+  "sharedFolders": [
+    {
+      "path": "Barclay's",
+      "guid": "c6a3f7ce-fa03-4370-85a0-83907dadb473",
+      "relay": "2f20130f-b4c2-435a-8e2f-ae0ff085380f",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
   "endpoints": {},
   "enableDocumentStatus": false,
   "enableNewLinkFormat": false,
   "enableDeltaLogging": false,
   "enableDocumentHistory": false,
   "enableEditorTweens": false,
-  "enableSyncModal": false,
   "enableNetworkLogging": false,
   "enableCanvasSync": false,
   "enableVerifyUploads": false,
@@ -17,7 +29,13 @@
   "enableDiscordLogin": false,
   "enableSelfManageHosts": true,
   "enableToasts": false,
+  "enablePresenceAvatars": true,
+  "enableLiveEmbeds": true,
+  "enablePreviewViewHooks": true,
+  "enableMetadataViewHooks": true,
+  "enableKanbanView": true,
   "debugging": false,
+  "enableSyncModal": false,
   "login": {
     "provider": "google"
   },
