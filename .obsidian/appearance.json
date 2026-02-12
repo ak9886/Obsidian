@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "Snippet1"
   ],
-  "textFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "Bookman Old Style"
 }
