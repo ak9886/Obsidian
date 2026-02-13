@@ -14,6 +14,18 @@
         "pdfs": true,
         "otherTypes": false
       }
+    },
+    {
+      "path": "Sem 4",
+      "guid": "39357adf-9339-424f-b471-52676470b1a5",
+      "relay": "b162ac9b-0888-405c-bf9c-6dfbe9f35755",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
     }
   ],
   "endpoints": {},
