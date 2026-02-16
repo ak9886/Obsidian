@@ -101,7 +101,7 @@
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
   "loadPropertySuggestions": false,
-  "experimentalEnableFourthFont": false,
+  "experimentalEnableFourthFont": true,
   "experimantalFourthFont": "Virgil",
   "addDummyTextElement": false,
   "zoteroCompatibility": false,
