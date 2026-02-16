@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "16-02-2025"
             }
+          },
+          {
+            "id": "4c9af028df9899a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-16 14.39.58.excalidraw"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -332,10 +344,11 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "f7ecdecab9c7e25e",
+  "active": "4c9af028df9899a2",
   "lastOpenFiles": [
-    "Sem 4/DAA/13-02-2026.md",
     "Sem 4/Cryptography/16-02-2025.md",
+    "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md",
+    "Sem 4/DAA/13-02-2026.md",
     "Barclay's/Untitled.md",
     "Sem 4/DBMS/13-02-2026.md",
     "Sem 4/DBMS/12-02-2025.md",
@@ -371,7 +384,6 @@
     "Sem 4/DAA/January/9-1-26.md",
     "Sem 4/DAA/January/23-01-2026.md",
     "Sem 4/DAA/January/22-01-2026.md",
-    "Sem 4/DAA/January/20-1-2026.md",
     "Sem 4/DAA/February",
     "Sem 4/DAA/January",
     "Obsidian",
