@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "16-02-2025"
             }
-          },
-          {
-            "id": "4c9af028df9899a2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-16 14.39.58.excalidraw"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -344,7 +332,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "4c9af028df9899a2",
+  "active": "f7ecdecab9c7e25e",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
@@ -370,7 +358,6 @@
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
     "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.light.png",
     "Sem 4/DAA/2 - February/11-02-2026.md",
     "Sem 4/DAA/2 - February/04-02-2026.md",
     "Sem 4/DAA/2 - February/04-02-2025.md",
