@@ -259,19 +259,9 @@
               "icon": "smart-lookup",
               "title": "Lookup"
             }
-          },
-          {
-            "id": "c2a151bf8ff2b05b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -316,7 +306,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "9a17b5e1f1a1fcd3",
+  "active": "78737024e1a00975",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md",
     "Sem 4/AI Class/17-2-2026.md",
