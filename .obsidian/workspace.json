@@ -65,7 +65,17 @@
             }
           },
           {
-            "id": "395cdc0b24803c8d",
+            "id": "c8379cc8bfab8640",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "76577d552b4ea509",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -75,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,9 +243,19 @@
               "icon": "smart-lookup",
               "title": "Lookup"
             }
+          },
+          {
+            "id": "05771e2077d3c7bd",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -280,7 +300,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "395cdc0b24803c8d",
+  "active": "05771e2077d3c7bd",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.md",
