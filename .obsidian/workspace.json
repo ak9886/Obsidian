@@ -8,50 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "910254b8dcd66c49",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Sem 4/DAA/2 - February"
-              },
-              "icon": "lucide-file",
-              "title": "2 - February"
-            }
-          },
-          {
-            "id": "8ed715510f110b7b",
+            "id": "d3b3a942b2037f0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 4/DAA/2 - February/16-02-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "16-02-2025"
-            }
-          },
-          {
-            "id": "c9640258c76756ad",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Sem 4/DAA"
-              },
-              "icon": "lucide-file",
-              "title": "DAA"
-            }
-          },
-          {
-            "id": "7844c1c8f2a1371b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 4/Cryptography/23-02-2026.md",
+                "file": "Sem 4/AI Class/23-02-2026.md",
                 "mode": "source",
                 "source": false
               },
@@ -59,8 +21,7 @@
               "title": "23-02-2026"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#AI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -339,10 +300,12 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "7844c1c8f2a1371b",
+  "active": "d3b3a942b2037f0b",
   "lastOpenFiles": [
-    "Sem 4/Cryptography/16-02-2025.md",
+    "Sem 4/AI Class/17-2-2026.md",
+    "Sem 4/AI Class/23-02-2026.md",
     "Sem 4/Cryptography/23-02-2026.md",
+    "Sem 4/Cryptography/16-02-2025.md",
     "Sem 4/DAA/2 - February/04-02-2026.md",
     "Sem 4/DAA/2 - February/16-02-2025.md",
     "DTM_Curriculum.pdf",
@@ -358,7 +321,6 @@
     "Sem 4/AI Class/8-1-2026.md",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.dark.png",
-    "Sem 4/AI Class/17-2-2026.md",
     "Untitled.md",
     "Sem 4/DBMS/12-02-2025.md",
     "Sem 4/DBMS/13-02-2026.md",
@@ -380,7 +342,6 @@
     "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.light.png",
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
-    "Sem 4/DAA/2 - February/11-02-2026.md",
     "Sem 4/DAA/2 - February",
     "Sem 4/DAA/1 - January",
     "Sem 4/DAA/February",
