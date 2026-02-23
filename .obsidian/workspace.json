@@ -11,6 +11,18 @@
             "id": "910254b8dcd66c49",
             "type": "leaf",
             "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Sem 4/DAA/2 - February"
+              },
+              "icon": "lucide-file",
+              "title": "2 - February"
+            }
+          },
+          {
+            "id": "8ed715510f110b7b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Sem 4/DAA/2 - February/16-02-2025.md",
@@ -20,8 +32,21 @@
               "icon": "lucide-file",
               "title": "16-02-2025"
             }
+          },
+          {
+            "id": "c9640258c76756ad",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Sem 4/DAA"
+              },
+              "icon": "lucide-file",
+              "title": "DAA"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -300,15 +325,18 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "05771e2077d3c7bd",
+  "active": "c9640258c76756ad",
   "lastOpenFiles": [
+    "Sem 4/DAA/2 - February/04-02-2026.md",
+    "Sem 4/DAA/2 - February/16-02-2025.md",
+    "DTM_Curriculum.pdf",
+    "~$DAA Course Hand out - V2.xlsx",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.md",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.md",
     "22-01-2026.md",
     "Tags",
     "Pasted image 20260113083510.png",
     "Pasted image 20260109100320.png",
-    "DTM_Curriculum.pdf",
     "Sem 4/Social Engg/23-01-2026.md",
     "Sem 4/DBMS/13-01-2026.md",
     "Sem 4/AI Class/8-1-2026.md",
@@ -317,7 +345,6 @@
     "Sem 4/AI Class/17-2-2026.md",
     "Untitled.md",
     "Sem 4/DBMS/12-02-2025.md",
-    "Sem 4/DAA/2 - February/16-02-2025.md",
     "Sem 4/DBMS/13-02-2026.md",
     "Sem 4/DBMS/29-01-2026.md",
     "Sem 4/DBMS/22-01-2026.md",
@@ -339,14 +366,12 @@
     "Excalidraw/Drawing 2026-01-29 15.34.08.excalidraw.md",
     "Excalidraw/Drawing 2026-01-19 16.07.11.excalidraw.md",
     "Sem 4/DAA/2 - February/11-02-2026.md",
-    "Sem 4/DAA/2 - February/04-02-2026.md",
     "Sem 4/DAA/2 - February",
     "Sem 4/DAA/1 - January",
     "Sem 4/DAA/February",
     "Sem 4/DAA/January",
     "Obsidian",
     "New folder",
-    "Untitled.pdf",
     "Untitled.canvas"
   ]
 }

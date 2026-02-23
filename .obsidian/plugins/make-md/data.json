@@ -38,7 +38,10 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Sem 4",
+    "//Sem 4/Sem 4/DAA",
+    "//Sem 4/Sem 4/DAA/Sem 4/DAA/2 - February"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
