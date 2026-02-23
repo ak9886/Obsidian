@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "23-02-2026"
             }
-          },
-          {
-            "id": "e3d81fa2590f508f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-06 07.54.27.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -324,9 +311,12 @@
       "lexicon-dictionary:Lexicon dictionary": false
     }
   },
-  "active": "e3d81fa2590f508f",
+  "active": "d3b3a942b2037f0b",
   "lastOpenFiles": [
+    "Excalidraw/Excalidraw.md",
     "Sem 4/AI Class/23-02-2026.md",
+    "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.dark.png",
+    "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
     "Sem 3/Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
     "Vocabulary/lexicon.md",
     "Vocabulary",
@@ -362,4 +352,13 @@
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.md",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.dark.png",
-    "Exca
+    "Barclay's",
+    "Excalidraw/Drawing 2026-01-22 08.54.01.excalidraw.light.png",
+    "Sem 4/DAA/2 - February",
+    "Sem 4/DAA/1 - January",
+    "Sem 4/DAA/February",
+    "Sem 4/DAA/January",
+    "Obsidian",
+    "Untitled.canvas"
+  ]
+}
