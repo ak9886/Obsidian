@@ -253,14 +253,23 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "b1ccee0bb73818cc",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "Dictionary"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,7 +309,7 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "9e472755e8c99cb9",
+  "active": "b1ccee0bb73818cc",
   "lastOpenFiles": [
     "Sem 4/AI Class/17-2-2026.md",
     "Sem 4/AI Class/23-02-2026.md",
