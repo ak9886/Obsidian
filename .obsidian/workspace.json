@@ -48,18 +48,6 @@
               "icon": "lucide-file",
               "title": "25-02-2026"
             }
-          },
-          {
-            "id": "d4cf000a63acee87",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-24 14.29.04.excalidraw"
-            }
           }
         ],
         "currentTab": 2
@@ -349,14 +337,16 @@
       "smart-connections:Smart Lookup: Open lookup view": false,
       "voice:Voice read text": false,
       "smart-second-brain:Open S2B Chat": false,
-      "lexicon-dictionary:Lexicon dictionary": false
+      "lexicon-dictionary:Lexicon dictionary": false,
+      "password-protection:Lock password protection": false
     }
   },
   "active": "cdf075636b507b18",
   "lastOpenFiles": [
-    "Sem 4/AI Class/24-02-2026.md",
-    "Sem 4/DAA/2 - February/25-02-2026.md",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.md",
+    "Vocabulary/lexicon.md",
+    "Sem 4/DAA/2 - February/25-02-2026.md",
+    "Sem 4/AI Class/24-02-2026.md",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.dark.png",
     "Sem 4/AI Class/23-02-2026.md",
@@ -364,7 +354,6 @@
     "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-06 07.54.27.excalidraw.md",
     "Sem 3/Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
-    "Vocabulary/lexicon.md",
     "Vocabulary",
     "Sem 4/AI Class/17-2-2026.md",
     "Sem 4/Cryptography/23-02-2026.md",
