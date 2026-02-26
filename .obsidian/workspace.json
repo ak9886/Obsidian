@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "081d3304b88f8b8f",
+        "id": "73a7f8f483b07d4e",
         "type": "tabs",
         "children": [
           {
-            "id": "8c0d4cacc31e1314",
+            "id": "2324359509974e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 4/Cryptography/26-02-2026.md",
+                "file": "Sem 4/DBMS/26-02-2026.md",
                 "mode": "source",
                 "source": false
               },
@@ -312,8 +312,9 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "26bf071a991c20a0",
+  "active": "52b53a648e025efb",
   "lastOpenFiles": [
+    "Sem 4/DBMS/26-02-2026.md",
     "Sem 4/Cryptography/26-02-2026.md",
     "Sem 4/DAA/2 - February/25-02-2026.md",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.md",
@@ -350,7 +351,6 @@
     "Sem 4/DBMS/13-02-2026.md",
     "Sem 4/DBMS/29-01-2026.md",
     "Sem 4/DBMS/22-01-2026.md",
-    "Sem 4/DBMS/21-1-2026.md",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
