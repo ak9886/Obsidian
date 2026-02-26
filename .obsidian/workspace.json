@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "141d164ffccee57a",
+            "id": "87f84009ec199693",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -253,9 +253,19 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
+          },
+          {
+            "id": "26bf071a991c20a0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -302,7 +312,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "8c0d4cacc31e1314",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/Cryptography/26-02-2026.md",
     "Sem 4/DAA/2 - February/25-02-2026.md",
