@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "27-02-2026"
             }
+          },
+          {
+            "id": "bc73d2fc6db8d010",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +88,7 @@
             }
           },
           {
-            "id": "a96bdb4a0d78cc10",
+            "id": "df1c3992e8eee15d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
