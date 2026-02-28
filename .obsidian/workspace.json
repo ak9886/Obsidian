@@ -32,9 +32,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.12.4"
             }
+          },
+          {
+            "id": "17ab864b11595631",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Sem 4/AI Class"
+              },
+              "icon": "lucide-file",
+              "title": "AI Class"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,7 @@
             }
           },
           {
-            "id": "df1c3992e8eee15d",
+            "id": "b338f893331735ea",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -325,8 +337,9 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "26bf071a991c20a0",
+  "active": "17ab864b11595631",
   "lastOpenFiles": [
+    "Sem 4/Cryptography/12-02-2026.md",
     "Sem 4/DBMS/26-02-2026.md",
     "Sem 4/DAA/27-02-2026.md",
     "Sem 4/Cryptography/Cryptography.md",
@@ -363,7 +376,6 @@
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.dark.png",
     "Untitled.md",
-    "Sem 4/DBMS/12-02-2025.md",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
