@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "27-02-2026"
             }
+          },
+          {
+            "id": "5d1c0e832edff6b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +90,7 @@
             }
           },
           {
-            "id": "89ed44b7058f30c3",
+            "id": "271d33f912ef37d4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -312,8 +327,9 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "89ed44b7058f30c3",
+  "active": "5d1c0e832edff6b4",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Sem 4/DAA/27-02-2026.md",
     "Sem 4/DAA/Untitled.md",
     "Sem 4/Cryptography/21-1-2026.md",
@@ -348,7 +364,6 @@
     "Tags",
     "Pasted image 20260113083510.png",
     "Pasted image 20260109100320.png",
-    "Sem 4/Social Engg/23-01-2026.md",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
