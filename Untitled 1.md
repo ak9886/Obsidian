@@ -1,17 +1,19 @@
 ---
-updated_at: 2026-03-02T18:34:17.163+05:30
-edited_seconds: 70
+updated_at: 2026-03-02T18:39:38.836+05:30
+edited_seconds: 190
 ---
 #flashcards 
 What is the first step in the process of using AI to solve a specific problem?::Problem formulation.
 
 In AI problem solving, what does the 'search' process aim to identify?::A sequence of actions that leads from the initial state to a goal state.
+<!--SR:!2026-03-05,3,250-->
 
 What is a Toy Problem in AI?::A simplified benchmark problem used to test or illustrate AI algorithms (e.g., Tic-tac-toe).
 
 Which classic AI toy problem involves moving characters across a river using a boat with limited capacity?::Missionaries and Cannibals Problem.
 
 Which real-world AI problem focuses on finding the most efficient route for a salesman to visit each city exactly once?::Travelling Salesman Problem.
+<!--SR:!2026-03-06,4,270-->
 
 What is the 'problem space' in AI search?::The abstract environment representing all possible states and the actions that connect them.
 
@@ -29,12 +31,15 @@ Which uninformed search method expands the shallowest unexpanded node first?::Br
 How does Uniform Cost Search (UCS) choose the next node?::It expands the node with the lowest cumulative path cost from the root.
 
 Which search method explores the deepest unexpanded node first?::Depth First Search (DFS).
+<!--SR:!2026-03-06,4,270-->
 
 What is the purpose of Depth Limited Search (DLS)?::To prevent DFS from following infinite paths by imposing a maximum depth limit.
+<!--SR:!2026-03-06,4,270-->
 
 What is Informed Search?::A search strategy that uses heuristics or domain knowledge to find solutions efficiently.
 
 How does Generate and Test work?::It generates a possible solution and then tests it against goal criteria.
+<!--SR:!2026-03-05,3,250-->
 
 In Best First Search, how is the best node selected?::Using a heuristic evaluation function.
 
@@ -51,6 +56,7 @@ What is the goal of the Mini-max algorithm?::To determine the optimal move assum
 What is the benefit of Alpha-beta pruning?::It eliminates branches that cannot affect the final decision.
 
 In Alpha-beta pruning, what does α represent?::The best value found so far for the MAX player.
+<!--SR:!2026-03-05,3,250-->
 
 In Alpha-beta pruning, what does β represent?::The best value found so far for the MIN player.
 
@@ -93,16 +99,20 @@ Which problem involves rearranging blocks to match a goal configuration?::Blocks
 What is Means-End Analysis?::A planning technique that reduces differences between current and goal states.
 
 What is an Expert System?::A system that mimics human expert decision-making.
+<!--SR:!2026-03-05,3,250-->
 
 What are the two core components of an expert system?::Knowledge base and inference engine.
 
 What does the Inference Engine do?::Applies logical rules to derive conclusions.
+<!--SR:!2026-03-06,4,270-->
 
 What distinguishes Predicate Logic from Propositional Logic?::Predicate logic uses variables and quantifiers; propositional logic uses simple true/false statements.
+<!--SR:!2026-03-05,3,250-->
 
 Solving a problem by assigning colors so adjacent regions differ is an example of the ==map coloring== problem.
 
 Which search algorithm combines BFS advantages and heuristics?::Best First Search.
+<!--SR:!2026-03-06,4,270-->
 
 What is Data Acquisition in AI?::Collecting and preparing data for AI systems.
 <!--SR:!2026-03-06,4,270-->
@@ -110,18 +120,22 @@ What is Data Acquisition in AI?::Collecting and preparing data for AI systems.
 How does a Simple Planning Agent differ from a reflex agent?::It generates a complete action sequence before acting.
 
 What is an Inference Pattern?::A logical rule like Modus Ponens used to derive conclusions.
+<!--SR:!2026-03-05,3,250-->
 
 What is Representation using rules?::Encoding knowledge as If-Then statements.
 
 Why is Tic-tac-toe important in AI?::It is a basic toy problem for teaching search and game strategies.
 
 Why identify Problem Types and Characteristics?::To select the appropriate AI technique.
+<!--SR:!2026-03-06,4,270-->
 
 What does the Learning Aspect of AI involve?::Improving performance through data and experience.
+<!--SR:!2026-03-05,3,250-->
 
 What is the objective of the MIN player in adversarial search?::To minimize the MAX player's gain.
 
 What CSP example assigns digits to letters in arithmetic equations?::Crypt-Arithmetic Puzzles.
+<!--SR:!2026-03-06,4,270-->
 
 How are Syntax and Semantics related in knowledge-based agents?::Syntax defines language structure; semantics defines meaning.
 
@@ -132,6 +146,7 @@ Which AI concept mimics professional human decision-making?::Expert Systems.
 What are Foundational Data Structures used for in AI search?::To represent the search space and frontier.
 
 How does Uniform Cost Search differ from BFS?::UCS considers path costs; BFS assumes equal costs.
+<!--SR:!2026-03-06,4,270-->
 
 What is Reasoning in AI?::Using inference to derive new conclusions from knowledge.
 
@@ -139,3 +154,4 @@ What is the role of Machine Learning concepts?::To enable systems to improve thr
 <!--SR:!2026-03-05,3,250-->
 
 Which algorithm guarantees shortest path if the heuristic is admissible?::A* Algorithm.
+<!--SR:!2026-03-03,1,230-->
