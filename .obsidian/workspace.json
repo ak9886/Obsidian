@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "b338f893331735ea",
+            "id": "89ed44b7058f30c3",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -379,7 +379,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "4b8bd3b67610e8f5",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/Cryptography/13-01-2026.md",
     "Sem 4/Cryptography/12-02-2026.md",
