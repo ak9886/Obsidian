@@ -1,27 +1,8 @@
 ---
-updated_at: 2026-03-02T18:29:13.973+05:30
-edited_seconds: 40
+updated_at: 2026-03-02T18:34:17.163+05:30
+edited_seconds: 70
 ---
-Lemme break it down for you, Mark.
-
-I converted your entire content into **Obsidian Spaced Repetition–ready format** using:
-
-- `Front::Back` syntax
-    
-- Clean formatting
-    
-- Proper cloze formatting where needed
-    
-- Removed CSV-style labels
-    
-
-You can paste this directly into a `.md` file inside your vault.
-
----
-
-# 📘 AI – Flashcards (Obsidian Ready)
-
-```
+#flashcards 
 What is the first step in the process of using AI to solve a specific problem?::Problem formulation.
 
 In AI problem solving, what does the 'search' process aim to identify?::A sequence of actions that leads from the initial state to a goal state.
@@ -35,6 +16,7 @@ Which real-world AI problem focuses on finding the most efficient route for a sa
 What is the 'problem space' in AI search?::The abstract environment representing all possible states and the actions that connect them.
 
 Which data structure is typically used to implement Breadth First Search (BFS)?::A First-In-First-Out (FIFO) queue.
+<!--SR:!2026-03-05,3,250-->
 
 Which data structure is typically used to implement Depth First Search (DFS)?::A Last-In-First-Out (LIFO) stack.
 
@@ -77,10 +59,12 @@ What is a Constraint Satisfaction Problem (CSP)?::A problem where variables must
 Crypt-arithmetic puzzles are examples of what type of AI problem?::Constraint Satisfaction Problems (CSP).
 
 What is an Intelligent Agent?::An entity that perceives its environment and acts to maximize success.
+<!--SR:!2026-03-03,1,230-->
 
 What does rationality imply in agent theory?::Acting to achieve the best expected outcome based on performance measures.
 
 What is a Performance Measure?::An objective criterion to evaluate agent success.
+<!--SR:!2026-03-06,4,270-->
 
 What is a Task Environment?::The external conditions and constraints under which an agent operates.
 
@@ -97,10 +81,12 @@ What does the Unification Algorithm do?::Finds substitutions that make logical e
 What is a Semantic Net?::A graphical representation of knowledge using nodes and relationships.
 
 What are Frames in knowledge representation?::Data structures that organize properties into slots.
+<!--SR:!2026-03-03,1,230-->
 
 What problem does Uncertain Knowledge address?::Handling incomplete or unreliable information.
 
 What is AI Planning?::Generating a sequence of actions to reach a goal state.
+<!--SR:!2026-03-06,4,270-->
 
 Which problem involves rearranging blocks to match a goal configuration?::Blocksworld problem.
 
@@ -119,6 +105,7 @@ Solving a problem by assigning colors so adjacent regions differ is an example o
 Which search algorithm combines BFS advantages and heuristics?::Best First Search.
 
 What is Data Acquisition in AI?::Collecting and preparing data for AI systems.
+<!--SR:!2026-03-06,4,270-->
 
 How does a Simple Planning Agent differ from a reflex agent?::It generates a complete action sequence before acting.
 
@@ -149,38 +136,6 @@ How does Uniform Cost Search differ from BFS?::UCS considers path costs; BFS ass
 What is Reasoning in AI?::Using inference to derive new conclusions from knowledge.
 
 What is the role of Machine Learning concepts?::To enable systems to improve through experience.
+<!--SR:!2026-03-05,3,250-->
 
 Which algorithm guarantees shortest path if the heuristic is admissible?::A* Algorithm.
-```
-
----
-
-# ✅ How To Use
-
-1. Save as `AI_Flashcards.md`
-    
-2. Put inside your Obsidian Vault
-    
-3. Enable **Spaced Repetition plugin**
-    
-4. It auto-detects the cards
-    
-
----
-
-If you want next level:
-
-- I can generate **reverse cards automatically**
-    
-- Convert everything into **Cloze-heavy exam mode**
-    
-- Split by Unit I–V into separate decks
-    
-- Add tags like `#Unit1 #Search #CSP`
-    
-
----
-
-**Q1:** Do you want reverse cards added for definitions?  
-**Q2:** Should I split these into Unit-wise files?  
-**Q3:** Do you want a Python auto-converter so you can reuse this workflow?**
