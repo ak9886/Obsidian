@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-03-02T18:39:38.836+05:30
-edited_seconds: 190
+updated_at: 2026-03-02T18:44:52.748+05:30
+edited_seconds: 200
 ---
 #flashcards 
 What is the first step in the process of using AI to solve a specific problem?::Problem formulation.
@@ -50,6 +50,7 @@ In A*, what does g(n) represent?::The actual cost from the start node to node n.
 In A*, what does h(n) represent?::The estimated cost from node n to the goal.
 
 What is the focus of adversarial search?::Competitive environments with conflicting agents (e.g., games).
+<!--SR:!2026-03-03,1,230-->
 
 What is the goal of the Mini-max algorithm?::To determine the optimal move assuming the opponent plays optimally.
 
@@ -77,6 +78,7 @@ What is a Task Environment?::The external conditions and constraints under which
 What is the role of a Knowledge-based Agent?::To use stored knowledge and logical reasoning to make decisions.
 
 Which benchmark tests logical reasoning in an environment with hidden pits and a monster?::Wumpus World.
+<!--SR:!2026-03-03,1,230-->
 
 In logic, what is Syntax?::The formal rules used to construct valid logical sentences.
 
