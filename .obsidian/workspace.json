@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "05-03-2026"
             }
+          },
+          {
+            "id": "3fb3c354ff3dd2ce",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-05 08.26.33.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,9 +325,12 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "46ec6c0d798f5884",
+  "active": "3fb3c354ff3dd2ce",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.dark.png",
     "Sem 4/DAA/2 - February/05-03-2026.md",
+    "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.md",
     "Sem 4/DAA/DAA.md",
     "Sem 4/DAA/27-02-2026.md",
     "PERMA Model.md",
@@ -342,8 +358,6 @@
     "Sem 4/AI Class/17-2-2026.md",
     "Sem 4/Cryptography/23-02-2026.md",
     "Sem 4/Cryptography/16-02-2025.md",
-    "Sem 4/DAA/2 - February/04-02-2026.md",
-    "Sem 4/DAA/2 - February/16-02-2025.md",
     "DTM_Curriculum.pdf",
     "~$DAA Course Hand out - V2.xlsx",
     "Tags",
@@ -353,7 +367,6 @@
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-02-12 12.41.45.excalidraw.light.png",
     "Barclay's",
     "Sem 4/DAA/2 - February",
     "Sem 4/DAA/1 - January",
