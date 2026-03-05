@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "9f463a6b9e09de95",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-05 10.09.14.excalidraw"
+            }
+          },
+          {
             "id": "3fb3c354ff3dd2ce",
             "type": "leaf",
             "state": {
@@ -33,7 +45,8 @@
               "title": "Drawing 2026-03-05 08.26.33.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             }
           },
           {
-            "id": "0f112ccb8d800424",
+            "id": "eda1a8778c6275fd",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -324,11 +337,14 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "a844d74ae2147f5d",
+  "active": "9f463a6b9e09de95",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.dark.png",
     "Sem 4/DAA/2 - February/05-03-2026.md",
     "excalibrain.md",
-    "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.md",
     "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.light.png",
     "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.dark.png",
     "Sem 4/DAA/DAA.md",
@@ -356,16 +372,12 @@
     "Sem 3/Excalidraw/ExcaliNotes(COA)(21-8-2025).md",
     "Vocabulary",
     "Sem 4/AI Class/17-2-2026.md",
-    "Sem 4/Cryptography/23-02-2026.md",
-    "Sem 4/Cryptography/16-02-2025.md",
     "DTM_Curriculum.pdf",
     "~$DAA Course Hand out - V2.xlsx",
     "Tags",
     "Pasted image 20260113083510.png",
     "Pasted image 20260109100320.png",
     "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-02-16 14.39.58.excalidraw.dark.png",
     "Barclay's",
     "Sem 4/DAA/2 - February",
     "Sem 4/DAA/1 - January",
