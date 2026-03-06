@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "9f463a6b9e09de95",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-05 10.09.14.excalidraw"
-            }
-          },
-          {
             "id": "3fb3c354ff3dd2ce",
             "type": "leaf",
             "state": {
@@ -100,7 +88,7 @@
             }
           },
           {
-            "id": "eda1a8778c6275fd",
+            "id": "f7af3efe8634f633",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -337,7 +325,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "9f463a6b9e09de95",
+  "active": "711c3591c8d87423",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.md",
     "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.md",
