@@ -1,109 +1,139 @@
 ---
-updated_at: 2026-03-12T08:11:03.319+05:30
-edited_seconds: 60
+updated_at: 2026-03-12T08:24:00.538+05:30
+edited_seconds: 170
 ---
-## Master’s Theorem Analysis (Step-by-Step)
+## Basic Concept Questions
 
-### Step 1 — Write the Recurrence Relation
+# **1. What is the main problem your project is trying to solve?**  
+The project aims to efficiently detect duplicate or visually similar images within large photo collections. This helps reduce storage waste and improves organization in image databases.
 
-The divide-and-conquer duplicate detection algorithm splits the dataset into two halves and processes them recursively before merging results.
-$$[
+# **2. Why do duplicate images occur frequently in modern photo collections?**  
+Duplicates often occur due to burst photography, screenshots, repeated downloads, and sharing images across messaging platforms. Cloud synchronization and backups can also unintentionally create multiple copies.
+
+# **3. What is the difference between exact duplicates and near-duplicate images?**  
+Exact duplicates are identical copies of an image with the same pixel values. Near-duplicate images are visually similar but may differ slightly due to resizing, compression, cropping, or small edits.
+
+# **4. Why is brute-force duplicate detection inefficient for large datasets?**  
+Brute-force methods compare every image with every other image, resulting in a large number of comparisons. As the dataset grows, the number of comparisons increases rapidly.
+
+# **5. What is the purpose of image preprocessing in your project?**  
+Preprocessing standardizes the images by resizing and converting them to grayscale. This simplifies comparison and reduces computational complexity.
+
+---
+
+## Algorithm Questions
+
+# **6. What algorithmic technique is used in your project?**  
+The project uses the divide-and-conquer technique to split the dataset into smaller subsets and process them recursively.
+
+# **7. What is meant by divide-and-conquer in algorithm design?**  
+Divide-and-conquer is a strategy where a problem is divided into smaller subproblems, solved independently, and then combined to produce the final solution.
+
+# **8. How does your algorithm divide the dataset during execution?**  
+The dataset of images is split into two equal halves at each recursive step. Duplicate detection is performed within each subset before merging the results.
+
+# **9. What happens during the merge step of the algorithm?**  
+The algorithm compares perceptual hashes from both halves to detect duplicates that may exist across the subsets.
+
+# **10. Why is recursion used in divide-and-conquer algorithms?**  
+Recursion allows the algorithm to repeatedly apply the same logic to smaller subproblems until they become simple enough to solve directly.
+
+---
+
+## Image Processing Questions
+
+# **11. What is perceptual hashing?**  
+Perceptual hashing converts an image into a compact fingerprint that represents its visual structure. Similar images produce similar hashes.
+
+# **12. How is perceptual hashing different from cryptographic hashing?**  
+Cryptographic hashes change completely even for tiny input changes, while perceptual hashes remain similar for visually similar images.
+
+# **13. Why are images converted to grayscale before hashing?**  
+Grayscale conversion reduces color information while preserving structural patterns, making comparisons simpler and faster.
+
+# **14. What is Hamming distance and why is it used here?**  
+Hamming distance measures the number of differing bits between two hashes. It helps determine how visually similar two images are.
+
+# **15. How can perceptual hashing detect visually similar images?**  
+Because it encodes visual patterns rather than exact pixel values, images with similar structures produce hashes that differ by only a few bits.
+
+---
+
+## Complexity and Analysis Questions
+
+# **16. What is the recurrence relation for your algorithm?**  
+The recurrence relation is  
 T(n) = 2T(n/2) + O(n)
-]$$
 
-Where:
-
-* **2T(n/2)** → recursive duplicate detection on two halves
-* **O(n)** → comparisons during the merge step
-
----
-
-### Step 2 — Identify the Parameters
-
-From the recurrence:
-
-$$[
+# **17. What is the general form of the recurrence used in divide-and-conquer algorithms?**  
+The general form is  
 T(n) = aT(n/b) + f(n)
-]$$
 
-We identify:
+# **18. Which theorem is used to solve this recurrence relation?**  
+The recurrence is solved using the Master Theorem.
 
-* (a = 2) (number of subproblems)
-* (b = 2) (input divided into halves)
-* (f(n) = n) (work done outside recursion)
+# **19. What are the values of a, b, and f(n) in your recurrence?**  
+a = 2, b = 2, and f(n) = n.
 
----
-
-### Step 3 — Compute (n^{\log_b a})
-
-$$[
-n^{\log_b a} = n^{\log_2 2}
-]$$
-
-$$[
-\log_2 2 = 1
-]$$
-
-$$[
-n^{\log_b a} = n^1 = n
-]$$
+# **20. What is the final time complexity of your algorithm?**  
+The final time complexity is Θ(n log n).
 
 ---
 
-### Step 4 — Compare (f(n)) with (n^{\log_b a})
+## Comparison Questions
 
-$$[
-f(n) = n
-]$$
+# **21. What is the time complexity of the brute-force approach?**  
+The brute-force approach has a time complexity of O(n²).
 
-$$[
-n^{\log_b a} = n
-]$$
+# **22. Why is O(n log n) better than O(n²) for large datasets?**  
+O(n log n) grows much slower than O(n²), making it significantly faster when the dataset size becomes large.
 
-Therefore:
+# **23. In what situations might brute-force still be acceptable?**  
+Brute-force methods may be acceptable when the dataset is very small and computational efficiency is not critical.
 
-$$[
-f(n) = Θ(n^{\log_b a})
-]$$
-
-This corresponds to **Case 2 of the Master Theorem**.
+# **24. How does the divide-and-conquer approach reduce comparisons?**  
+It limits comparisons by processing smaller subsets first and only comparing necessary elements during the merge step.
 
 ---
 
-### Step 5 — Apply Master Theorem Case 2
+## Practical Application Questions
 
-Case 2 states:
+# **25. Where can this algorithm be used in real-world systems?**  
+It can be used in cloud photo storage systems, digital asset management tools, and media libraries.
 
-If
+# **26. How could cloud storage services benefit from duplicate detection?**  
+Duplicate detection reduces storage requirements and helps organize large collections of images automatically.
 
-$$[
-f(n) = Θ(n^{\log_b a})
-]$$
+**27. Can this method detect images that are slightly modified or compressed?**  
+Yes, perceptual hashing allows the algorithm to detect visually similar images even if they are resized or compressed.
 
-then
+**28. What are the limitations of perceptual hashing?**  
+It may fail to detect duplicates when images are heavily modified or when different images have very similar visual patterns.
 
-$$[
-T(n) = Θ(n^{\log_b a} \log n)
-]$$
-
-Substitute values:
-
-$$[
-T(n) = Θ(n \log n)
-]$$
+**29. How could this system be improved in the future?**  
+The system could be improved by using machine learning or deep learning models to detect semantic similarity between images.
 
 ---
 
-### Final Result
+## Slightly Trickier Viva Questions
 
-$$[
-T(n) = Θ(n \log n)
-]$$
+**30. What would happen if the dataset size doubles?**  
+The runtime would increase according to the O(n log n) complexity but still remain significantly more efficient than quadratic growth.
 
-This means the divide-and-conquer duplicate detection algorithm runs in **O(n log n)** time, which is significantly more efficient than the **O(n²)** complexity of naive pairwise image comparisons.
+**31. Can the algorithm be parallelized?**  
+Yes, the divide-and-conquer structure allows different subsets of images to be processed simultaneously.
+
+**32. What happens if the hash threshold is too small or too large?**  
+If it is too small, similar images may not be detected; if it is too large, unrelated images may be incorrectly classified as duplicates.
+
+**33. What is the space complexity of your algorithm?**  
+The space complexity is typically O(n) because hashes and intermediate results must be stored.
+
+**34. How would you modify the algorithm for millions of images?**  
+The system could be distributed across multiple machines and use indexing or clustering techniques to reduce comparisons.
 
 ---
 
-**Q1:** Want a **recursion tree diagram that visually proves the Master Theorem result for your poster**?
-**Q2:** Want a **short 4-line version of this Master Theorem proof that fits perfectly on a poster**?
-**Q3:** Want a **comparison slide showing O(n²) vs O(n log n) with a graph for your presentation**?
+**Q1:** Want **10 extremely short “one-line” answers you can memorize quickly before the viva**?  
+**Q2:** Want **3 trap questions examiners ask to check if students really understand Master’s Theorem**?  
+**Q3:** Want **a 60-second explanation of your entire project that sounds impressive in viva**?
