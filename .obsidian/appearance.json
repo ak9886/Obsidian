@@ -4,5 +4,6 @@
     "Snippet1"
   ],
   "textFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "theme": "moonstone"
 }
