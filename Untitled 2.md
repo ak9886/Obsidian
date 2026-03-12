@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-03-12T08:24:00.538+05:30
-edited_seconds: 170
+updated_at: 2026-03-12T08:25:01.217+05:30
+edited_seconds: 210
 ---
 ## Basic Concept Questions
 
@@ -104,36 +104,31 @@ It can be used in cloud photo storage systems, digital asset management tools, a
 # **26. How could cloud storage services benefit from duplicate detection?**  
 Duplicate detection reduces storage requirements and helps organize large collections of images automatically.
 
-**27. Can this method detect images that are slightly modified or compressed?**  
+# **27. Can this method detect images that are slightly modified or compressed?**  
 Yes, perceptual hashing allows the algorithm to detect visually similar images even if they are resized or compressed.
 
-**28. What are the limitations of perceptual hashing?**  
+# **28. What are the limitations of perceptual hashing?**  
 It may fail to detect duplicates when images are heavily modified or when different images have very similar visual patterns.
 
-**29. How could this system be improved in the future?**  
+# **29. How could this system be improved in the future?**  
 The system could be improved by using machine learning or deep learning models to detect semantic similarity between images.
 
 ---
 
 ## Slightly Trickier Viva Questions
 
-**30. What would happen if the dataset size doubles?**  
+# **30. What would happen if the dataset size doubles?**  
 The runtime would increase according to the O(n log n) complexity but still remain significantly more efficient than quadratic growth.
 
-**31. Can the algorithm be parallelized?**  
+# **31. Can the algorithm be parallelized?**  
 Yes, the divide-and-conquer structure allows different subsets of images to be processed simultaneously.
 
-**32. What happens if the hash threshold is too small or too large?**  
+# **32. What happens if the hash threshold is too small or too large?**  
 If it is too small, similar images may not be detected; if it is too large, unrelated images may be incorrectly classified as duplicates.
 
-**33. What is the space complexity of your algorithm?**  
+# **33. What is the space complexity of your algorithm?**  
 The space complexity is typically O(n) because hashes and intermediate results must be stored.
 
-**34. How would you modify the algorithm for millions of images?**  
+# **34. How would you modify the algorithm for millions of images?**  
 The system could be distributed across multiple machines and use indexing or clustering techniques to reduce comparisons.
 
----
-
-**Q1:** Want **10 extremely short “one-line” answers you can memorize quickly before the viva**?  
-**Q2:** Want **3 trap questions examiners ask to check if students really understand Master’s Theorem**?  
-**Q3:** Want **a 60-second explanation of your entire project that sounds impressive in viva**?
