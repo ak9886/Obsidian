@@ -41,3 +41,6 @@
 "event_logs:blocks:cleaned": {"key":"blocks:cleaned","ct":61,"first_at":1767932960863,"last_at":1773386795819,"class_name":"EventLog"},
 "event_logs:embedding:progress_reported": {"key":"embedding:progress_reported","ct":393,"first_at":1767938890695,"last_at":1773386795151,"class_name":"EventLog"},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":51,"first_at":1767938903801,"last_at":1773386795561,"class_name":"EventLog"},
+"event_logs:source:initial_scan_started": {"key":"source:initial_scan_started","ct":1,"first_at":1773395371393,"last_at":1773395371393,"class_name":"EventLog"},
+"event_logs:event_log:first": {"key":"event_log:first","ct":3,"first_at":1773395371394,"last_at":1773395371890,"class_name":"EventLog"},
+"event_logs:source:initial_scan_completed": {"key":"source:initial_scan_completed","ct":1,"first_at":1773395371890,"last_at":1773395371890,"class_name":"EventLog"},
