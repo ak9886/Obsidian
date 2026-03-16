@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "16-3-2026"
             }
+          },
+          {
+            "id": "2324a4d18c0fb09b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-16 10.03.37.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,9 +325,12 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "2f454e34465b3d61",
+  "active": "2324a4d18c0fb09b",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.dark.png",
     "Sem 4/DAA/2 - February/16-3-2026.md",
+    "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.md",
     "Sem 4/DBMS/13-03-2026.md",
     "Untitled 2.md",
     "Sem 4/DAA/2 - February/09-03-2026.md",
@@ -342,10 +358,8 @@
     "Sem 4/DAA/2 - February/25-02-2026.md",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.md",
     "Vocabulary/lexicon.md",
-    "Sem 4/AI Class/24-02-2026.md",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.light.png",
     "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.dark.png",
-    "Sem 4/AI Class/23-02-2026.md",
     "Excalidraw/Drawing 2026-02-12 08.13.41.excalidraw.dark.png",
     "Vocabulary",
     "DTM_Curriculum.pdf",
@@ -353,7 +367,6 @@
     "Tags",
     "Pasted image 20260113083510.png",
     "Pasted image 20260109100320.png",
-    "Excalidraw/Drawing 2026-02-22 18.03.26.excalidraw.light.png",
     "Barclay's",
     "Sem 4/DAA/2 - February",
     "Sem 4/DAA/1 - January",
