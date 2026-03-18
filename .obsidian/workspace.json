@@ -87,7 +87,7 @@
             }
           },
           {
-            "id": "a2d9b80e985014ba",
+            "id": "0766ee7fcb3d0458",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -96,8 +96,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -324,7 +323,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "2f454e34465b3d61",
+  "active": "e3eee19d2cd39931",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.md",
     "Sem 4/DAA/2 - February/16-3-2026.md",
