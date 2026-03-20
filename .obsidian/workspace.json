@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "0766ee7fcb3d0458",
+            "id": "c4840b1eb4799d72",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -111,7 +111,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -338,7 +339,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "20abc121c899e921",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/DAA/2 - February/16-3-2026.md",
     "Sem 4/AI Class/18-03-2026.md",
