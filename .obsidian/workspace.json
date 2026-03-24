@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "a13e66f175c41830",
+            "id": "83aaf233e83738b8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -99,8 +99,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -327,7 +326,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "22b8de3d0c8a83bb",
+  "active": "e3eee19d2cd39931",
   "lastOpenFiles": [
     "Sem 4/DAA/2 - February/20-03-2026.md",
     "Sem 4/DBMS/23-03-2026.md",
