@@ -74,9 +74,21 @@
               "icon": "lucide-file",
               "title": "24-03-2026"
             }
+          },
+          {
+            "id": "2584ae35156e7e11",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             }
           },
           {
-            "id": "135dfef0024b9d13",
+            "id": "2f28efe346c95239",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -367,7 +379,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "30c72a6919703ea7",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/DAA/2 - February/24-03-2026.md",
     "Sem 4/DBMS/24-03-2026.md",
