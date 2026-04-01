@@ -186,7 +186,7 @@
             }
           },
           {
-            "id": "ad17f09b8b4184dc",
+            "id": "177a81e83c46d33d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -195,8 +195,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -423,7 +422,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "3b784dd0c90b5b50",
+  "active": "e3eee19d2cd39931",
   "lastOpenFiles": [
     "Untitled 3.md",
     "Sem 4/DBMS/30-03-2026.md",
