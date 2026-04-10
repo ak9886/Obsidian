@@ -228,7 +228,7 @@
             }
           },
           {
-            "id": "0e46d72cfa77f2af",
+            "id": "5013f46cf0257f9a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -237,7 +237,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -464,7 +465,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "69e18a2f287512a7",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/DAA/DAA.md",
     "Sem 4/DAA/09-04-2026.md",
