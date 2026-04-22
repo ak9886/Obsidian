@@ -11,10 +11,14 @@
             "id": "95798f17bafaeaff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "22426.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "22426"
             }
           }
         ]
@@ -310,6 +314,7 @@
   },
   "active": "95798f17bafaeaff",
   "lastOpenFiles": [
+    "22426.md",
     "Sem 4/AI Class/10-04-2026.md",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.md",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.light.png",
