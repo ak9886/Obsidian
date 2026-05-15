@@ -1,8 +1,8 @@
 ---
-updated_at: 2026-05-15T21:18:29.688+05:30
-edited_seconds: 240
+updated_at: 2026-05-15T21:19:33.909+05:30
+edited_seconds: 290
 ---
-# ~={purple} Introduction to Probability and Queueing Theory=~
+# ~={purple}Introduction to Probability and Queueing Theory=~
 
 This introduction to Probability and Queueing Theory (PQT) covers the core foundations found in Units 1 through 4 of your course. Since you are new to the subject, we will break down each major concept with a step-by-step example.
 
@@ -14,9 +14,9 @@ A **random variable** is a rule that assigns a number to each outcome of an expe
 
 A discrete random variable \(X\) has the following probability mass function (PMF):
 
-| \(X\) | 0 | 1 | 2 | 3 | 4 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| \(P(X)\) | \(k\) | \(2k\) | \(5k\) | \(7k\) | \(9k\) |
+| **\(X\)** | **0** |  **1** |  **2** |  **3** |  **4** |
+| --------- | ----: | -----: | -----: | -----: | -----: |
+| *\(P(X)\)*  | *\(k\)* | *\(2k\)* | *\(5k\)* | *\(7k\)* | *\(9k\)* |
 
 Find the value of \(k\).
 
@@ -74,7 +74,7 @@ The mean of a binomial distribution is 20 and its standard deviation is 4. Find 
 
 The parameters are \(n = 100\) and \(p = 0.2\).
 
-## Unit 3: Two-Dimensional Random Variables
+## ~={cyan} Unit 3: Two-Dimensional Random Variables
 
 Sometimes we study two variables, like \(X\) and \(Y\), at once to see if they are related. This relationship is measured by the **correlation coefficient**.
 
@@ -92,7 +92,7 @@ Given a table of probabilities for \((X, Y)\), how do we know if \(X\) and \(Y\)
    for every cell in the table.
 3. If even one cell fails this test, the variables are **dependent**.
 
-## Unit 4: Random Processes and Markov Chains
+## ~={cyan} Unit 4: Random Processes and Markov Chains
 
 A **Markov chain** is a process that moves between states over time. Its key rule is the Markov property: the next state depends only on the current state, not the past.
 
