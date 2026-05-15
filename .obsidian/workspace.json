@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "13711fee0a369a02",
+            "id": "c1cd82f922a25c4c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -218,16 +218,6 @@
             }
           },
           {
-            "id": "e8dcb4fbe825ef7d",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "594b510f54320e3b",
             "type": "leaf",
             "state": {
@@ -280,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -327,7 +317,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "2bbb0f5daa91271c",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Tags/#dbms",
     "Sem 4/DBMS/26-4-2026.md",
