@@ -1,6 +1,6 @@
 ---
 updated_at: 2026-05-15T20:43:27.340+05:30
-edited_seconds: 110
+edited_seconds: 120
 ---
 # Introduction to Probability and Queueing Theory
 
@@ -98,7 +98,7 @@ A **Markov chain** is a process that moves between states over time. Its key rul
 
 ### Problem: State transitions
 
-You are given a transition probability matrix \(P\) and an initial state distribution \(P^{(0)}\):
+You are given a transition probability matrix \(P\) and an initial state distribution \($P^{(0)}$\):
 
 \[$$
 P =$$$$
@@ -109,7 +109,7 @@ P =$$$$
 \end{bmatrix},
 \quad
 P^{(0)} = (0.7, 0.2, 0.1)
-$$$$\]
+$$\]
 
 Find the probability of being in specific states after one step.
 
