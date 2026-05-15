@@ -1,26 +1,26 @@
 ---
-updated_at: 2026-05-15T21:19:33.909+05:30
-edited_seconds: 290
+updated_at: 2026-05-15T22:08:06.794+05:30
+edited_seconds: 410
 ---
 # ~={purple}Introduction to Probability and Queueing Theory=~
 
 This introduction to Probability and Queueing Theory (PQT) covers the core foundations found in Units 1 through 4 of your course. Since you are new to the subject, we will break down each major concept with a step-by-step example.
 
-## ~={cyan}Unit 1: Random Variable=~s
+## ~={cyan}Unit 1: Random Variables=~
 
 A **random variable** is a rule that assigns a number to each outcome of an experiment.
 
-### ~={blue} ~={blue}Problem: Finding a missing probability value=~
+### ~={blue}Problem: Finding a missing probability value=~
 
 A discrete random variable \(X\) has the following probability mass function (PMF):
 
-| **\(X\)** | **0** |  **1** |  **2** |  **3** |  **4** |
-| --------- | ----: | -----: | -----: | -----: | -----: |
-| *\(P(X)\)*  | *\(k\)* | *\(2k\)* | *\(5k\)* | *\(7k\)* | *\(9k\)* |
+| **\(X\)**  |   **0** |    **1** |    **2** |    **3** |    **4** |
+| ---------- | ------: | -------: | -------: | -------: | -------: |
+| *\(P(X)\)* | *\(k\)* | *\(2k\)* | *\(5k\)* | *\(7k\)* | *\(9k\)* |
 
 Find the value of \(k\).
 
-### ~={blue} ~={blue}Step-by-step solution=~
+### ~={blue}Step-by-step solution=~
 
 1. Recall the rule: for any valid probability distribution, the sum of all probabilities must equal 1.
 2. Set up the equation:
@@ -39,11 +39,11 @@ Find the value of \(k\).
 
 We use specific formulas when experiments follow a known pattern. One common example is the **binomial distribution**, used when there are \(n\) independent trials, each with only two outcomes: success \((p)\) or failure \((q)\).
 
-### ~={blue} ~={blue}Problem: Calculating parameters=~
+### ~={blue}Problem: Calculating parameters=~
 
 The mean of a binomial distribution is 20 and its standard deviation is 4. Find the parameters \(n\) and \(p\).
 
-### ~={blue} ~={blue}Step-by-step solution=~
+### ~={blue}Step-by-step solution=~
 
 1. Identify the formulas:
    $$
@@ -70,19 +70,19 @@ The mean of a binomial distribution is 20 and its standard deviation is 4. Find 
    n \times 0.2 = 20 \Rightarrow n = 100
    $$
 
-### ~={blue} Answer
+### ~={blue}Answer
 
 The parameters are \(n = 100\) and \(p = 0.2\).
 
-## ~={cyan} Unit 3: Two-Dimensional Random Variables
+## ~={cyan}Unit 3: Two-Dimensional Random Variables=~
 
 Sometimes we study two variables, like \(X\) and \(Y\), at once to see if they are related. This relationship is measured by the **correlation coefficient**.
 
-### ~={blue} Problem: Analyzing a joint distribution
+### ~={blue}Problem: Analyzing a joint distribution
 
 Given a table of probabilities for \((X, Y)\), how do we know if \(X\) and \(Y\) are independent?
 
-### ~={blue} Step-by-step logic
+### ~={blue}Step-by-step logic
 
 1. Calculate the marginal probabilities by summing each row for \(X\) and each column for \(Y\).
 2. Test independence using:
@@ -92,11 +92,11 @@ Given a table of probabilities for \((X, Y)\), how do we know if \(X\) and \(Y\)
    for every cell in the table.
 3. If even one cell fails this test, the variables are **dependent**.
 
-## ~={cyan} Unit 4: Random Processes and Markov Chains
+## ~={cyan}Unit 4: Random Processes and Markov Chains=~
 
 A **Markov chain** is a process that moves between states over time. Its key rule is the Markov property: the next state depends only on the current state, not the past.
 
-### ~={blue} Problem: State transitions
+### ~={blue}Problem: State transitions=~
 
 You are given a transition probability matrix \(P\) and an initial state distribution \(P^{(0)}\):
 
@@ -113,7 +113,7 @@ $$
 
 Find the probability of being in specific states after one step.
 
-### ~={blue} Step-by-step solution
+### ~={blue}Step-by-step solution=~
 
 1. Understand the matrix: the value in row 1, column 2 \((0.5)\) is the probability of moving from State 1 to State 2 in one step.
 2. Calculate the next state:

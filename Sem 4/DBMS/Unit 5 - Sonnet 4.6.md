@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-05-15T22:03:46.096+05:30
-edited_seconds: 230
+updated_at: 2026-05-15T22:04:48.239+05:30
+edited_seconds: 310
 ---
 Here is the Obsidian-friendly version with display math for multi-line formulas and inline math for single-line formulas. In Obsidian, `$$ ... $$` is used for displayed equations, while `$...$` is used for inline math without extra spaces.obsidian+1
 
@@ -346,39 +346,39 @@ After one throw:
 
 So,
 
-P=[0100010.50.50]P = \begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0.5 & 0.5 & 0 \end{bmatrix}P=​000.5​100.5​010​​
+$P=[0100010.50.50]P = \begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0.5 & 0.5 & 0 \end{bmatrix}P=​000.5​100.5​010​​$
 
 ## Step 3: Set Up Limiting Probability Equations
 
 Let
 
-π=[πA,πB,πC]\pi = [\pi_A, \pi_B, \pi_C]π=[πA​,πB​,πC​]
+$π=[πA,πB,πC]\pi = [\pi_A, \pi_B, \pi_C]π=[πA​,πB​,πC​]$
 
 Then
 
-πP=π\pi P = \piπP=π
+$πP=π\pi P = \piπP=π$
 
 ## Step 4: Solve the System
 
 From the equations:
 
-0.5πC=πA0.5\pi_C = \pi_A0.5πC​=πA​
+$0.5πC=πA0.5\pi_C = \pi_A0.5πC​=πA​$
 
-πA+0.5πC=πB\pi_A + 0.5\pi_C = \pi_BπA​+0.5πC​=πB​
+$πA+0.5πC=πB\pi_A + 0.5\pi_C = \pi_BπA​+0.5πC​=πB​$
 
-πB=πC\pi_B = \pi_CπB​=πC​
+$πB=πC\pi_B = \pi_CπB​=πC​$
 
 and
 
-πA+πB+πC=1\pi_A + \pi_B + \pi_C = 1πA​+πB​+πC​=1
+$πA+πB+πC=1\pi_A + \pi_B + \pi_C = 1πA​+πB​+πC​=1$
 
 From $\pi_B = \pi_C$, and $\pi_A = 0.5\pi_C$, substitute into the sum:
 
-0.5πC+πC+πC=10.5\pi_C + \pi_C + \pi_C = 10.5πC​+πC​+πC​=1
+$0.5πC+πC+πC=10.5\pi_C + \pi_C + \pi_C = 10.5πC​+πC​+πC​=1$
 
-2.5πC=12.5\pi_C = 12.5πC​=1
+$2.5πC=12.5\pi_C = 12.5πC​=1$
 
-πC=0.4\pi_C = 0.4πC​=0.4
+$πC=0.4\pi_C = 0.4πC​=0.4$
 
 Therefore:
 
@@ -406,7 +406,7 @@ In the long run:
 
 A Markov chain has transition matrix
 
-P=[01012012010]P = \begin{bmatrix} 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \end{bmatrix}P=​021​0​101​021​0​​
+$P=[01012012010]P = \begin{bmatrix} 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \end{bmatrix}P=​021​0​101​021​0​​$
 
 Classify all the states of this Markov chain:
 
@@ -466,24 +466,3 @@ A state is ergodic if it is recurrent and aperiodic. Since the period is 2, none
 
 ---
 
-## Quick Summary of All 5 Questions
-
-|Q|Topic|Key Skill|Difficulty|
-|---|---|---|---|
-|Q1|Basic Transitions|Multiply vector and matrix|Easy|
-|Q2|Path Probability|Multiply along a path|Easy-Medium|
-|Q3|2-State Limiting|Solve $\pi P = \pi$|Medium|
-|Q4|3-State Limiting|Solve 3 equations|Medium-Hard|
-|Q5|Classification|Find communication and period|Hard|
-
-## Exam Tips
-
-1. Always check that rows of $P$ add to 1.0.
-    
-2. For path probability, multiply the starting probability by the transition probabilities along the path.
-    
-3. For limiting probabilities, set up $\pi P = \pi$ and add the condition that all probabilities sum to 1.
-    
-4. For period, find the shortest return time and the GCD of all return times.
-    
-5. Ergodic means recurrent and aperiodic.
