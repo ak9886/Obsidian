@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-05-15T20:43:27.340+05:30
-edited_seconds: 120
+updated_at: 2026-05-15T21:12:53.088+05:30
+edited_seconds: 110
 ---
 # Introduction to Probability and Queueing Theory
 
@@ -24,14 +24,14 @@ Find the value of \(k\).
 
 1. Recall the rule: for any valid probability distribution, the sum of all probabilities must equal 1.
 2. Set up the equation:
-   \[$$
+   $$
    k + 2k + 5k + 7k + 9k = 1
    $$\]
 3. Solve for \(k\):
-   \[$$
+   $$
    24k = 1
    $$\]
-   \[$$
+   $$
    k = \frac{1}{24}
    $$\]
 
@@ -46,29 +46,29 @@ The mean of a binomial distribution is 20 and its standard deviation is 4. Find 
 ### Step-by-step solution
 
 1. Identify the formulas:
-   \[$$
+   $$
    \text{Mean} = np = 20
    $$\]
-   \[$$
+   $$
    \text{Variance} = npq
    $$\]
    Since standard deviation \(= \sqrt{npq} = 4\), then:
-   \[$$
+   $$
    npq = 16
    $$\]
 2. Find \(q\):
-   \[$$
+   $$
    \frac{npq}{np} = \frac{16}{20} = \frac{4}{5}
    $$\]
    So, \(q = 0.8\).
 3. Find \(p\):
-   \[$$
+   $$
    p = 1 - q = 1 - 0.8 = 0.2
-   $$\]
+   $$
 4. Find \(n\):
-   \[$$
+   $$
    n \times 0.2 = 20 \Rightarrow n = 100
-   $$\]
+   $$
 
 ### Answer
 
@@ -86,7 +86,7 @@ Given a table of probabilities for \((X, Y)\), how do we know if \(X\) and \(Y\)
 
 1. Calculate the marginal probabilities by summing each row for \(X\) and each column for \(Y\).
 2. Test independence using:
-   \[$$
+   $$
    P(X \cap Y) = P(X)\times P(Y)
    $$\]
    for every cell in the table.
@@ -98,10 +98,10 @@ A **Markov chain** is a process that moves between states over time. Its key rul
 
 ### Problem: State transitions
 
-You are given a transition probability matrix \(P\) and an initial state distribution \($P^{(0)}$\):
+You are given a transition probability matrix \(P\) and an initial state distribution \(P^{(0)}\):
 
-\[$$
-P =$$$$
+$$
+P =
 \begin{bmatrix}
 0.1 & 0.5 & 0.4 \\
 0.6 & 0.2 & 0.2 \\
@@ -117,7 +117,7 @@ Find the probability of being in specific states after one step.
 
 1. Understand the matrix: the value in row 1, column 2 \((0.5)\) is the probability of moving from State 1 to State 2 in one step.
 2. Calculate the next state:
-   \[$$$$
+   $$
    P^{(1)} = P^{(0)} \times P
-   $$$$\]
+   $$\]
 3. Interpret the result: the resulting vector gives the probability of the system being in State 1, 2, or 3 after the first transition.
