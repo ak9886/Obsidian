@@ -1,8 +1,8 @@
 ---
-updated_at: 2026-05-15T21:59:01.169+05:30
-edited_seconds: 50
+updated_at: 2026-05-15T22:03:46.096+05:30
+edited_seconds: 230
 ---
-Here is the properly formatted version of your content, cleaned up with headings, equations, tables, and consistent structure .
+Here is the Obsidian-friendly version with display math for multi-line formulas and inline math for single-line formulas. In Obsidian, `$$ ... $$` is used for displayed equations, while `$...$` is used for inline math without extra spaces.obsidian+1
 
 # Unit 5: Markov Chains — 5 Questions with Full Solutions
 
@@ -20,14 +20,14 @@ Think of it like this: if you want to predict tomorrow’s weather, you only nee
 
 A state is simply the current situation of a system.
 
-- Example: Weather can be in state “Sunny” or “Rainy.”
+- Example: Weather can be in state “Sunny” or “Rainy”.
     
-- Example: A student can be in state “Studying” or “Not Studying.”
+- Example: A student can be in state “Studying” or “Not Studying”.
     
 
 ## What is a Transition Matrix?
 
-It is a table that shows: “If I am here now, what is the probability I go there next?”
+It is a table that shows: “If I’m here now, what is the probability I go there next?”
 
 Example:
 
@@ -90,46 +90,46 @@ P=[0.70.30.60.4]P = \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix}P=[0.70.
 
 Check:
 
-- Row 1: 0.7+0.3=1.00.7 + 0.3 = 1.00.7+0.3=1.0
+- Row 1: $0.7 + 0.3 = 1.0$
     
-- Row 2: 0.6+0.4=1.00.6 + 0.4 = 1.00.6+0.4=1.0
+- Row 2: $0.6 + 0.4 = 1.0$
     
 
 ## Step 3: Set Up the Initial State
 
 Arjun studies on Monday, so the initial vector is:
 
-[10]\begin{bmatrix}1 & 0\end{bmatrix}[1​0​]
+$$\begin{bmatrix}1 & 0\end{bmatrix}$$
 
 ## Step 4: Find Tuesday’s Probabilities
 
-Multiply the initial vector by PPP:
+Multiply the initial vector by $P$:
 
-[10][0.70.30.60.4]=[0.70.3]\begin{bmatrix}1 & 0\end{bmatrix} \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix} = \begin{bmatrix}0.7 & 0.3\end{bmatrix}[1​0​][0.70.6​0.30.4​]=[0.7​0.3​]
+$[0.70.30.60.4]=[0.70.3]\begin{bmatrix}1 & 0\end{bmatrix} \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix} = \begin{bmatrix}0.7 & 0.3\end{bmatrix}[1​0​][0.70.6​0.30.4​]=[0.7​0.3​]$
 
 So on Tuesday:
 
-- Studies: 0.7
+- Studies: $0.7$
     
-- Does not study: 0.3
+- Does not study: $0.3$
     
 
 ## Step 5: Find Wednesday’s Probabilities
 
-Multiply Tuesday’s vector by PPP again:
+Multiply Tuesday’s vector by $P$ again:
 
-[0.70.3][0.70.30.60.4]=[0.670.33]\begin{bmatrix}0.7 & 0.3\end{bmatrix} \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix} = \begin{bmatrix}0.67 & 0.33\end{bmatrix}[0.7​0.3​][0.70.6​0.30.4​]=[0.67​0.33​]
+$[0.70.3][0.70.30.60.4]=[0.670.33]\begin{bmatrix}0.7 & 0.3\end{bmatrix} \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix} = \begin{bmatrix}0.67 & 0.33\end{bmatrix}[0.7​0.3​][0.70.6​0.30.4​]=[0.67​0.33​]$
 
 ## Final Answers
 
 - Transition matrix:
     
 
-P=[0.70.30.60.4]P = \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix}P=[0.70.6​0.30.4​]
+$P=[0.70.30.60.4]P = \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix}P=[0.70.6​0.30.4​]$
 
-- Probability Arjun studies on Wednesday = 0.67 = 67%
+- Probability Arjun studies on Wednesday = $0.67 = 67%$
     
-- Probability Arjun does not study on Wednesday = 0.33 = 33%
+- Probability Arjun does not study on Wednesday = $0.33 = 33%$
     
 
 ---
@@ -140,17 +140,17 @@ P=[0.70.30.60.4]P = \begin{bmatrix} 0.7 & 0.3 \\ 0.6 & 0.4 \end{bmatrix}P=[0.70.
 
 A Markov chain has 3 states: 1, 2, 3 with transition matrix
 
-P=[0.10.50.40.60.20.20.30.40.3]P = \begin{bmatrix} 0.1 & 0.5 & 0.4 \\ 0.6 & 0.2 & 0.2 \\ 0.3 & 0.4 & 0.3 \end{bmatrix}P=​0.10.60.3​0.50.20.4​0.40.20.3​​
+$P=[0.10.50.40.60.20.20.30.40.3]P = \begin{bmatrix} 0.1 & 0.5 & 0.4 \\ 0.6 & 0.2 & 0.2 \\ 0.3 & 0.4 & 0.3 \end{bmatrix}P=​0.10.60.3​0.50.20.4​0.40.20.3​​$
 
 The initial distribution is
 
-P(0)=(0.7,0.2,0.1)P^{(0)} = (0.7, 0.2, 0.1)P(0)=(0.7,0.2,0.1)
+$P(0)=(0.7,0.2,0.1)P^{(0)} = (0.7, 0.2, 0.1)P(0)=(0.7,0.2,0.1)$
 
 Find:
 
-1. P(X2=3,X1=3,X0=2)P(X_2 = 3, X_1 = 3, X_0 = 2)P(X2​=3,X1​=3,X0​=2)
+1. $P(X_2 = 3, X_1 = 3, X_0 = 2)$
     
-2. P(X3=2,X2=3,X1=3,X0=2)P(X_3 = 2, X_2 = 3, X_1 = 3, X_0 = 2)P(X3​=2,X2​=3,X1​=3,X0​=2)
+2. $P(X_3 = 2, X_2 = 3, X_1 = 3, X_0 = 2)$
     
 
 ## Full Solution
@@ -159,58 +159,58 @@ Find:
 
 The first probability is for the path:
 
-2→3→32 \to 3 \to 32→3→3
+$2→3→32 \to 3 \to 32→3→3$
 
 ## Step 2: Use the Path Formula
 
-P(X2=3,X1=3,X0=2)=P(X0=2)×P23×P33P(X_2=3, X_1=3, X_0=2) = P(X_0=2) \times P_{23} \times P_{33}P(X2​=3,X1​=3,X0​=2)=P(X0​=2)×P23​×P33​
+$P(X2=3,X1=3,X0=2)=P(X0=2)×P23×P33P(X_2=3, X_1=3, X_0=2) = P(X_0=2) \times P_{23} \times P_{33}P(X2​=3,X1​=3,X0​=2)=P(X0​=2)×P23​×P33​$
 
 ## Step 3: Read Values
 
 From the initial distribution:
 
-- P(X0=2)=0.2P(X_0=2) = 0.2P(X0​=2)=0.2
+- $P(X_0=2) = 0.2$
     
 
 From the matrix:
 
-- P23=0.2P_{23} = 0.2P23​=0.2
+- $P_{23} = 0.2$
     
-- P33=0.3P_{33} = 0.3P33​=0.3
+- $P_{33} = 0.3$
     
 
 ## Step 4: Calculate Part (i)
 
-0.2×0.2×0.3=0.0120.2 \times 0.2 \times 0.3 = 0.0120.2×0.2×0.3=0.012
+$0.2×0.2×0.3=0.0120.2 \times 0.2 \times 0.3 = 0.0120.2×0.2×0.3=0.012$
 
 So,
 
-P(X2=3,X1=3,X0=2)=0.012P(X_2=3, X_1=3, X_0=2) = 0.012P(X2​=3,X1​=3,X0​=2)=0.012
+$P(X2=3,X1=3,X0=2)=0.012P(X_2=3, X_1=3, X_0=2) = 0.012P(X2​=3,X1​=3,X0​=2)=0.012$
 
 ## Step 5: Calculate Part (ii)
 
 Now the path is:
 
-2→3→3→22 \to 3 \to 3 \to 22→3→3→2
+$2→3→3→22 \to 3 \to 3 \to 22→3→3→2$
 
 So,
 
-P(X3=2,X2=3,X1=3,X0=2)=P(X0=2)×P23×P33×P32P(X_3=2, X_2=3, X_1=3, X_0=2) = P(X_0=2) \times P_{23} \times P_{33} \times P_{32}P(X3​=2,X2​=3,X1​=3,X0​=2)=P(X0​=2)×P23​×P33​×P32​
+$P(X3=2,X2=3,X1=3,X0=2)=P(X0=2)×P23×P33×P32P(X_3=2, X_2=3, X_1=3, X_0=2) = P(X_0=2) \times P_{23} \times P_{33} \times P_{32}P(X3​=2,X2​=3,X1​=3,X0​=2)=P(X0​=2)×P23​×P33​×P32​$
 
 From the matrix:
 
-- P32=0.4P_{32} = 0.4P32​=0.4
+- $P_{32} = 0.4$
     
 
 Therefore:
 
-0.2×0.2×0.3×0.4=0.00480.2 \times 0.2 \times 0.3 \times 0.4 = 0.00480.2×0.2×0.3×0.4=0.0048
+$0.2×0.2×0.3×0.4=0.00480.2 \times 0.2 \times 0.3 \times 0.4 = 0.00480.2×0.2×0.3×0.4=0.0048$
 
 ## Final Answers
 
-- P(X2=3,X1=3,X0=2)=0.012P(X_2=3, X_1=3, X_0=2) = 0.012P(X2​=3,X1​=3,X0​=2)=0.012
+- $P(X_2=3, X_1=3, X_0=2) = 0.012$
     
-- P(X3=2,X2=3,X1=3,X0=2)=0.0048P(X_3=2, X_2=3, X_1=3, X_0=2) = 0.0048P(X3​=2,X2​=3,X1​=3,X0​=2)=0.0048
+- $P(X_3=2, X_2=3, X_1=3, X_0=2) = 0.0048$
     
 
 ---
@@ -228,7 +228,7 @@ A weather system can be in two states:
 
 The transition matrix is
 
-P=[0.80.20.50.5]P = \begin{bmatrix} 0.8 & 0.2 \\ 0.5 & 0.5 \end{bmatrix}P=[0.80.5​0.20.5​]
+$P=[0.80.20.50.5]P = \begin{bmatrix} 0.8 & 0.2 \\ 0.5 & 0.5 \end{bmatrix}P=[0.80.5​0.20.5​]$
 
 Find the long-run probabilities of Sunny and Rainy.
 
@@ -240,62 +240,62 @@ In the long run, the system settles into a stable pattern. These fixed percentag
 
 Let
 
-π=[π1,π2]\pi = [\pi_1, \pi_2]π=[π1​,π2​]
+$π=[π1,π2]\pi = [\pi_1, \pi_2]π=[π1​,π2​]$
 
 where:
 
-- π1\pi_1π1​ = probability of Sunny
+- $\pi_1$ = probability of Sunny
     
-- π2\pi_2π2​ = probability of Rainy
+- $\pi_2$ = probability of Rainy
     
 
 ## Step 2: Set Up the Equation
 
 The steady-state condition is:
 
-πP=π\pi P = \piπP=π
+$πP=π\pi P = \piπP=π$
 
 ## Step 3: Write the Equations
 
 From
 
-[π1,π2][0.80.20.50.5]=[π1,π2][\pi_1, \pi_2] \begin{bmatrix} 0.8 & 0.2 \\ 0.5 & 0.5 \end{bmatrix} = [\pi_1, \pi_2][π1​,π2​][0.80.5​0.20.5​]=[π1​,π2​]
+$[π1,π2][0.80.20.50.5]=[π1,π2][\pi_1, \pi_2] \begin{bmatrix} 0.8 & 0.2 \\ 0.5 & 0.5 \end{bmatrix} = [\pi_1, \pi_2][π1​,π2​][0.80.5​0.20.5​]=[π1​,π2​]$
 
 we get:
 
-0.8π1+0.5π2=π10.8\pi_1 + 0.5\pi_2 = \pi_10.8π1​+0.5π2​=π1​
+$0.8π1+0.5π2=π10.8\pi_1 + 0.5\pi_2 = \pi_10.8π1​+0.5π2​=π1​$
 
 This gives:
 
-0.5π2=0.2π10.5\pi_2 = 0.2\pi_10.5π2​=0.2π1​
+$0.5π2=0.2π10.5\pi_2 = 0.2\pi_10.5π2​=0.2π1​$
 
 so
 
-π2=0.4π1\pi_2 = 0.4\pi_1π2​=0.4π1​
+$π2=0.4π1\pi_2 = 0.4\pi_1π2​=0.4π1​$
 
 Also,
 
-π1+π2=1\pi_1 + \pi_2 = 1π1​+π2​=1
+$π1+π2=1\pi_1 + \pi_2 = 1π1​+π2​=1$
 
 Substitute:
 
-π1+0.4π1=1\pi_1 + 0.4\pi_1 = 1π1​+0.4π1​=1
+$π1+0.4π1=1\pi_1 + 0.4\pi_1 = 1π1​+0.4π1​=1$
 
-1.4π1=11.4\pi_1 = 11.4π1​=1
+$1.4π1=11.4\pi_1 = 11.4π1​=1$
 
-π1=57≈0.714\pi_1 = \frac{5}{7} \approx 0.714π1​=75​≈0.714
+$π1=57≈0.714\pi_1 = \frac{5}{7} \approx 0.714π1​=75​≈0.714$
 
 Then
 
-π2=1−0.714=0.286\pi_2 = 1 - 0.714 = 0.286π2​=1−0.714=0.286
+$π2=1−0.714=0.286\pi_2 = 1 - 0.714 = 0.286π2​=1−0.714=0.286$
 
 ## Final Answer
 
 In the long run:
 
-- Sunny = 0.714 = 71.4%
+- Sunny = $0.714 = 71.4%$
     
-- Rainy = 0.286 = 28.6%
+- Rainy = $0.286 = 28.6%$
     
 
 ---
@@ -372,7 +372,7 @@ and
 
 πA+πB+πC=1\pi_A + \pi_B + \pi_C = 1πA​+πB​+πC​=1
 
-From πB=πC\pi_B = \pi_CπB​=πC​, and πA=0.5πC\pi_A = 0.5\pi_CπA​=0.5πC​, substitute into the sum:
+From $\pi_B = \pi_C$, and $\pi_A = 0.5\pi_C$, substitute into the sum:
 
 0.5πC+πC+πC=10.5\pi_C + \pi_C + \pi_C = 10.5πC​+πC​+πC​=1
 
@@ -382,9 +382,9 @@ From πB=πC\pi_B = \pi_CπB​=πC​, and πA=0.5πC\pi_A = 0.5\pi_CπA​=0.5
 
 Therefore:
 
-- πB=0.4\pi_B = 0.4πB​=0.4
+- $\pi_B = 0.4$
     
-- πA=0.2\pi_A = 0.2πA​=0.2
+- $\pi_A = 0.2$
     
 
 ## Final Answer
@@ -423,7 +423,7 @@ Classify all the states of this Markov chain:
 
 - State 1 goes to State 2 with probability 1.
     
-- State 2 goes to State 1 with probability 1/2 and State 3 with probability 1/2.
+- State 2 goes to State 1 with probability $1/2$ and State 3 with probability $1/2$.
     
 - State 3 goes to State 2 with probability 1.
     
@@ -440,7 +440,7 @@ Because the chain is finite and all states communicate, all states are recurrent
 
 For State 1:
 
-- It can return in 2 steps: 1→2→11 \to 2 \to 11→2→1
+- It can return in 2 steps: $1 \to 2 \to 1$
     
 - It can return in 4 steps as well.
     
@@ -472,21 +472,18 @@ A state is ergodic if it is recurrent and aperiodic. Since the period is 2, none
 |---|---|---|---|
 |Q1|Basic Transitions|Multiply vector and matrix|Easy|
 |Q2|Path Probability|Multiply along a path|Easy-Medium|
-|Q3|2-State Limiting|Solve πP=π\pi P = \piπP=π|Medium|
+|Q3|2-State Limiting|Solve $\pi P = \pi$|Medium|
 |Q4|3-State Limiting|Solve 3 equations|Medium-Hard|
 |Q5|Classification|Find communication and period|Hard|
 
 ## Exam Tips
 
-1. Always check that rows of PPP add to 1.0.
+1. Always check that rows of $P$ add to 1.0.
     
 2. For path probability, multiply the starting probability by the transition probabilities along the path.
     
-3. For limiting probabilities, set up πP=π\pi P = \piπP=π and add the condition that all probabilities sum to 1.
+3. For limiting probabilities, set up $\pi P = \pi$ and add the condition that all probabilities sum to 1.
     
 4. For period, find the shortest return time and the GCD of all return times.
     
 5. Ergodic means recurrent and aperiodic.
-    
-
-If you want, I can also convert this into a clean **exam-ready PDF style layout** with smaller formulas and better spacing.
