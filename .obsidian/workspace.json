@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,16 +118,13 @@
             }
           },
           {
-            "id": "69c4e3d651e761f1",
+            "id": "3010e722d8570f41",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -344,13 +341,14 @@
       "voice:Voice read text": false,
       "smart-second-brain:Open S2B Chat": false,
       "lexicon-dictionary:Lexicon dictionary": false,
-      "password-protection:Lock password protection": false
+      "password-protection:Lock password protection": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "26bf071a991c20a0",
+  "active": "a922cac02a6af57b",
   "lastOpenFiles": [
-    "Sem 4/DBMS/Unit 5 - Sonnet 4.6.md",
     "Sem 4/DBMS/PQT Response.md",
+    "Sem 4/DBMS/Unit 5 - Sonnet 4.6.md",
     "Sem 4/DBMS/26-4-2026.md",
     "Tags/#dbms",
     "Sem 4/DAA/22-4-26.md",
