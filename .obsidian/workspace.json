@@ -118,7 +118,7 @@
             }
           },
           {
-            "id": "c1cd82f922a25c4c",
+            "id": "69c4e3d651e761f1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -316,7 +316,6 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false,
       "edge-tts:Read note aloud": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
@@ -345,7 +344,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "3a688818bff9c7e6",
+  "active": "26bf071a991c20a0",
   "lastOpenFiles": [
     "Sem 4/DBMS/Unit 5 - Sonnet 4.6.md",
     "Sem 4/DBMS/PQT Response.md",

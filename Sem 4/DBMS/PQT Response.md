@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-05-15T22:08:06.794+05:30
-edited_seconds: 410
+updated_at: 2026-05-15T22:09:21.914+05:30
+edited_seconds: 450
 ---
 # ~={purple}Introduction to Probability and Queueing Theory=~
 
@@ -78,11 +78,11 @@ The parameters are \(n = 100\) and \(p = 0.2\).
 
 Sometimes we study two variables, like \(X\) and \(Y\), at once to see if they are related. This relationship is measured by the **correlation coefficient**.
 
-### ~={blue}Problem: Analyzing a joint distribution
+### ~={blue}Problem: Analyzing a joint distribution=~
 
 Given a table of probabilities for \((X, Y)\), how do we know if \(X\) and \(Y\) are independent?
 
-### ~={blue}Step-by-step logic
+### ~={blue}Step-by-step logic=~
 
 1. Calculate the marginal probabilities by summing each row for \(X\) and each column for \(Y\).
 2. Test independence using:
