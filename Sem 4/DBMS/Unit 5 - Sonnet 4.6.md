@@ -1,6 +1,6 @@
 ---
 updated_at: 2026-05-16T07:56:10.177+05:30
-edited_seconds: 360
+edited_seconds: 380
 ---
 Here is the Obsidian-friendly version with display math for multi-line formulas and inline math for single-line formulas. In Obsidian, `$\huge $\huge  ... $\huge $\huge ` is used for displayed equations, while `$\huge ...$\huge ` is used for inline math without extra spaces.obsidian+1
 
@@ -57,7 +57,8 @@ A college student named Arjun has the following study habits:
 
 > If he studies one night, there is a 70% chance he studies the next night and a 30% chance he does not.
   If he does not study one night, there is a 60% chance he studies the next night and a 40% chance he does not.  
-  On Monday night, Arjun studies.
+>  
+> On Monday night, Arjun studies.
 
 Find:
 
@@ -462,3 +463,4 @@ A state is ergodic if it is recurrent and aperiodic. Since the period is 2, none
     
 
 ---
+
