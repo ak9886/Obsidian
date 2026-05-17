@@ -69,30 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 4.md",
+                "file": "PQT - Sharan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 4"
-            }
-          },
-          {
-            "id": "3c082674fbd64e95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 5"
+              "title": "PQT - Sharan"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -373,10 +359,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "3c082674fbd64e95",
+  "active": "b8320a51550d2001",
   "lastOpenFiles": [
-    "Untitled 4.md",
     "Untitled 5.md",
+    "PQT - Sharan.md",
     "Sem 4/DBMS/Unit 5 - Sonnet 4.6.md",
     "Sem 4/DBMS/PQT Response.md",
     "Sem 4/DBMS/26-4-2026.md",
