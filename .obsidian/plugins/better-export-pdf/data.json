@@ -14,8 +14,8 @@
   "concurrency": "5",
   "prevConfig": {
     "pageSize": "A4",
-    "marginType": "1",
-    "showTitle": true,
+    "marginType": "2",
+    "showTitle": false,
     "open": true,
     "scale": 0,
     "landscape": false,
@@ -23,8 +23,8 @@
     "marginBottom": "10",
     "marginLeft": "10",
     "marginRight": "10",
-    "displayHeader": true,
-    "displayFooter": true,
+    "displayHeader": false,
+    "displayFooter": false,
     "cssSnippet": "0"
   }
 }

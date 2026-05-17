@@ -1,6 +1,6 @@
 ---
-updated_at: 2026-05-17T21:23:33.017+05:30
-edited_seconds: 30
+updated_at: 2026-05-17T22:11:31.205+05:30
+edited_seconds: 40
 ---
 # Probability & Queueing Theory — Complete Formula Sheet
 
@@ -83,6 +83,9 @@ $$
 $$  
 P(|X-\mu|\ge k\sigma)\le \frac{1}{k^2}  
 $$
+
+
+
 
 - Variance Rule
     
