@@ -518,3 +518,6 @@
 "event_logs:sources:opened": {"key":"sources:opened","ct":382,"first_at":1767932966973,"last_at":1784627996113,"class_name":"EventLog","event_sources":{"active-leaf-change":370,"file-open":12}},
 "event_logs:sources:imported": {"key":"sources:imported","ct":37096,"first_at":1767932955832,"last_at":1784628009140,"class_name":"EventLog"},
 "event_logs:item:embedded": {"key":"item:embedded","ct":86065,"first_at":1767932960167,"last_at":1784628009584,"class_name":"EventLog"},
+"event_logs:sources:opened": {"key":"sources:opened","ct":383,"first_at":1767932966973,"last_at":1784628366132,"class_name":"EventLog","event_sources":{"active-leaf-change":371,"file-open":12}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":384,"first_at":1767932966973,"last_at":1784628400686,"class_name":"EventLog","event_sources":{"active-leaf-change":372,"file-open":12}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":385,"first_at":1767932966973,"last_at":1784628498027,"class_name":"EventLog","event_sources":{"active-leaf-change":373,"file-open":12}},
