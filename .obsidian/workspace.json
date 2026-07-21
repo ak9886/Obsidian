@@ -336,8 +336,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -351,7 +351,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -398,12 +398,13 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "af1c6d46db434101",
+  "active": "e3eee19d2cd39931",
   "lastOpenFiles": [
+    "Untitled",
+    "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.md",
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.light.png",
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.dark.png",
     "Readme apparently.md",
-    "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.md",
     "NMA - GLM 4.7.md",
     "PQT - Sharan.md",
     "Untitled 5.md",
@@ -436,7 +437,6 @@
     "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.light.png",
     "Excalidraw/Drawing 2026-03-05 08.26.33.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-02-24 14.29.04.excalidraw.light.png",
     "Vocabulary",
     "DTM_Curriculum.pdf",
     "~$DAA Course Hand out - V2.xlsx",
