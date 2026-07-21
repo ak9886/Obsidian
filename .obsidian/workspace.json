@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -268,12 +268,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 5/Security Risk Management Principles/21-7-2026.md",
+                "file": "Master_Penetration_Testing_Playbook_v2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 21-7-2026"
+              "title": "Outgoing links from Master_Penetration_Testing_Playbook_v2"
             }
           },
           {
@@ -426,11 +426,11 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "e3eee19d2cd39931",
+  "active": "8787100b6f90a084",
   "lastOpenFiles": [
+    "Sem 5/Security Risk Management Principles/21-7-2026.md",
     "Sem 5",
     "Master_Penetration_Testing_Playbook_v2.md",
-    "Sem 5/Security Risk Management Principles/21-7-2026.md",
     "Master_Penetration_Testing_Playbook_v2.md.crdownload",
     "Sem 5/Computer Networks/21-7-2026.md",
     "Chats/New Chat.md",
@@ -473,7 +473,6 @@
     "~$DAA Course Hand out - V2.xlsx",
     "Tags",
     "Barclay's",
-    "Sem 4/DAA/2 - February",
     "Untitled.canvas"
   ]
 }
