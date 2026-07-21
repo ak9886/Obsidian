@@ -268,12 +268,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 4/DAA/22-01-2026.md",
+                "file": "21-7-2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 22-01-2026"
+              "title": "Outgoing links from 21-7-2026"
             }
           },
           {
@@ -282,8 +282,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -292,8 +292,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "example-view"
+              "icon": "lucide-file",
+              "title": "Most edited files"
             }
           },
           {
@@ -302,8 +302,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -312,8 +312,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -322,8 +322,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -334,8 +334,8 @@
               "state": {
                 "file": "Chats/New Chat.md"
               },
-              "icon": "lucide-ghost",
-              "title": "chat-view"
+              "icon": "message-square",
+              "title": "New Chat"
             }
           },
           {
@@ -344,8 +344,8 @@
             "state": {
               "type": "smart-lookup-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-lookup-view"
+              "icon": "smart-lookup",
+              "title": "Lookup"
             }
           },
           {
@@ -354,8 +354,8 @@
             "state": {
               "type": "dictionary-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "dictionary-view"
+              "icon": "quote-glyph",
+              "title": "Dictionary"
             }
           },
           {
@@ -379,12 +379,11 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -428,8 +427,9 @@
   },
   "active": "7c8c359bf4dd71b9",
   "lastOpenFiles": [
-    "Computer Networks/21-7-2026.md",
+    "Chats/New Chat.md",
     "21-7-2026.md",
+    "Computer Networks/21-7-2026.md",
     "Security Risk Management Principles",
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.md",
     "Computer Networks",
@@ -460,7 +460,6 @@
     "Sem 4/DBMS/24-03-2026.md",
     "Sem 4/DBMS/23-03-2026.md",
     "Sem 4/DAA/2 - February/20-03-2026.md",
-    "Sem 4/DBMS/13-01-2026.md",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.light.png",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.light.png",
