@@ -158,9 +158,19 @@
               "icon": "lucide-file",
               "title": "22-7-2026"
             }
+          },
+          {
+            "id": "5779300c30e7ec38",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -439,10 +449,12 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "683620a9d3c83be0",
+  "active": "5779300c30e7ec38",
   "lastOpenFiles": [
-    "Sem 5/Applications Of Nanotechnology/22-7-2026.md",
+    "Assignment 1 - Cryptography - RA2411030010400.md",
+    "Sem 4/DBMS/24-03-2026.md",
     "Sem 5/Computer Networks/22-7-2026.md",
+    "Sem 5/Applications Of Nanotechnology/22-7-2026.md",
     "Sem 5/Security Risk Management Principles/21-7-2026.md",
     "Sem 5/Applications Of Nanotechnology",
     "Untitled",
@@ -476,8 +488,6 @@
     "Sem 4/DBMS/30-03-2026.md",
     "Untitled 3.md",
     "Sem 4/AI Class/26-03-2026.md",
-    "Sem 4/AI Class/25-03-2026.md",
-    "Sem 4/DAA/2 - February/24-03-2026.md",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.light.png",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-03-05 10.09.14.excalidraw.light.png",
