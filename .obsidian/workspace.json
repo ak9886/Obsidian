@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -449,7 +449,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "5779300c30e7ec38",
+  "active": "683620a9d3c83be0",
   "lastOpenFiles": [
     "Assignment 1 - Cryptography - RA2411030010400.md",
     "Sem 4/DBMS/24-03-2026.md",
