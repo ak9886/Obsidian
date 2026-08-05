@@ -4,65 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b5410dedb735d133",
+        "id": "cb8df34c9db83601",
         "type": "tabs",
         "children": [
           {
-            "id": "160d307beb58c803",
+            "id": "6fb4c2aa331f3fe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 5/Computer Networks/29-07-2026.md",
+                "file": "Sem 5/Applications Of Nanotechnology/05-08-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29-07-2026"
-            }
-          },
-          {
-            "id": "5a2c4357178f536c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 5/App Sec Theory/29-07-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29-07-2026"
-            }
-          },
-          {
-            "id": "5e801a7cee5d3ff3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 5/FLA/30-07-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "30-07-2026"
-            }
-          },
-          {
-            "id": "cfb044ad305c2bce",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "title": "05-08-2026"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,8 +303,9 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "cfb044ad305c2bce",
+  "active": "6fb4c2aa331f3fe1",
   "lastOpenFiles": [
+    "Sem 5/Applications Of Nanotechnology/05-08-2026.md",
     "Sem 5/App Sec Theory/29-07-2026.md",
     "Sem 5/FLA/30-07-2026.md",
     "Sem 5/FLA",
@@ -384,7 +344,6 @@
     "Sem 4/DBMS/26-4-2026.md",
     "Tags/#dbms",
     "Sem 4/DAA/22-4-26.md",
-    "Sem 4/AI Class/10-04-2026.md",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.light.png",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.light.png",
