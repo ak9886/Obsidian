@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "30-07-2026"
             }
+          },
+          {
+            "id": "cfb044ad305c2bce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -70,7 +82,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -330,7 +344,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "26bf071a991c20a0",
+  "active": "cfb044ad305c2bce",
   "lastOpenFiles": [
     "Sem 5/App Sec Theory/29-07-2026.md",
     "Sem 5/FLA/30-07-2026.md",
