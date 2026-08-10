@@ -1,4 +1,8 @@
+# Discrete Mathematics — Assignment I
 
+The answers below follow the **exact questions in the uploaded assignment**, with the LaTeX formatted using `$$ ... $$` for display equations and `\\` correctly separating matrix rows. The assignment contains four answer sections: Q1, Q2, Q3(i), and Q3(ii).
+
+---
 
 # Question 1
 
@@ -148,7 +152,7 @@ $$
 
 which is present in $R$.
 
-Other combinations also satisfy the transitivity condition.
+All other combinations also satisfy the transitivity condition.
 
 Therefore,
 
@@ -215,14 +219,18 @@ $$
 The directed edges are
 
 $$  
-1\to1,\quad2\to2,\quad3\to3,  
+1\to1,\qquad  
+2\to2,\qquad  
+3\to3,  
 $$
 
 $$  
-1\to2,\quad2\to3,\quad1\to3.  
+1\to2,\qquad  
+2\to3,\qquad  
+1\to3.  
 $$
 
-The digraph can be represented as:
+Ignoring the self-loops, the digraph can be represented as:
 
 ```text
         ┌───────────────┐
@@ -233,7 +241,7 @@ The digraph can be represented as:
        └──────────────> (3)
 ```
 
-There is a **self-loop at each vertex** $1$, $2$, and $3$.
+There is also a **self-loop at each vertex** $1$, $2$, and $3$.
 
 ---
 
@@ -250,15 +258,15 @@ with adjacency matrix
 $$  
 M_R=  
 \begin{bmatrix}  
-0&1&0&1&0\  
-1&0&0&0&0\  
-0&1&0&0&1\  
-0&0&1&0&1\  
-0&0&0&0&1  
+0 & 1 & 0 & 1 & 0 \  
+1 & 0 & 0 & 0 & 0 \  
+0 & 1 & 0 & 0 & 1 \  
+0 & 0 & 1 & 0 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}.  
 $$
 
-Using **Warshall's Algorithm**, the transitive closure is determined using
+Using **Warshall's Algorithm**, the transitive closure $R^*$ is determined using
 
 # $$  
 W^{(k)}[i,j]
@@ -276,7 +284,19 @@ $$
 
 Using vertex $1$ as the intermediate vertex.
 
-Column $1$ has a $1$ at row $2$, while row $1$ has $1$'s at columns $2$ and $4$.
+Column $1$ has a $1$ at row $2$:
+
+$$  
+W^{(0)}[2,1]=1.  
+$$
+
+Row $1$ has $1$'s at columns $2$ and $4$:
+
+$$  
+W^{(0)}[1,2]=1,  
+\qquad  
+W^{(0)}[1,4]=1.  
+$$
 
 Therefore,
 
@@ -292,11 +312,11 @@ Hence,
 W^{(1)}
 
 \begin{bmatrix}  
-0&1&0&1&0\  
-1&1&0&1&0\  
-0&1&0&0&1\  
-0&0&1&0&1\  
-0&0&0&0&1  
+0 & 1 & 0 & 1 & 0 \  
+1 & 1 & 0 & 1 & 0 \  
+0 & 1 & 0 & 0 & 1 \  
+0 & 0 & 1 & 0 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}.  
 $$
 
@@ -306,11 +326,45 @@ $$
 
 Using vertex $2$ as the intermediate vertex.
 
-Column $2$ contains $1$'s at rows $1$, $2$, and $3$.
+Column $2$ has $1$'s at rows
 
-Row $2$ contains $1$'s at columns $1$, $2$, and $4$.
+$$  
+1,;2,;3.  
+$$
 
-Therefore, paths through vertex $2$ give additional connections to vertices $1$, $2$, and $4$.
+Row $2$ has $1$'s at columns
+
+$$  
+1,;2,;4.  
+$$
+
+Therefore, paths through vertex $2$ give
+
+$$  
+W^{(2)}[1,1]=1,  
+\qquad  
+W^{(2)}[1,2]=1,  
+\qquad  
+W^{(2)}[1,4]=1,  
+$$
+
+$$  
+W^{(2)}[2,1]=1,  
+\qquad  
+W^{(2)}[2,2]=1,  
+\qquad  
+W^{(2)}[2,4]=1,  
+$$
+
+and
+
+$$  
+W^{(2)}[3,1]=1,  
+\qquad  
+W^{(2)}[3,2]=1,  
+\qquad  
+W^{(2)}[3,4]=1.  
+$$
 
 Thus,
 
@@ -318,11 +372,11 @@ Thus,
 W^{(2)}
 
 \begin{bmatrix}  
-1&1&0&1&0\  
-1&1&0&1&0\  
-1&1&0&1&1\  
-0&0&1&0&1\  
-0&0&0&0&1  
+1 & 1 & 0 & 1 & 0 \  
+1 & 1 & 0 & 1 & 0 \  
+1 & 1 & 0 & 1 & 1 \  
+0 & 0 & 1 & 0 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}.  
 $$
 
@@ -332,11 +386,19 @@ $$
 
 Using vertex $3$ as the intermediate vertex.
 
-Column $3$ has a $1$ at row $4$.
+Column $3$ has a $1$ at row $4$:
 
-Row $3$ has $1$'s at columns $1$, $2$, $4$, and $5$.
+$$  
+W^{(2)}[4,3]=1.  
+$$
 
-Therefore,
+Row $3$ has $1$'s at columns
+
+$$  
+1,;2,;4,;5.  
+$$
+
+Therefore, paths through vertex $3$ give
 
 $$  
 W^{(3)}[4,1]=1,  
@@ -362,11 +424,11 @@ Hence,
 W^{(3)}
 
 \begin{bmatrix}  
-1&1&0&1&0\  
-1&1&0&1&0\  
-1&1&0&1&1\  
-1&1&1&1&1\  
-0&0&0&0&1  
+1 & 1 & 0 & 1 & 0 \  
+1 & 1 & 0 & 1 & 0 \  
+1 & 1 & 0 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}.  
 $$
 
@@ -388,7 +450,7 @@ $$
 1,;2,;3,;4,;5.  
 $$
 
-Therefore, vertices $1$, $2$, $3$, and $4$ can all reach every vertex from $1$ through $5$.
+Therefore, vertices $1$, $2$, $3$, and $4$ can all reach every vertex from $1$ through $5.
 
 Thus,
 
@@ -396,11 +458,11 @@ Thus,
 W^{(4)}
 
 \begin{bmatrix}  
-1&1&1&1&1\  
-1&1&1&1&1\  
-1&1&1&1&1\  
-1&1&1&1&1\  
-0&0&0&0&1  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}.  
 $$
 
@@ -413,15 +475,31 @@ Using vertex $5$ as the intermediate vertex.
 Vertex $5$ has only a self-loop:
 
 $$  
-(5,5)\in R.  
+W^{(4)}[5,5]=1.  
 $$
 
 Therefore, no new paths are created.
 
 Hence,
 
-$$  
-W^{(5)}=W^{(4)}.  
+# $$  
+W^{(5)}
+
+W^{(4)}.  
+$$
+
+Therefore,
+
+# $$  
+W^{(5)}
+
+\begin{bmatrix}  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+0 & 0 & 0 & 0 & 1  
+\end{bmatrix}.  
 $$
 
 ---
@@ -435,20 +513,21 @@ Therefore, the transitive closure $R^*$ is represented by
 M_{R^*}
 
 \begin{bmatrix}  
-1&1&1&1&1\  
-1&1&1&1&1\  
-1&1&1&1&1\  
-1&1&1&1&1\  
-0&0&0&0&1  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+1 & 1 & 1 & 1 & 1 \  
+0 & 0 & 0 & 0 & 1  
 \end{bmatrix}  
 }  
 $$
 
 Hence,
 
-$$  
+# $$  
 \boxed{  
-R^*=  
+R^*
+
 {(i,j)\mid i,j\in{1,2,3,4}}  
 \cup  
 {(5,5)}  
@@ -483,6 +562,8 @@ To prove that $R$ is a partial order, we must prove that $R$ is:
     
 3. Transitive
     
+
+---
 
 ### Reflexive
 
@@ -676,7 +757,17 @@ Therefore, the Hasse diagram is:
                1
 ```
 
-Thus, $1$ is the minimum element and $12$ is the maximum element.
+Here,
+
+$$  
+\boxed{1\text{ is the minimum element}}  
+$$
+
+and
+
+$$  
+\boxed{12\text{ is the maximum element}}.  
+$$
 
 ---
 
@@ -745,7 +836,7 @@ Expanding,
 3x_1x_2-6x_2-x_1+2.  
 $$
 
-Canceling common terms,
+Canceling the common terms,
 
 # $$  
 -6x_1-x_2
@@ -852,16 +943,16 @@ $$
 Therefore,
 
 $$  
-2y-1=2y-6,  
+2y-1=2y-6.  
 $$
 
-which gives
+This gives
 
 $$  
 -1=-6,  
 $$
 
-a contradiction.
+which is a contradiction.
 
 Hence,
 
@@ -909,13 +1000,13 @@ $$
 y=\frac{3x-1}{x-2},  
 $$
 
-we obtained
+we obtain
 
 $$  
 x=\frac{2y-1}{y-3}.  
 $$
 
-Therefore, replacing $y$ by $x$,
+Replacing $y$ by $x$,
 
 $$  
 \boxed{  
@@ -923,7 +1014,7 @@ f^{-1}(x)=\frac{2x-1}{x-3}
 }  
 $$
 
-Hence,
+Therefore,
 
 $$  
 \boxed{  
@@ -934,7 +1025,7 @@ f^{-1}:
 }  
 $$
 
-Therefore, the inverse function is
+Hence, the inverse function is
 
 $$  
 \boxed{  
