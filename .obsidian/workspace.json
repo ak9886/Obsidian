@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "06-08-2026"
             }
+          },
+          {
+            "id": "ae0a440d8bb4383a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -318,10 +332,11 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "26bf071a991c20a0",
+  "active": "ae0a440d8bb4383a",
   "lastOpenFiles": [
-    "Sem 5/Applications Of Nanotechnology/05-08-2026.md",
     "Sem 5/Security Risk Management Principles/06-08-2026.md",
+    "Untitled 4.md",
+    "Sem 5/Applications Of Nanotechnology/05-08-2026.md",
     "Sem 3/OS/Aug/01-08 OS Notes.md",
     "Sem 5/Applications Of Nanotechnology/22-7-2026.md",
     "Sem 5/Applications Of Nanotechnology/29-07-2026.md",
@@ -357,7 +372,6 @@
     "PQT - Sharan.md",
     "Untitled 5.md",
     "Sem 4/DBMS/Unit 5 - Sonnet 4.6.md",
-    "Sem 4/DBMS/PQT Response.md",
     "Tags/#dbms",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.light.png",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.dark.png",
