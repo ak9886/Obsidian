@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "11-08-2026"
             }
-          },
-          {
-            "id": "362dede1125b1284",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.6"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,7 +283,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "b1ccee0bb73818cc",
+  "active": "3250b299d6dc590b",
   "lastOpenFiles": [
     "Sem 5/Computer Networks/11-08-2026.md",
     "Sem 5/Applications Of Nanotechnology/11-08-2026.md",
