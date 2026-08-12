@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "11-08-2026"
             }
+          },
+          {
+            "id": "362dede1125b1284",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,19 +247,9 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
-          },
-          {
-            "id": "df8bb0dda7167049",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -293,7 +296,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "3250b299d6dc590b",
+  "active": "b1ccee0bb73818cc",
   "lastOpenFiles": [
     "Sem 5/Computer Networks/11-08-2026.md",
     "Sem 5/Applications Of Nanotechnology/11-08-2026.md",
