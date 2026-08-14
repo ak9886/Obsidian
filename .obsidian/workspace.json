@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Cybersecurity Incident (Activity)"
             }
+          },
+          {
+            "id": "e00e9f0343925a47",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -308,7 +320,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "c876f32873250d57",
+  "active": "17a0d85a8aacd8fd",
   "lastOpenFiles": [
     "Sem 5/Applications Of Nanotechnology/11-08-2026.md",
     "Sem 5/Security Risk Management Principles/Cybersecurity Incident (Activity).md",
