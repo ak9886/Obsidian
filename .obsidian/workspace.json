@@ -246,9 +246,19 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
+          },
+          {
+            "id": "4217987f554d8bd6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -295,7 +305,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "5ebc0d3048090719",
+  "active": "4217987f554d8bd6",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-08-14 08.13.14.excalidraw.md",
     "Sem 5/FLA/14-08-2026.md",
