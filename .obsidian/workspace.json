@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9580af57e7bb2491",
+        "id": "02c0ee99657dedc6",
         "type": "tabs",
         "children": [
           {
-            "id": "df368ab8c33ac70d",
+            "id": "4c9031baadd2dae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 5/Applications Of Nanotechnology/19-08-2026.md",
+                "file": "Sem 5/FLA/21-08-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19-08-2026"
+              "title": "21-08-2026"
             }
           }
         ]
@@ -293,8 +293,9 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "df368ab8c33ac70d",
+  "active": "4c9031baadd2dae2",
   "lastOpenFiles": [
+    "Sem 5/FLA/21-08-2026.md",
     "Sem 5/Applications Of Nanotechnology/19-08-2026.md",
     "Sem 5/Security Risk Management Principles/17-08-2026.md",
     "Sem 5/Security Risk Management Principles/18-08-2026.md",
@@ -328,7 +329,6 @@
     "Untitled 4.md",
     "Sem 5/Security Risk Management Principles/06-08-2026.md",
     "Sem 3/OS/Aug/01-08 OS Notes.md",
-    "Sem 5/Applications Of Nanotechnology/22-7-2026.md",
     "Sem 5/FLA",
     "Sem 5/App Sec Theory",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
