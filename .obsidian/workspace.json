@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "21-08-2026"
             }
+          },
+          {
+            "id": "9b12abcf5eba0c3b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-21 08.21.44.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,9 +306,12 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "4c9031baadd2dae2",
+  "active": "9b12abcf5eba0c3b",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.dark.png",
     "Sem 5/FLA/21-08-2026.md",
+    "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.md",
     "Sem 5/Applications Of Nanotechnology/19-08-2026.md",
     "Sem 5/Security Risk Management Principles/17-08-2026.md",
     "Sem 5/Security Risk Management Principles/18-08-2026.md",
@@ -327,12 +343,9 @@
     "Sem 5/Security Risk Management Principles/21-07-2026.md",
     "Sem 5/Applications Of Nanotechnology/05-08-2026.md",
     "Untitled 4.md",
-    "Sem 5/Security Risk Management Principles/06-08-2026.md",
-    "Sem 3/OS/Aug/01-08 OS Notes.md",
     "Sem 5/FLA",
     "Sem 5/App Sec Theory",
     "Sem 3/Everything Else/WhatsApp Image 2025-08-13 at 13.19.05_0330c0d5.jpg",
-    "assets/image_1779682663312_0.png",
     "Sem 5/Applications Of Nanotechnology",
     "Untitled",
     "Sem 5",
