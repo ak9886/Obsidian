@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "31-08-2026"
             }
+          },
+          {
+            "id": "adbc073e6f6db266",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-01 08.04.06.excalidraw"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -322,10 +334,13 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "4217987f554d8bd6",
+  "active": "adbc073e6f6db266",
   "lastOpenFiles": [
-    "Sem 5/Computer Networks/28-08-2026.md",
+    "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.dark.png",
     "Sem 5/FLA/31-08-2026.md",
+    "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.md",
+    "Sem 5/Computer Networks/28-08-2026.md",
     "Sem 5/Applications Of Nanotechnology/28-08-2026.md",
     "Sem 5/FLA/21-08-2026.md",
     "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.md",
@@ -349,7 +364,6 @@
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.md",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.md",
     "Sem 5/Applications Of Nanotechnology/11-08-2026.md",
     "Sem 5/Security Risk Management Principles/Cybersecurity Incident (Activity).md",
@@ -358,8 +372,6 @@
     "Sem 5/Computer Networks/21-7-2026.md",
     "Sem 5/Computer Networks/22-7-2026.md",
     "Sem 5/Computer Networks/28-07-2026.md",
-    "Sem 5/Computer Networks/29-07-2026.md",
-    "Sem 5/Security Risk Management Principles/10-08-2026.md",
     "Sem 5/FLA",
     "Sem 5/App Sec Theory",
     "Sem 5/Applications Of Nanotechnology",
