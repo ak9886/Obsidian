@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "08-08-2026"
             }
+          },
+          {
+            "id": "fa9b27cddb7fb8a4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-08 15.28.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-08 15.28.34.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,10 +306,13 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "a7900cf04edd970a",
+  "active": "fa9b27cddb7fb8a4",
   "lastOpenFiles": [
-    "Sem 5/Applications Of Nanotechnology/07-09-2026.md",
     "Sem 5/FLA/08-08-2026.md",
+    "Excalidraw/Drawing 2026-09-08 15.28.34.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-08 15.28.34.excalidraw.light.png",
+    "Excalidraw/Drawing 2026-09-08 15.28.34.excalidraw.dark.png",
+    "Sem 5/Applications Of Nanotechnology/07-09-2026.md",
     "Sem 5/Applications Of Nanotechnology/28-08-2026.md",
     "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.md",
     "excalibrain.md",
@@ -327,10 +343,6 @@
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.light.png",
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-06-15 17.32.28.excalidraw.md",
-    "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.light.png",
-    "Excalidraw/Drawing 2026-04-21 08.54.18.excalidraw.dark.png",
-    "Excalidraw/Drawing 2026-03-16 10.03.37.excalidraw.md",
-    "Sem 5/Applications Of Nanotechnology/11-08-2026.md",
     "Sem 5/FLA",
     "Sem 5/App Sec Theory",
     "Sem 5/Applications Of Nanotechnology",
