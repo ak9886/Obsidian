@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "14-10-2026"
             }
+          },
+          {
+            "id": "123179f5578e5cdf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,7 +306,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "a46d642b9d87e174",
+  "active": "123179f5578e5cdf",
   "lastOpenFiles": [
     "README.md",
     "Sem 5/Applications Of Nanotechnology/14-10-2026.md",
