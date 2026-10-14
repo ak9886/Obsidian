@@ -33,8 +33,7 @@
               "title": "Release Notes 1.14.4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -306,7 +305,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "4217987f554d8bd6",
+  "active": "a46d642b9d87e174",
   "lastOpenFiles": [
     "README.md",
     "Sem 5/Applications Of Nanotechnology/14-10-2026.md",
