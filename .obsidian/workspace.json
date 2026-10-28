@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "22-10-2026"
             }
+          },
+          {
+            "id": "67210bfd4a0b6ac4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-28 14.05.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-28 14.05.05.excalidraw"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -322,10 +334,11 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "4217987f554d8bd6",
+  "active": "67210bfd4a0b6ac4",
   "lastOpenFiles": [
-    "Sem 5/Computer Networks/22-10-2026.md",
     "Sem 5/Security Risk Management Principles/22-10-2026.md",
+    "Excalidraw/Drawing 2026-10-28 14.05.05.excalidraw.md",
+    "Sem 5/Computer Networks/22-10-2026.md",
     "Untitled 6.md",
     "Sem 5/Applications Of Nanotechnology/14-10-2026.md",
     "README.md",
@@ -353,7 +366,6 @@
     "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.light.png",
     "Excalidraw/Drawing 2026-09-01 08.04.06.excalidraw.dark.png",
     "Sem 5/FLA/21-08-2026.md",
-    "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.md",
     "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.light.png",
     "Excalidraw/Drawing 2026-08-21 08.21.44.excalidraw.dark.png",
     "Excalidraw/Drawing 2026-08-14 08.13.14.excalidraw.light.png",
