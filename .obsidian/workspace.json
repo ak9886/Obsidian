@@ -60,9 +60,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-10-28 14.05.05.excalidraw"
             }
+          },
+          {
+            "id": "e2e6bfe2ead3d89c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.5"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -334,7 +346,7 @@
       "password-protection:Lock password protection": false
     }
   },
-  "active": "67210bfd4a0b6ac4",
+  "active": "4217987f554d8bd6",
   "lastOpenFiles": [
     "Sem 5/Security Risk Management Principles/22-10-2026.md",
     "Excalidraw/Drawing 2026-10-28 14.05.05.excalidraw.md",
