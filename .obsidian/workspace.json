@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "14-10-2026"
             }
+          },
+          {
+            "id": "7f6ed2c4a56aade1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -279,7 +292,6 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "webpage-html-export:Export as HTML": false,
       "system3-relay:Relay": false,
-      "flashcards-obsidian:Generate flashcards": false,
       "minimal-quiz:Start quiz": false,
       "templater-obsidian:Templater": false,
       "obsidian-rich-links:Rich Links": false,
