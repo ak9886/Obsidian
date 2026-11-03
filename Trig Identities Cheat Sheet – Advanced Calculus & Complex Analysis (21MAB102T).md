@@ -178,10 +178,10 @@ Each day, rebuild the derivation tree on a blank page from the three seeds (abou
     
 - [ ] Day 3: tree + one Laplace transform of sin³ or cos³
     
-- Day 4: tree + hyperbolic table from memory via Osborn's rule
+- [ ] Day 4: tree + hyperbolic table from memory via Osborn's rule
     
-- Day 5: tree + one Milne-Thomson problem using sin(x+iy) or cos(x+iy)
+- [ ] Day 5: tree + one Milne-Thomson problem using sin(x+iy) or cos(x+iy)
     
-- Day 6: tree + one unit-circle contour integral ∫ dθ / (a + b cosθ)
+- [ ] Day 6: tree + one unit-circle contour integral ∫ dθ / (a + b cosθ)
     
-- Day 7: tree + one Green's theorem verification on a circle
+- [ ] Day 7: tree + one Green's theorem verification on a circle
